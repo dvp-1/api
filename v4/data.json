@@ -721,7 +721,8 @@
       "notes": "[July 25]: All numbers corresponding to Papum Pare and Captial Complex are tracked under Papum Pare district.",
       "population": 1504000,
       "tested": {
-        "last_updated": "2020-08-24"
+        "last_updated": "2020-08-24",
+        "source": "https://twitter.com/DirectorateofHS/status/1297926088346046465/photo/1"
       }
     },
     "total": {
@@ -1887,7 +1888,8 @@
     "delta": {
       "confirmed": 814,
       "deceased": 6,
-      "recovered": 493
+      "recovered": 493,
+      "tested": 10092
     },
     "districts": {
       "Balod": {
@@ -2397,15 +2399,15 @@
       "last_updated": "2020-08-24T21:29:14+05:30",
       "population": 28724000,
       "tested": {
-        "last_updated": "2020-08-23",
-        "source": "https://twitter.com/HealthCgGov/status/1297555968461385728?s=20"
+        "last_updated": "2020-08-24",
+        "source": "https://twitter.com/HealthCgGov/status/1297920887371390976?s=20"
       }
     },
     "total": {
       "confirmed": 21732,
       "deceased": 203,
       "recovered": 13424,
-      "tested": 483989
+      "tested": 494081
     }
   },
   "DL": {
@@ -3275,7 +3277,8 @@
     "delta": {
       "confirmed": 100,
       "other": 5,
-      "recovered": 123
+      "recovered": 123,
+      "tested": 1201
     },
     "districts": {
       "Bilaspur": {
@@ -3506,8 +3509,8 @@
       "notes": "HP has 55 Migrated cases which are reduced from Active #. Also, death of Tibetan refugee is included in deceased numbers, but not in confirmed",
       "population": 7300000,
       "tested": {
-        "last_updated": "2020-08-23",
-        "source": "https://twitter.com/nhm_hp/status/1297565844789063681?s=20"
+        "last_updated": "2020-08-24",
+        "source": "https://twitter.com/nhm_hp/status/1297936808869638150?s=20"
       }
     },
     "total": {
@@ -3515,7 +3518,7 @@
       "deceased": 28,
       "other": 54,
       "recovered": 3584,
-      "tested": 194380
+      "tested": 195581
     }
   },
   "HR": {
@@ -4327,7 +4330,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-24T22:50:12+05:30",
+      "last_updated": "2020-08-24T23:04:12+05:30",
       "population": 37403000,
       "tested": {
         "last_updated": "2020-08-23",
@@ -4779,6 +4782,7 @@
         "delta": {
           "confirmed": 29,
           "deceased": -1,
+          "other": 3,
           "recovered": 25
         },
         "meta": {
@@ -4790,7 +4794,7 @@
         "total": {
           "confirmed": 2075,
           "deceased": 26,
-          "other": 8,
+          "other": 11,
           "recovered": 1528,
           "tested": 5156
         }
@@ -5180,14 +5184,6 @@
           "tested": 64892
         }
       },
-      "Unknown": {
-        "delta": {
-          "other": 3
-        },
-        "total": {
-          "other": 3
-        }
-      },
       "Uttara Kannada": {
         "delta": {
           "confirmed": 91,
@@ -5247,7 +5243,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-24T22:51:10+05:30",
+      "last_updated": "2020-08-24T23:04:10+05:30",
       "population": 65798000,
       "tested": {
         "last_updated": "2020-08-23",
@@ -5502,8 +5498,16 @@
     }
   },
   "LA": {
+    "delta": {
+      "confirmed": 51,
+      "recovered": 26
+    },
     "districts": {
       "Kargil": {
+        "delta": {
+          "confirmed": 6,
+          "recovered": 6
+        },
         "meta": {
           "population": 143000,
           "tested": {
@@ -5511,13 +5515,17 @@
           }
         },
         "total": {
-          "confirmed": 1117,
+          "confirmed": 1123,
           "deceased": 16,
-          "recovered": 807,
+          "recovered": 813,
           "tested": 10829
         }
       },
       "Leh": {
+        "delta": {
+          "confirmed": 45,
+          "recovered": 20
+        },
         "meta": {
           "population": 147000,
           "tested": {
@@ -5525,15 +5533,15 @@
           }
         },
         "total": {
-          "confirmed": 1162,
+          "confirmed": 1207,
           "deceased": 7,
-          "recovered": 684,
+          "recovered": 704,
           "tested": 15964
         }
       }
     },
     "meta": {
-      "last_updated": "2020-08-23T22:09:15+05:30",
+      "last_updated": "2020-08-24T23:04:14+05:30",
       "population": 293000,
       "tested": {
         "last_updated": "2020-08-23",
@@ -5541,9 +5549,9 @@
       }
     },
     "total": {
-      "confirmed": 2279,
+      "confirmed": 2330,
       "deceased": 23,
-      "recovered": 1491,
+      "recovered": 1517,
       "tested": 26654
     }
   },
@@ -10558,13 +10566,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 59323,
+      "confirmed": 59374,
       "deceased": 851,
       "other": 11,
-      "recovered": 66279
+      "recovered": 66305
     },
     "meta": {
-      "last_updated": "2020-08-24T22:51:09+05:30",
+      "last_updated": "2020-08-24T23:04:09+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-23",
@@ -10572,10 +10580,10 @@
       }
     },
     "total": {
-      "confirmed": 3164508,
+      "confirmed": 3164559,
       "deceased": 58543,
       "other": 565,
-      "recovered": 2403075,
+      "recovered": 2403101,
       "tested": 35902137
     }
   },
