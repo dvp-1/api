@@ -842,21 +842,25 @@
       },
       "Cachar": {
         "delta": {
-          "confirmed": 133
+          "confirmed": 133,
+          "deceased": 3
         },
         "meta": {
           "population": 1736319
         },
         "total": {
           "confirmed": 4841,
-          "deceased": 21,
+          "deceased": 24,
           "recovered": 1498
         }
       },
       "Charaideo": {
+        "delta": {
+          "deceased": 1
+        },
         "total": {
           "confirmed": 113,
-          "deceased": 1,
+          "deceased": 2,
           "recovered": 105
         }
       },
@@ -901,7 +905,8 @@
       },
       "Dibrugarh": {
         "delta": {
-          "confirmed": 143
+          "confirmed": 143,
+          "deceased": 1
         },
         "meta": {
           "population": 1327748,
@@ -912,7 +917,7 @@
         },
         "total": {
           "confirmed": 5490,
-          "deceased": 33,
+          "deceased": 34,
           "recovered": 2409,
           "tested": 64045
         }
@@ -968,14 +973,15 @@
       },
       "Jorhat": {
         "delta": {
-          "confirmed": 138
+          "confirmed": 138,
+          "deceased": 1
         },
         "meta": {
           "population": 1091295
         },
         "total": {
           "confirmed": 3738,
-          "deceased": 11,
+          "deceased": 12,
           "recovered": 1752
         }
       },
@@ -1003,32 +1009,41 @@
         }
       },
       "Karbi Anglong": {
+        "delta": {
+          "deceased": 1
+        },
         "meta": {
           "population": 965280
         },
         "total": {
           "confirmed": 632,
-          "deceased": 6,
+          "deceased": 7,
           "recovered": 552
         }
       },
       "Karimganj": {
+        "delta": {
+          "deceased": 1
+        },
         "meta": {
           "population": 1217002
         },
         "total": {
           "confirmed": 1025,
-          "deceased": 15,
+          "deceased": 16,
           "recovered": 955
         }
       },
       "Kokrajhar": {
+        "delta": {
+          "deceased": 1
+        },
         "meta": {
           "population": 886999
         },
         "total": {
           "confirmed": 408,
-          "deceased": 5,
+          "deceased": 6,
           "recovered": 353
         }
       },
@@ -1062,12 +1077,15 @@
         }
       },
       "Nagaon": {
+        "delta": {
+          "deceased": 1
+        },
         "meta": {
           "population": 2826006
         },
         "total": {
           "confirmed": 4040,
-          "deceased": 6,
+          "deceased": 7,
           "recovered": 2506
         }
       },
@@ -1144,12 +1162,10 @@
       "Unknown": {
         "delta": {
           "confirmed": 994,
-          "deceased": 10,
           "recovered": 2190
         },
         "total": {
           "confirmed": 19432,
-          "deceased": 10,
           "migrated": 3,
           "recovered": 27939
         }
@@ -4190,12 +4206,14 @@
     "delta": {
       "confirmed": 940,
       "deceased": 17,
-      "recovered": 889
+      "recovered": 889,
+      "tested": 13985
     },
     "districts": {
       "Bokaro": {
         "delta": {
           "confirmed": 32,
+          "deceased": 1,
           "recovered": 59
         },
         "meta": {
@@ -4207,7 +4225,7 @@
         },
         "total": {
           "confirmed": 1011,
-          "deceased": 9,
+          "deceased": 10,
           "recovered": 663,
           "tested": 11798
         }
@@ -4505,7 +4523,7 @@
       "Ranchi": {
         "delta": {
           "confirmed": 160,
-          "deceased": 1,
+          "deceased": 2,
           "recovered": 82
         },
         "meta": {
@@ -4513,7 +4531,7 @@
         },
         "total": {
           "confirmed": 6097,
-          "deceased": 50,
+          "deceased": 51,
           "recovered": 3470
         }
       },
@@ -4564,14 +4582,6 @@
           "recovered": 731
         }
       },
-      "Unknown": {
-        "delta": {
-          "deceased": 2
-        },
-        "total": {
-          "deceased": 2
-        }
-      },
       "West Singhbhum": {
         "delta": {
           "confirmed": 93,
@@ -4588,18 +4598,18 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-24T23:04:12+05:30",
+      "last_updated": "2020-08-24T23:07:20+05:30",
       "population": 37403000,
       "tested": {
-        "last_updated": "2020-08-23",
-        "source": "https://twitter.com/rnuddkranchi/status/1297577925319913474?s=20"
+        "last_updated": "2020-08-24",
+        "source": "https://twitter.com/rnuddkranchi/status/1297944417710379008?s=20"
       }
     },
     "total": {
       "confirmed": 31118,
       "deceased": 335,
       "recovered": 21025,
-      "tested": 566504
+      "tested": 580489
     }
   },
   "JK": {
@@ -4919,7 +4929,8 @@
       "confirmed": 5851,
       "deceased": 127,
       "migrated": 3,
-      "recovered": 8061
+      "recovered": 8061,
+      "tested": 39817
     },
     "districts": {
       "Bagalkote": {
@@ -5532,11 +5543,10 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-24T23:04:10+05:30",
+      "last_updated": "2020-08-24T23:07:18+05:30",
       "population": 65798000,
       "tested": {
-        "last_updated": "2020-08-23",
-        "source": "https://t.co/NmCTdSNU90?amp=1"
+        "last_updated": "2020-08-24"
       }
     },
     "total": {
@@ -5544,7 +5554,7 @@
       "deceased": 4810,
       "migrated": 19,
       "recovered": 197625,
-      "tested": 2413951
+      "tested": 2453768
     }
   },
   "KL": {
@@ -5832,7 +5842,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-24T23:04:14+05:30",
+      "last_updated": "2020-08-24T23:09:11+05:30",
       "population": 293000,
       "tested": {
         "last_updated": "2020-08-23",
@@ -11498,7 +11508,7 @@
       "recovered": 66305
     },
     "meta": {
-      "last_updated": "2020-08-24T23:04:09+05:30",
+      "last_updated": "2020-08-24T23:09:08+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-23",
