@@ -45,7 +45,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-25T22:14:19+05:30",
+      "last_updated": "2020-08-25T22:20:19+05:30",
       "population": 397000,
       "tested": {
         "last_updated": "2020-08-24",
@@ -789,7 +789,9 @@
   },
   "AS": {
     "delta": {
-      "deceased": 8
+      "confirmed": 1973,
+      "deceased": 8,
+      "recovered": 1724
     },
     "districts": {
       "Airport Quarantine": {
@@ -841,11 +843,14 @@
         }
       },
       "Cachar": {
+        "delta": {
+          "confirmed": 149
+        },
         "meta": {
           "population": 1736319
         },
         "total": {
-          "confirmed": 4841,
+          "confirmed": 4990,
           "deceased": 24,
           "recovered": 1498
         }
@@ -897,6 +902,9 @@
         }
       },
       "Dibrugarh": {
+        "delta": {
+          "confirmed": 116
+        },
         "meta": {
           "population": 1327748,
           "tested": {
@@ -905,7 +913,7 @@
           }
         },
         "total": {
-          "confirmed": 5490,
+          "confirmed": 5606,
           "deceased": 34,
           "recovered": 2409,
           "tested": 66986
@@ -964,34 +972,41 @@
         }
       },
       "Jorhat": {
+        "delta": {
+          "confirmed": 132
+        },
         "meta": {
           "population": 1091295
         },
         "total": {
-          "confirmed": 3738,
+          "confirmed": 3870,
           "deceased": 12,
           "recovered": 1752
         }
       },
       "Kamrup": {
+        "delta": {
+          "confirmed": 121
+        },
         "meta": {
           "population": 1517202
         },
         "total": {
-          "confirmed": 3973,
+          "confirmed": 4094,
           "deceased": 19,
           "recovered": 2074
         }
       },
       "Kamrup Metropolitan": {
         "delta": {
+          "confirmed": 510,
           "deceased": 3
         },
         "meta": {
           "population": 1260419
         },
         "total": {
-          "confirmed": 25129,
+          "confirmed": 25639,
           "deceased": 61,
           "recovered": 14599
         }
@@ -1146,10 +1161,14 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "confirmed": 945,
+          "recovered": 1724
+        },
         "total": {
-          "confirmed": 19432,
+          "confirmed": 20377,
           "migrated": 3,
-          "recovered": 27939
+          "recovered": 29663
         }
       },
       "West Karbi Anglong": {
@@ -1163,7 +1182,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-25T22:04:15+05:30",
+      "last_updated": "2020-08-25T22:25:12+05:30",
       "notes": "Includes 1 case from Nagaland",
       "population": 34293000,
       "tested": {
@@ -1172,10 +1191,10 @@
       }
     },
     "total": {
-      "confirmed": 92620,
+      "confirmed": 94593,
       "deceased": 260,
       "migrated": 3,
-      "recovered": 73091,
+      "recovered": 74815,
       "tested": 2000909
     }
   },
@@ -1980,7 +1999,8 @@
     "delta": {
       "confirmed": 1145,
       "deceased": 12,
-      "recovered": 308
+      "recovered": 308,
+      "tested": 11112
     },
     "districts": {
       "Balod": {
@@ -2524,15 +2544,15 @@
       "last_updated": "2020-08-25T21:51:17+05:30",
       "population": 28724000,
       "tested": {
-        "last_updated": "2020-08-24",
-        "source": "https://twitter.com/HealthCgGov/status/1297920887371390976?s=20"
+        "last_updated": "2020-08-25",
+        "source": "https://twitter.com/HealthCgGov/status/1298287829198336000?s=20"
       }
     },
     "total": {
       "confirmed": 23199,
       "deceased": 218,
       "recovered": 13732,
-      "tested": 494081
+      "tested": 505193
     }
   },
   "DL": {
@@ -3715,7 +3735,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-25T22:14:17+05:30",
+      "last_updated": "2020-08-25T22:20:17+05:30",
       "notes": "HP has 55 Migrated cases which are reduced from Active #. Also, death of Tibetan refugee is included in deceased numbers, but not in confirmed",
       "population": 7300000,
       "tested": {
@@ -6769,7 +6789,7 @@
     "delta": {
       "confirmed": 1379,
       "deceased": 19,
-      "recovered": 1074,
+      "recovered": 1079,
       "tested": 22854
     },
     "districts": {
@@ -7701,7 +7721,8 @@
       },
       "Umaria": {
         "delta": {
-          "confirmed": 5
+          "confirmed": 5,
+          "recovered": 5
         },
         "meta": {
           "population": 643579,
@@ -7713,7 +7734,7 @@
         "total": {
           "confirmed": 105,
           "deceased": 2,
-          "recovered": 58,
+          "recovered": 63,
           "tested": 1980
         }
       },
@@ -7748,7 +7769,7 @@
     "total": {
       "confirmed": 55800,
       "deceased": 1265,
-      "recovered": 42305,
+      "recovered": 42310,
       "tested": 1226559
     }
   },
@@ -11399,13 +11420,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 63583,
+      "confirmed": 65556,
       "deceased": 1050,
       "migrated": 3,
-      "recovered": 61545
+      "recovered": 63274
     },
     "meta": {
-      "last_updated": "2020-08-25T22:14:10+05:30",
+      "last_updated": "2020-08-25T22:25:10+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-24",
@@ -11413,10 +11434,10 @@
       }
     },
     "total": {
-      "confirmed": 3228464,
+      "confirmed": 3230437,
       "deceased": 59596,
       "migrated": 568,
-      "recovered": 2464646,
+      "recovered": 2466375,
       "tested": 36827520
     }
   },
