@@ -668,7 +668,9 @@
   },
   "AS": {
     "delta": {
-      "deceased": 4
+      "confirmed": 2036,
+      "deceased": 4,
+      "recovered": 2345
     },
     "districts": {
       "Airport Quarantine": {
@@ -773,6 +775,9 @@
         }
       },
       "Dibrugarh": {
+        "delta": {
+          "confirmed": 129
+        },
         "meta": {
           "population": 1327748,
           "tested": {
@@ -780,7 +785,7 @@
           }
         },
         "total": {
-          "confirmed": 5758,
+          "confirmed": 5887,
           "deceased": 34,
           "recovered": 2409,
           "tested": 66986
@@ -816,11 +821,14 @@
         }
       },
       "Hailakandi": {
+        "delta": {
+          "confirmed": 110
+        },
         "meta": {
           "population": 659260
         },
         "total": {
-          "confirmed": 1387,
+          "confirmed": 1497,
           "deceased": 6,
           "recovered": 1116
         }
@@ -836,11 +844,14 @@
         }
       },
       "Jorhat": {
+        "delta": {
+          "confirmed": 146
+        },
         "meta": {
           "population": 1091295
         },
         "total": {
-          "confirmed": 4004,
+          "confirmed": 4150,
           "deceased": 12,
           "recovered": 1752
         }
@@ -856,11 +867,14 @@
         }
       },
       "Kamrup Metropolitan": {
+        "delta": {
+          "confirmed": 481
+        },
         "meta": {
           "population": 1260419
         },
         "total": {
-          "confirmed": 26170,
+          "confirmed": 26651,
           "deceased": 62,
           "recovered": 14599
         }
@@ -1006,13 +1020,15 @@
       },
       "Unknown": {
         "delta": {
-          "deceased": 4
+          "confirmed": 1170,
+          "deceased": 4,
+          "recovered": 2345
         },
         "total": {
-          "confirmed": 21481,
+          "confirmed": 22651,
           "deceased": 4,
           "other": 3,
-          "recovered": 31811
+          "recovered": 34156
         }
       },
       "West Karbi Anglong": {
@@ -1026,7 +1042,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-27T21:22:20+05:30",
+      "last_updated": "2020-08-27T21:53:19+05:30",
       "notes": "Includes 1 case from Nagaland",
       "population": 34293000,
       "tested": {
@@ -1035,10 +1051,10 @@
       }
     },
     "total": {
-      "confirmed": 96772,
+      "confirmed": 98808,
       "deceased": 278,
       "other": 3,
-      "recovered": 76963,
+      "recovered": 79308,
       "tested": 2071441
     }
   },
@@ -2312,7 +2328,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-27T21:24:21+05:30",
+      "last_updated": "2020-08-27T21:41:36+05:30",
       "population": 28724000,
       "tested": {
         "last_updated": "2020-08-26",
@@ -3204,7 +3220,7 @@
           "notes": "Death of Tibetan refugee on March 22 included in Kangra district's tally",
           "population": 1507223,
           "tested": {
-            "last_updated": "2020-08-25"
+            "last_updated": "2020-08-26"
           }
         },
         "total": {
@@ -3212,7 +3228,7 @@
           "deceased": 7,
           "other": 2,
           "recovered": 563,
-          "tested": 43113
+          "tested": 43613
         }
       },
       "Kinnaur": {
@@ -3232,14 +3248,14 @@
         "meta": {
           "population": 437474,
           "tested": {
-            "last_updated": "2020-08-25"
+            "last_updated": "2020-08-26"
           }
         },
         "total": {
           "confirmed": 270,
           "other": 1,
           "recovered": 172,
-          "tested": 9515
+          "tested": 9565
         }
       },
       "Lahaul and Spiti": {
@@ -3274,7 +3290,7 @@
           "notes": "One death of COVID-19 positive patient has occured due to non-covid reasons",
           "population": 813384,
           "tested": {
-            "last_updated": "2020-08-25"
+            "last_updated": "2020-08-26"
           }
         },
         "total": {
@@ -3282,14 +3298,14 @@
           "deceased": 2,
           "other": 1,
           "recovered": 213,
-          "tested": 15693
+          "tested": 15792
         }
       },
       "Sirmaur": {
         "meta": {
           "population": 530164,
           "tested": {
-            "last_updated": "2020-08-25"
+            "last_updated": "2020-08-26"
           }
         },
         "total": {
@@ -3297,14 +3313,14 @@
           "deceased": 1,
           "other": 7,
           "recovered": 512,
-          "tested": 17845
+          "tested": 18050
         }
       },
       "Solan": {
         "meta": {
           "population": 576670,
           "tested": {
-            "last_updated": "2020-08-14"
+            "last_updated": "2020-08-26"
           }
         },
         "total": {
@@ -3312,21 +3328,21 @@
           "deceased": 6,
           "other": 36,
           "recovered": 863,
-          "tested": 30568
+          "tested": 29672
         }
       },
       "Una": {
         "meta": {
           "population": 521057,
           "tested": {
-            "last_updated": "2020-08-25"
+            "last_updated": "2020-08-26"
           }
         },
         "total": {
           "confirmed": 405,
           "other": 2,
           "recovered": 300,
-          "tested": 19184
+          "tested": 19435
         }
       }
     },
@@ -4976,7 +4992,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-27T20:55:19+05:30",
+      "last_updated": "2020-08-27T21:38:20+05:30",
       "population": 65798000,
       "tested": {
         "last_updated": "2020-08-27",
@@ -5953,7 +5969,8 @@
   "ML": {
     "delta": {
       "confirmed": 79,
-      "recovered": 25
+      "recovered": 25,
+      "tested": 1886
     },
     "districts": {
       "East Garo Hills": {
@@ -6101,15 +6118,14 @@
       "notes": "[June 17]:\nOne case was identified to be false positive and has been removed from the confirmed cases by ML authorities.",
       "population": 3224000,
       "tested": {
-        "last_updated": "2020-08-26",
-        "source": "https://www.syllad.com/meghalaya-49-more-tests-positive-for-covid-19-tally-rises-to-2050/"
+        "last_updated": "2020-08-27"
       }
     },
     "total": {
       "confirmed": 2129,
       "deceased": 8,
       "recovered": 899,
-      "tested": 79126
+      "tested": 81012
     }
   },
   "MN": {
@@ -6318,7 +6334,8 @@
       "last_updated": "2020-08-27T18:55:22+05:30",
       "population": 3103000,
       "tested": {
-        "last_updated": "2020-08-27"
+        "last_updated": "2020-08-27",
+        "source": "https://twitter.com/DiprManipur/status/1298981594317770758?s=20"
       }
     },
     "total": {
@@ -7274,7 +7291,8 @@
   "MZ": {
     "delta": {
       "confirmed": 7,
-      "recovered": 27
+      "recovered": 27,
+      "tested": 1212
     },
     "districts": {
       "Aizawl": {
@@ -7381,20 +7399,21 @@
       "last_updated": "2020-08-27T18:07:26+05:30",
       "population": 1192000,
       "tested": {
-        "last_updated": "2020-08-26",
-        "source": "https://dipr.mizoram.gov.in/post/status-of-suspectedpatients-treated-in-covid-care-center-and-dedicated-covid-health-center1598442946"
+        "last_updated": "2020-08-27",
+        "source": "https://dipr.mizoram.gov.in/post/status-of-state-surveillance-of-covid-19-time-2682020-500pm-2782020-500-pm"
       }
     },
     "total": {
       "confirmed": 974,
       "recovered": 500,
-      "tested": 36240
+      "tested": 37452
     }
   },
   "NL": {
     "delta": {
       "confirmed": 6,
-      "recovered": 124
+      "recovered": 124,
+      "tested": 378
     },
     "districts": {
       "Dimapur": {
@@ -7560,8 +7579,7 @@
       "last_updated": "2020-08-27T17:34:28+05:30",
       "population": 2150000,
       "tested": {
-        "last_updated": "2020-08-26",
-        "source": "https://twitter.com/MyGovNagaland/status/1298579583533346816?s=20"
+        "last_updated": "2020-08-27"
       }
     },
     "total": {
@@ -7569,7 +7587,7 @@
       "deceased": 8,
       "other": 10,
       "recovered": 2735,
-      "tested": 58053
+      "tested": 58431
     }
   },
   "OR": {
@@ -10242,13 +10260,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 71267,
+      "confirmed": 73303,
       "deceased": 1035,
       "other": 4,
-      "recovered": 55009
+      "recovered": 57354
     },
     "meta": {
-      "last_updated": "2020-08-27T21:24:18+05:30",
+      "last_updated": "2020-08-27T21:53:17+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-26",
@@ -10256,10 +10274,10 @@
       }
     },
     "total": {
-      "confirmed": 3379016,
+      "confirmed": 3381052,
       "deceased": 61664,
       "other": 577,
-      "recovered": 2578452,
+      "recovered": 2580797,
       "tested": 38576510
     }
   },
@@ -10703,14 +10721,14 @@
         "meta": {
           "population": 1761152,
           "tested": {
-            "last_updated": "2020-08-26"
+            "last_updated": "2020-08-25"
           }
         },
         "total": {
           "confirmed": 806,
           "deceased": 11,
           "recovered": 524,
-          "tested": 37651
+          "tested": 38671
         }
       },
       "Etawah": {
@@ -11130,14 +11148,14 @@
         "meta": {
           "population": 4013634,
           "tested": {
-            "last_updated": "2020-08-26"
+            "last_updated": "2020-08-20"
           }
         },
         "total": {
           "confirmed": 2097,
           "deceased": 24,
           "recovered": 1222,
-          "tested": 29456
+          "tested": 33455
         }
       },
       "Lalitpur": {
@@ -11203,14 +11221,14 @@
         "meta": {
           "population": 876055,
           "tested": {
-            "last_updated": "2020-08-26"
+            "last_updated": "2020-08-25"
           }
         },
         "total": {
           "confirmed": 451,
           "deceased": 5,
           "recovered": 355,
-          "tested": 37687
+          "tested": 38918
         }
       },
       "Mainpuri": {
@@ -11407,14 +11425,14 @@
         "meta": {
           "population": 3404004,
           "tested": {
-            "last_updated": "2020-08-26"
+            "last_updated": "2020-08-25"
           }
         },
         "total": {
           "confirmed": 1301,
           "deceased": 32,
           "recovered": 945,
-          "tested": 28450
+          "tested": 51070
         }
       },
       "Rampur": {
@@ -11426,14 +11444,14 @@
         "meta": {
           "population": 2335398,
           "tested": {
-            "last_updated": "2020-08-26"
+            "last_updated": "2020-08-25"
           }
         },
         "total": {
           "confirmed": 2838,
           "deceased": 25,
           "recovered": 2071,
-          "tested": 33539
+          "tested": 33536
         }
       },
       "Saharanpur": {
