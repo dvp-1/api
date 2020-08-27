@@ -299,7 +299,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-27T17:24:18+05:30",
+      "last_updated": "2020-08-27T17:34:18+05:30",
       "notes": "Total includes patients from other states and a new category \"Foreign Evacuees\" which is now reported in AP bulletin.",
       "population": 52221000,
       "tested": {
@@ -2065,8 +2065,9 @@
   },
   "DN": {
     "delta": {
-      "confirmed": 7,
-      "recovered": 17
+      "confirmed": 31,
+      "other": 1,
+      "recovered": 24
     },
     "districts": {
       "Dadra and Nagar Haveli": {
@@ -2104,6 +2105,11 @@
         }
       },
       "Diu": {
+        "delta": {
+          "confirmed": 24,
+          "other": 1,
+          "recovered": 7
+        },
         "meta": {
           "population": 52074,
           "tested": {
@@ -2111,15 +2117,15 @@
           }
         },
         "total": {
-          "confirmed": 187,
-          "other": 11,
-          "recovered": 149,
+          "confirmed": 211,
+          "other": 12,
+          "recovered": 156,
           "tested": 6193
         }
       }
     },
     "meta": {
-      "last_updated": "2020-08-27T17:24:25+05:30",
+      "last_updated": "2020-08-27T17:41:19+05:30",
       "population": 959000,
       "tested": {
         "last_updated": "2020-08-25",
@@ -2127,10 +2133,10 @@
       }
     },
     "total": {
-      "confirmed": 2227,
+      "confirmed": 2251,
       "deceased": 2,
-      "other": 24,
-      "recovered": 1874,
+      "other": 25,
+      "recovered": 1881,
       "tested": 52160
     }
   },
@@ -3495,7 +3501,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-27T17:24:20+05:30",
+      "last_updated": "2020-08-27T17:34:21+05:30",
       "population": 37403000,
       "tested": {
         "last_updated": "2020-08-26",
@@ -3736,14 +3742,14 @@
         "meta": {
           "population": 1890826,
           "tested": {
-            "last_updated": "2020-06-28"
+            "last_updated": "2020-08-23"
           }
         },
         "total": {
           "confirmed": 5489,
           "deceased": 66,
           "recovered": 4593,
-          "tested": 10663
+          "tested": 49851
         }
       },
       "Ballari": {
@@ -6222,7 +6228,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-27T17:24:23+05:30",
+      "last_updated": "2020-08-27T17:34:28+05:30",
       "population": 2150000,
       "tested": {
         "last_updated": "2020-08-26",
@@ -8561,12 +8567,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 17902,
+      "confirmed": 17926,
       "deceased": 120,
-      "recovered": 9765
+      "other": 1,
+      "recovered": 9772
     },
     "meta": {
-      "last_updated": "2020-08-27T17:24:16+05:30",
+      "last_updated": "2020-08-27T17:41:16+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-26",
@@ -8574,10 +8581,10 @@
       }
     },
     "total": {
-      "confirmed": 3325651,
+      "confirmed": 3325675,
       "deceased": 60749,
-      "other": 573,
-      "recovered": 2533208,
+      "other": 574,
+      "recovered": 2533215,
       "tested": 38576510
     }
   },
