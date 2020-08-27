@@ -667,6 +667,9 @@
     }
   },
   "AS": {
+    "delta": {
+      "deceased": 4
+    },
     "districts": {
       "Airport Quarantine": {
         "total": {
@@ -1002,8 +1005,12 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "deceased": 4
+        },
         "total": {
           "confirmed": 21481,
+          "deceased": 4,
           "other": 3,
           "recovered": 31811
         }
@@ -1019,7 +1026,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-27T00:19:18+05:30",
+      "last_updated": "2020-08-27T21:14:19+05:30",
       "notes": "Includes 1 case from Nagaland",
       "population": 34293000,
       "tested": {
@@ -1029,7 +1036,7 @@
     },
     "total": {
       "confirmed": 96772,
-      "deceased": 274,
+      "deceased": 278,
       "other": 3,
       "recovered": 76963,
       "tested": 2071441
@@ -2221,7 +2228,8 @@
         "meta": {
           "population": 19814000,
           "tested": {
-            "last_updated": "2020-08-27"
+            "last_updated": "2020-08-27",
+            "source": "https://twitter.com/ANI/status/1298996635809091586?s=20"
           }
         },
         "total": {
@@ -2237,7 +2245,8 @@
       "notes": "[July 14]: Value for the total tests conducted has been reduced by 97008 in the state bulletin. Reason given : \"Reconciled with ICMR figures\". We have made the same change.\n[June 16]: 344 deceased cases have been retroactively added to DL bulletin.",
       "population": 19814000,
       "tested": {
-        "last_updated": "2020-08-27"
+        "last_updated": "2020-08-27",
+        "source": "https://twitter.com/ANI/status/1298996635809091586?s=20"
       }
     },
     "total": {
@@ -2399,7 +2408,8 @@
     "delta": {
       "confirmed": 1190,
       "deceased": 17,
-      "recovered": 1193
+      "recovered": 1193,
+      "tested": 76227
     },
     "districts": {
       "Ahmedabad": {
@@ -3017,15 +3027,15 @@
       "last_updated": "2020-08-27T20:55:22+05:30",
       "population": 67936000,
       "tested": {
-        "last_updated": "2020-08-26",
-        "source": "https://twitter.com/PIBAhmedabad/status/1298629245388824576"
+        "last_updated": "2020-08-27",
+        "source": "https://twitter.com/PIBAhmedabad/status/1298993246543069187"
       }
     },
     "total": {
       "confirmed": 91329,
       "deceased": 2962,
       "recovered": 73601,
-      "tested": 1969724
+      "tested": 2045951
     }
   },
   "HP": {
@@ -3225,7 +3235,8 @@
     "delta": {
       "confirmed": 1293,
       "deceased": 12,
-      "recovered": 1077
+      "recovered": 1077,
+      "tested": 25665
     },
     "districts": {
       "Ambala": {
@@ -3631,15 +3642,15 @@
       "notes": "[Aug 2]: 21 Foreign Evacuees have been merged to Panchkula and 14 Italian tourists have been merged to Gurugram in HR bulletin.",
       "population": 28672000,
       "tested": {
-        "last_updated": "2020-08-26",
-        "source": "http://www.nhmharyana.gov.in/WriteReadData/userfiles/file/CoronaVirus/Daily%20Bulletin%20of%20COVID%2019%20as%20on%2026-08-20.pdf"
+        "last_updated": "2020-08-27",
+        "source": "http://www.nhmharyana.gov.in/WriteReadData/userfiles/file/CoronaVirus/Daily%20Bulletin%20of%20COVID%2019%20as%20on%2027-08-20.pdf"
       }
     },
     "total": {
       "confirmed": 59298,
       "deceased": 646,
       "recovered": 48690,
-      "tested": 1025524
+      "tested": 1051189
     }
   },
   "JH": {
@@ -8429,82 +8440,86 @@
       "Karaikal": {
         "delta": {
           "confirmed": 31,
-          "recovered": 8
+          "recovered": 8,
+          "tested": 109
         },
         "meta": {
           "notes": "2 case of TN has been transferred,so has been reduced from the total count.",
           "population": 200222,
           "tested": {
-            "last_updated": "2020-08-26"
+            "last_updated": "2020-08-27"
           }
         },
         "total": {
           "confirmed": 770,
           "deceased": 12,
           "recovered": 529,
-          "tested": 8280
+          "tested": 8389
         }
       },
       "Mahe": {
         "delta": {
-          "confirmed": 6
+          "confirmed": 6,
+          "tested": 73
         },
         "meta": {
           "notes": "1 case of KL have been transferred,so have been reduced from the total count",
           "population": 41816,
           "tested": {
-            "last_updated": "2020-08-26"
+            "last_updated": "2020-08-27"
           }
         },
         "total": {
           "confirmed": 41,
           "recovered": 28,
-          "tested": 2157
+          "tested": 2230
         }
       },
       "Puducherry": {
         "delta": {
           "confirmed": 454,
           "deceased": 8,
-          "recovered": 264
+          "recovered": 264,
+          "tested": 1120
         },
         "meta": {
           "notes": "169 cases(164 of TN, 1 of AP and 4 other) have been transferred,so have been reduced from the total count.[July 18]4 cases have transferred to TN and have been reduced from recovered cases.",
           "population": 950289,
           "tested": {
-            "last_updated": "2020-08-26"
+            "last_updated": "2020-08-27"
           }
         },
         "total": {
           "confirmed": 10935,
           "deceased": 158,
           "recovered": 6658,
-          "tested": 54336
+          "tested": 55456
         }
       },
       "Yanam": {
         "delta": {
           "confirmed": 13,
           "deceased": 2,
-          "recovered": 3
+          "recovered": 3,
+          "tested": 36
         },
         "meta": {
           "notes": "2 cases of AP have been transferred,so have been reduced from the total count",
           "population": 55626,
           "tested": {
-            "last_updated": "2020-08-26"
+            "last_updated": "2020-08-27"
           }
         },
         "total": {
           "confirmed": 688,
           "deceased": 20,
           "recovered": 546,
-          "tested": 4115
+          "tested": 4151
         }
       }
     },
     "meta": {
-      "last_updated": "2020-08-27T21:05:20+05:30",
+      "last_updated": "2020-08-27T21:14:22+05:30",
       "population": 1504000,
       "tested": {
         "last_updated": "2020-08-26",
@@ -10110,12 +10125,12 @@
   "TT": {
     "delta": {
       "confirmed": 70159,
-      "deceased": 1017,
+      "deceased": 1021,
       "other": 4,
       "recovered": 54547
     },
     "meta": {
-      "last_updated": "2020-08-27T21:05:17+05:30",
+      "last_updated": "2020-08-27T21:14:17+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-26",
@@ -10124,7 +10139,7 @@
     },
     "total": {
       "confirmed": 3377908,
-      "deceased": 61646,
+      "deceased": 61650,
       "other": 577,
       "recovered": 2577990,
       "tested": 38576510
