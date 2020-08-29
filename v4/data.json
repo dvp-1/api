@@ -3205,14 +3205,14 @@
         "meta": {
           "population": 454293,
           "tested": {
-            "last_updated": "2020-08-28"
+            "last_updated": "2020-08-24"
           }
         },
         "total": {
           "confirmed": 505,
           "deceased": 4,
           "recovered": 417,
-          "tested": 11051
+          "tested": 19913
         }
       },
       "Kangra": {
@@ -3374,7 +3374,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-29T21:54:21+05:30",
+      "last_updated": "2020-08-29T22:01:19+05:30",
       "notes": "HP has 45 Migrated cases which are reduced from Active #. Also, death of Tibetan refugee is included in deceased numbers, but not in confirmed",
       "population": 7300000,
       "tested": {
@@ -5268,7 +5268,8 @@
       "notes": "Mahe native who expired in Kannur included in Kerala's deceased tally.\nOne patient absconded from Palakkad to TN and one patient returned back to Maharashtra. Some non-covid deaths (accident,cancer etc.) have also been reported in the bulletin.\nIn total 64 such cases have been reduced from active count",
       "population": 35125000,
       "tested": {
-        "last_updated": "2020-08-29"
+        "last_updated": "2020-08-29",
+        "source": "https://dhs.kerala.gov.in/wp-content/uploads/2020/08/Bulletin-HFWD-English-August-29.pdf"
       }
     },
     "total": {
@@ -8465,14 +8466,16 @@
   },
   "RJ": {
     "delta": {
-      "confirmed": 1410,
-      "deceased": 12,
-      "recovered": 790
+      "confirmed": 1407,
+      "deceased": 13,
+      "recovered": 938
     },
     "districts": {
       "Ajmer": {
         "delta": {
-          "confirmed": 47
+          "confirmed": 60,
+          "deceased": 1,
+          "recovered": 138
         },
         "meta": {
           "population": 2584913,
@@ -8481,9 +8484,9 @@
           }
         },
         "total": {
-          "confirmed": 4046,
-          "deceased": 68,
-          "recovered": 3446,
+          "confirmed": 4059,
+          "deceased": 69,
+          "recovered": 3584,
           "tested": 88178
         }
       },
@@ -8934,10 +8937,13 @@
         }
       },
       "Other State": {
+        "delta": {
+          "recovered": 10
+        },
         "total": {
           "confirmed": 189,
           "deceased": 39,
-          "recovered": 104
+          "recovered": 114
         }
       },
       "Pali": {
@@ -9080,18 +9086,10 @@
           "recovered": 2141,
           "tested": 103716
         }
-      },
-      "Unknown": {
-        "delta": {
-          "confirmed": 16
-        },
-        "total": {
-          "confirmed": 16
-        }
       }
     },
     "meta": {
-      "last_updated": "2020-08-29T21:54:19+05:30",
+      "last_updated": "2020-08-29T22:04:17+05:30",
       "population": 77264000,
       "tested": {
         "last_updated": "2020-08-28",
@@ -9099,9 +9097,9 @@
       }
     },
     "total": {
-      "confirmed": 78780,
-      "deceased": 1029,
-      "recovered": 62823,
+      "confirmed": 78777,
+      "deceased": 1030,
+      "recovered": 62971,
       "tested": 2254613
     }
   },
@@ -10147,13 +10145,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 57888,
-      "deceased": 596,
+      "confirmed": 57885,
+      "deceased": 597,
       "other": 1,
-      "recovered": 47736
+      "recovered": 47884
     },
     "meta": {
-      "last_updated": "2020-08-29T21:54:17+05:30",
+      "last_updated": "2020-08-29T22:04:14+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-28",
@@ -10161,10 +10159,10 @@
       }
     },
     "total": {
-      "confirmed": 3519121,
-      "deceased": 63310,
+      "confirmed": 3519118,
+      "deceased": 63311,
       "other": 581,
-      "recovered": 2695274,
+      "recovered": 2695422,
       "tested": 40406609
     }
   },
