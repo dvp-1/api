@@ -430,11 +430,6 @@
         }
       },
       "Kra Daadi": {
-        "total": {
-          "confirmed": 2
-        }
-      },
-      "Kra-Daadi": {
         "meta": {
           "tested": {
             "last_updated": "2020-08-29",
@@ -442,6 +437,7 @@
           }
         },
         "total": {
+          "confirmed": 2,
           "tested": 2324
         }
       },
@@ -2288,6 +2284,11 @@
     }
   },
   "DL": {
+    "delta": {
+      "confirmed": 2024,
+      "deceased": 22,
+      "recovered": 1249
+    },
     "districts": {
       "Central Delhi": {
         "meta": {
@@ -2379,10 +2380,15 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "confirmed": 2024,
+          "deceased": 22,
+          "recovered": 1249
+        },
         "total": {
-          "confirmed": 170578,
-          "deceased": 4403,
-          "recovered": 152922
+          "confirmed": 172602,
+          "deceased": 4425,
+          "recovered": 154171
         }
       },
       "West Delhi": {
@@ -2396,7 +2402,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-29T20:28:16+05:30",
+      "last_updated": "2020-08-30T19:36:18+05:30",
       "notes": "[July 14]: Value for the total tests conducted has been reduced by 97008 in the state bulletin. Reason given : \"Reconciled with ICMR figures\". We have made the same change.\n[June 16]: 344 deceased cases have been retroactively added to DL bulletin.",
       "population": 19814000,
       "tested": {
@@ -2405,9 +2411,9 @@
       }
     },
     "total": {
-      "confirmed": 171366,
-      "deceased": 4404,
-      "recovered": 152922,
+      "confirmed": 173390,
+      "deceased": 4426,
+      "recovered": 154171,
       "tested": 1548659
     }
   },
@@ -3531,18 +3537,20 @@
         }
       },
       "Panchkula": {
+        "delta": {
+          "tested": 861
+        },
         "meta": {
           "population": 558890,
           "tested": {
-            "last_updated": "2020-08-29",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1993"
+            "last_updated": "2020-08-30"
           }
         },
         "total": {
           "confirmed": 2075,
           "deceased": 19,
           "recovered": 1266,
-          "tested": 32024
+          "tested": 32885
         }
       },
       "Panipat": {
@@ -4948,7 +4956,8 @@
       "Thiruvananthapuram": {
         "delta": {
           "confirmed": 310,
-          "deceased": 2
+          "deceased": 2,
+          "recovered": 161
         },
         "meta": {
           "population": 3307284
@@ -4957,15 +4966,7 @@
           "confirmed": 15326,
           "deceased": 87,
           "migrated": 23,
-          "recovered": 9671
-        }
-      },
-      "Thiruvanathapuram": {
-        "delta": {
-          "recovered": 161
-        },
-        "total": {
-          "recovered": 161
+          "recovered": 9832
         }
       },
       "Thrissur": {
@@ -5000,7 +5001,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-30T19:24:18+05:30",
+      "last_updated": "2020-08-30T19:29:30+05:30",
       "notes": "Mahe native who expired in Kannur included in Kerala's deceased tally.\nOne patient absconded from Palakkad to TN and one patient returned back to Maharashtra. Some non-covid deaths (accident,cancer etc.) have also been reported in the bulletin.\nIn total 64 such cases have been reduced from active count",
       "population": 35125000,
       "tested": {
@@ -6408,15 +6409,15 @@
         "meta": {
           "population": 1454483,
           "tested": {
-            "last_updated": "2020-08-19",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1809"
+            "last_updated": "2020-08-29",
+            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/2020"
           }
         },
         "total": {
           "confirmed": 944,
           "deceased": 19,
           "recovered": 727,
-          "tested": 14974
+          "tested": 17610
         }
       },
       "Rewa": {
@@ -9905,12 +9906,12 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 28997,
-      "deceased": 214,
-      "recovered": 21014
+      "confirmed": 31021,
+      "deceased": 236,
+      "recovered": 22263
     },
     "meta": {
-      "last_updated": "2020-08-30T19:24:16+05:30",
+      "last_updated": "2020-08-30T19:36:16+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-29",
@@ -9918,10 +9919,10 @@
       }
     },
     "total": {
-      "confirmed": 3568709,
-      "deceased": 63871,
+      "confirmed": 3570733,
+      "deceased": 63893,
       "migrated": 587,
-      "recovered": 2733534,
+      "recovered": 2734783,
       "tested": 41461636
     }
   },
