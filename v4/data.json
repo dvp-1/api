@@ -3132,9 +3132,10 @@
   },
   "HP": {
     "delta": {
-      "confirmed": 109,
+      "confirmed": 164,
       "deceased": 1,
-      "recovered": 30
+      "recovered": 64,
+      "tested": 2076
     },
     "districts": {
       "Bilaspur": {
@@ -3336,6 +3337,16 @@
           "recovered": 324,
           "tested": 20111
         }
+      },
+      "Unknown": {
+        "delta": {
+          "confirmed": 55,
+          "recovered": 34
+        },
+        "total": {
+          "confirmed": 55,
+          "recovered": 34
+        }
       }
     },
     "meta": {
@@ -3343,15 +3354,16 @@
       "notes": "HP has 45 Migrated cases which are reduced from Active #. Also, death of Tibetan refugee is included in deceased numbers, but not in confirmed",
       "population": 7300000,
       "tested": {
-        "last_updated": "2020-08-29"
+        "last_updated": "2020-08-30",
+        "source": "https://twitter.com/nhm_hp/status/1300102407553126402?s=20"
       }
     },
     "total": {
-      "confirmed": 5890,
+      "confirmed": 5945,
       "deceased": 34,
       "other": 44,
-      "recovered": 4296,
-      "tested": 211028
+      "recovered": 4330,
+      "tested": 213104
     }
   },
   "HR": {
@@ -6075,7 +6087,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-30T21:39:28+05:30",
+      "last_updated": "2020-08-30T21:45:27+05:30",
       "notes": "[June 17]:\nOne case was identified to be false positive and has been removed from the confirmed cases by ML authorities.",
       "population": 3224000,
       "tested": {
@@ -9183,7 +9195,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-30T21:39:23+05:30",
+      "last_updated": "2020-08-30T21:45:22+05:30",
       "population": 77264000,
       "tested": {
         "last_updated": "2020-08-29",
@@ -10238,13 +10250,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 73311,
+      "confirmed": 73366,
       "deceased": 875,
       "other": 7,
-      "recovered": 55364
+      "recovered": 55398
     },
     "meta": {
-      "last_updated": "2020-08-30T21:39:21+05:30",
+      "last_updated": "2020-08-30T21:45:19+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-29",
@@ -10252,10 +10264,10 @@
       }
     },
     "total": {
-      "confirmed": 3613023,
+      "confirmed": 3613078,
       "deceased": 64532,
       "other": 594,
-      "recovered": 2767884,
+      "recovered": 2767918,
       "tested": 41461636
     }
   },
@@ -10270,19 +10282,20 @@
         "delta": {
           "confirmed": 67,
           "deceased": 1,
-          "recovered": 36
+          "recovered": 36,
+          "tested": 2443
         },
         "meta": {
           "population": 4380793,
           "tested": {
-            "last_updated": "2020-08-29"
+            "last_updated": "2020-08-30"
           }
         },
         "total": {
           "confirmed": 2827,
           "deceased": 107,
           "recovered": 2317,
-          "tested": 112713
+          "tested": 115156
         }
       },
       "Aligarh": {
@@ -10329,14 +10342,14 @@
         "meta": {
           "population": 2549935,
           "tested": {
-            "last_updated": "2020-08-28"
+            "last_updated": "2020-08-29"
           }
         },
         "total": {
           "confirmed": 1202,
           "deceased": 6,
           "recovered": 909,
-          "tested": 40718
+          "tested": 42057
         }
       },
       "Amroha": {
@@ -10508,19 +10521,20 @@
       "Barabanki": {
         "delta": {
           "confirmed": 143,
-          "recovered": 84
+          "recovered": 84,
+          "tested": 2173
         },
         "meta": {
           "population": 3257983,
           "tested": {
-            "last_updated": "2020-08-29"
+            "last_updated": "2020-08-30"
           }
         },
         "total": {
           "confirmed": 3523,
           "deceased": 25,
           "recovered": 2417,
-          "tested": 85424
+          "tested": 87597
         }
       },
       "Bareilly": {
@@ -10985,19 +10999,20 @@
       "Jhansi": {
         "delta": {
           "confirmed": 87,
-          "recovered": 89
+          "recovered": 89,
+          "tested": 3563
         },
         "meta": {
           "population": 2000755,
           "tested": {
-            "last_updated": "2020-08-29"
+            "last_updated": "2020-08-30"
           }
         },
         "total": {
           "confirmed": 4351,
           "deceased": 101,
           "recovered": 3453,
-          "tested": 108876
+          "tested": 112439
         }
       },
       "Kannauj": {
@@ -11040,19 +11055,20 @@
         "delta": {
           "confirmed": 304,
           "deceased": 11,
-          "recovered": 192
+          "recovered": 192,
+          "tested": 1732
         },
         "meta": {
           "population": 4572951,
           "tested": {
-            "last_updated": "2020-08-29"
+            "last_updated": "2020-08-30"
           }
         },
         "total": {
           "confirmed": 14539,
           "deceased": 429,
           "recovered": 10930,
-          "tested": 158428
+          "tested": 160160
         }
       },
       "Kasganj": {
