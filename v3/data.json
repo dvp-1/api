@@ -796,7 +796,8 @@
   "AS": {
     "delta": {
       "confirmed": 2684,
-      "deceased": 9
+      "deceased": 9,
+      "recovered": 1434
     },
     "districts": {
       "Airport Quarantine": {
@@ -1163,12 +1164,13 @@
       },
       "Unknown": {
         "delta": {
-          "confirmed": 1735
+          "confirmed": 1735,
+          "recovered": 1434
         },
         "total": {
           "confirmed": 30277,
           "migrated": 3,
-          "recovered": 40307
+          "recovered": 41741
         }
       },
       "West Karbi Anglong": {
@@ -1183,7 +1185,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-01T23:09:39+05:30",
+      "last_updated": "2020-09-01T23:56:26+05:30",
       "notes": "Includes 1 case from Nagaland",
       "population": 34293000,
       "tested": {
@@ -1195,7 +1197,7 @@
       "confirmed": 111725,
       "deceased": 315,
       "migrated": 3,
-      "recovered": 85459,
+      "recovered": 86893,
       "tested": 2262827
     }
   },
@@ -5885,7 +5887,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-01T23:40:25+05:30",
+      "last_updated": "2020-09-01T23:48:32+05:30",
       "population": 293000,
       "tested": {
         "last_updated": "2020-09-01",
@@ -8090,7 +8092,8 @@
   "NL": {
     "delta": {
       "confirmed": 53,
-      "recovered": 133
+      "recovered": 133,
+      "tested": 674
     },
     "districts": {
       "Dimapur": {
@@ -8267,8 +8270,8 @@
       "last_updated": "2020-09-01T17:49:24+05:30",
       "population": 2150000,
       "tested": {
-        "last_updated": "2020-08-31",
-        "source": "https://twitter.com/MyGovNagaland/status/1300402580430831617?s=20"
+        "last_updated": "2020-09-01",
+        "source": "https://twitter.com/MyGovNagaland/status/1300752892777832449?s=20"
       }
     },
     "total": {
@@ -8276,7 +8279,7 @@
       "deceased": 8,
       "migrated": 10,
       "recovered": 3191,
-      "tested": 60865
+      "tested": 61539
     }
   },
   "OR": {
@@ -8859,7 +8862,8 @@
     "delta": {
       "confirmed": 1516,
       "deceased": 59,
-      "recovered": 1120
+      "recovered": 1120,
+      "tested": 19004
     },
     "districts": {
       "Amritsar": {
@@ -9294,22 +9298,22 @@
       "last_updated": "2020-09-01T20:12:43+05:30",
       "population": 29859000,
       "tested": {
-        "last_updated": "2020-08-31",
-        "source": "http://diprpunjab.gov.in/sites/default/files/Media%20bulletin%2031-08-2020.pdf"
+        "last_updated": "2020-09-01"
       }
     },
     "total": {
       "confirmed": 55508,
       "deceased": 1512,
       "recovered": 38147,
-      "tested": 1062667
+      "tested": 1081671
     }
   },
   "PY": {
     "delta": {
       "confirmed": 355,
       "deceased": 12,
-      "recovered": 341
+      "recovered": 341,
+      "tested": 1323
     },
     "districts": {
       "Karaikal": {
@@ -9400,15 +9404,14 @@
       "last_updated": "2020-09-01T19:05:37+05:30",
       "population": 1504000,
       "tested": {
-        "last_updated": "2020-08-31",
-        "source": "https://health.py.gov.in/sites/default/files/31.08.2020-bulletin.pdf"
+        "last_updated": "2020-09-01"
       }
     },
     "total": {
       "confirmed": 14766,
       "deceased": 240,
       "recovered": 9675,
-      "tested": 76105
+      "tested": 77428
     }
   },
   "RJ": {
@@ -9422,39 +9425,41 @@
         "delta": {
           "confirmed": 51,
           "deceased": 2,
-          "recovered": 90
+          "recovered": 90,
+          "tested": 1448
         },
         "meta": {
           "population": 2584913,
           "tested": {
-            "last_updated": "2020-08-31",
-            "source": "https://twitter.com/ANI/status/1300466840624222208?s=20"
+            "last_updated": "2020-09-01",
+            "source": "https://twitter.com/ANI/status/1300828345794359296?s=20"
           }
         },
         "total": {
           "confirmed": 4212,
           "deceased": 73,
           "recovered": 3899,
-          "tested": 91251
+          "tested": 92699
         }
       },
       "Alwar": {
         "delta": {
           "confirmed": 144,
-          "recovered": 121
+          "recovered": 121,
+          "tested": 1753
         },
         "meta": {
           "population": 3671999,
           "tested": {
-            "last_updated": "2020-08-31",
-            "source": "https://twitter.com/ANI/status/1300466840624222208?s=20"
+            "last_updated": "2020-09-01",
+            "source": "https://twitter.com/ANI/status/1300828345794359296?s=20"
           }
         },
         "total": {
           "confirmed": 7819,
           "deceased": 24,
           "recovered": 6620,
-          "tested": 94216
+          "tested": 95969
         }
       },
       "BSF Camp": {
@@ -9466,190 +9471,200 @@
       "Banswara": {
         "delta": {
           "confirmed": 32,
-          "recovered": 10
+          "recovered": 10,
+          "tested": 405
         },
         "meta": {
           "population": 1798194,
           "tested": {
-            "last_updated": "2020-08-31",
-            "source": "https://twitter.com/ANI/status/1300466840624222208?s=20"
+            "last_updated": "2020-09-01",
+            "source": "https://twitter.com/ANI/status/1300828345794359296?s=20"
           }
         },
         "total": {
           "confirmed": 585,
           "deceased": 4,
           "recovered": 409,
-          "tested": 16528
+          "tested": 16933
         }
       },
       "Baran": {
         "delta": {
-          "confirmed": 46
+          "confirmed": 46,
+          "tested": 539
         },
         "meta": {
           "population": 1223921,
           "tested": {
-            "last_updated": "2020-08-31",
-            "source": "https://twitter.com/ANI/status/1300466840624222208?s=20"
+            "last_updated": "2020-09-01",
+            "source": "https://twitter.com/ANI/status/1300828345794359296?s=20"
           }
         },
         "total": {
           "confirmed": 603,
           "deceased": 12,
           "recovered": 393,
-          "tested": 23481
+          "tested": 24020
         }
       },
       "Barmer": {
         "delta": {
           "confirmed": 19,
           "deceased": 1,
-          "recovered": 12
+          "recovered": 12,
+          "tested": 313
         },
         "meta": {
           "population": 2604453,
           "tested": {
-            "last_updated": "2020-08-31",
-            "source": "https://twitter.com/ANI/status/1300466840624222208?s=20"
+            "last_updated": "2020-09-01",
+            "source": "https://twitter.com/ANI/status/1300828345794359296?s=20"
           }
         },
         "total": {
           "confirmed": 2247,
           "deceased": 20,
           "recovered": 2065,
-          "tested": 51389
+          "tested": 51702
         }
       },
       "Bharatpur": {
         "delta": {
           "confirmed": 17,
-          "recovered": 99
+          "recovered": 99,
+          "tested": 649
         },
         "meta": {
           "population": 2549121,
           "tested": {
-            "last_updated": "2020-08-31",
-            "source": "https://twitter.com/ANI/status/1300466840624222208?s=20"
+            "last_updated": "2020-09-01",
+            "source": "https://twitter.com/ANI/status/1300828345794359296?s=20"
           }
         },
         "total": {
           "confirmed": 3693,
           "deceased": 69,
           "recovered": 3513,
-          "tested": 67434
+          "tested": 68083
         }
       },
       "Bhilwara": {
         "delta": {
-          "confirmed": 35
+          "confirmed": 35,
+          "tested": 604
         },
         "meta": {
           "population": 2410459,
           "tested": {
-            "last_updated": "2020-08-31",
-            "source": "https://twitter.com/ANI/status/1300466840624222208?s=20"
+            "last_updated": "2020-09-01",
+            "source": "https://twitter.com/ANI/status/1300828345794359296?s=20"
           }
         },
         "total": {
           "confirmed": 2189,
           "deceased": 14,
           "recovered": 1795,
-          "tested": 73671
+          "tested": 74275
         }
       },
       "Bikaner": {
         "delta": {
           "confirmed": 34,
           "deceased": 1,
-          "recovered": 67
+          "recovered": 67,
+          "tested": 2770
         },
         "meta": {
           "population": 2367745,
           "tested": {
-            "last_updated": "2020-08-31",
-            "source": "https://twitter.com/ANI/status/1300466840624222208?s=20"
+            "last_updated": "2020-09-01",
+            "source": "https://twitter.com/ANI/status/1300828345794359296?s=20"
           }
         },
         "total": {
           "confirmed": 4476,
           "deceased": 75,
           "recovered": 3919,
-          "tested": 125798
+          "tested": 128568
         }
       },
       "Bundi": {
         "delta": {
           "confirmed": 41,
-          "recovered": 12
+          "recovered": 12,
+          "tested": 229
         },
         "meta": {
           "population": 1113725,
           "tested": {
-            "last_updated": "2020-08-31",
-            "source": "https://twitter.com/ANI/status/1300466840624222208?s=20"
+            "last_updated": "2020-09-01",
+            "source": "https://twitter.com/ANI/status/1300828345794359296?s=20"
           }
         },
         "total": {
           "confirmed": 578,
           "deceased": 4,
           "recovered": 346,
-          "tested": 17011
+          "tested": 17240
         }
       },
       "Chittorgarh": {
         "delta": {
           "confirmed": 23,
-          "recovered": 11
+          "recovered": 11,
+          "tested": 774
         },
         "meta": {
           "population": 1544392,
           "tested": {
-            "last_updated": "2020-08-31",
-            "source": "https://twitter.com/ANI/status/1300466840624222208?s=20"
+            "last_updated": "2020-09-01",
+            "source": "https://twitter.com/ANI/status/1300828345794359296?s=20"
           }
         },
         "total": {
           "confirmed": 871,
           "deceased": 6,
           "recovered": 749,
-          "tested": 32261
+          "tested": 33035
         }
       },
       "Churu": {
         "delta": {
-          "confirmed": 40
+          "confirmed": 40,
+          "tested": 864
         },
         "meta": {
           "population": 2041172,
           "tested": {
-            "last_updated": "2020-08-31",
-            "source": "https://twitter.com/ANI/status/1300466840624222208?s=20"
+            "last_updated": "2020-09-01",
+            "source": "https://twitter.com/ANI/status/1300828345794359296?s=20"
           }
         },
         "total": {
           "confirmed": 999,
           "deceased": 5,
           "recovered": 800,
-          "tested": 49179
+          "tested": 50043
         }
       },
       "Dausa": {
         "delta": {
           "confirmed": 16,
-          "recovered": 12
+          "recovered": 12,
+          "tested": 236
         },
         "meta": {
           "population": 1637226,
           "tested": {
-            "last_updated": "2020-08-31",
-            "source": "https://twitter.com/ANI/status/1300466840624222208?s=20"
+            "last_updated": "2020-09-01",
+            "source": "https://twitter.com/ANI/status/1300828345794359296?s=20"
           }
         },
         "total": {
           "confirmed": 611,
           "deceased": 6,
           "recovered": 516,
-          "tested": 26803
+          "tested": 27039
         }
       },
       "Dholpur": {
@@ -11612,10 +11627,10 @@
       "confirmed": 78168,
       "deceased": 1027,
       "migrated": 1,
-      "recovered": 60710
+      "recovered": 62144
     },
     "meta": {
-      "last_updated": "2020-09-01T23:40:22+05:30",
+      "last_updated": "2020-09-01T23:56:22+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-31",
@@ -11626,7 +11641,7 @@
       "confirmed": 3766108,
       "deceased": 66460,
       "migrated": 589,
-      "recovered": 2898087,
+      "recovered": 2899521,
       "tested": 43324834
     }
   },
