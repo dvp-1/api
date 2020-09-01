@@ -905,6 +905,9 @@
         }
       },
       "Dibrugarh": {
+        "delta": {
+          "deceased": 5
+        },
         "meta": {
           "population": 1327748,
           "tested": {
@@ -914,7 +917,7 @@
         },
         "total": {
           "confirmed": 6203,
-          "deceased": 38,
+          "deceased": 43,
           "recovered": 2409,
           "tested": 66986
         }
@@ -996,14 +999,15 @@
       },
       "Kamrup Metropolitan": {
         "delta": {
-          "confirmed": 700
+          "confirmed": 700,
+          "deceased": 3
         },
         "meta": {
           "population": 1260419
         },
         "total": {
           "confirmed": 28825,
-          "deceased": 66,
+          "deceased": 69,
           "recovered": 14599
         }
       },
@@ -1094,12 +1098,15 @@
         }
       },
       "Sivasagar": {
+        "delta": {
+          "deceased": 1
+        },
         "meta": {
           "population": 1150253
         },
         "total": {
           "confirmed": 529,
-          "deceased": 5,
+          "deceased": 6,
           "recovered": 473
         }
       },
@@ -1123,12 +1130,15 @@
         }
       },
       "Tinsukia": {
+        "delta": {
+          "deceased": 1
+        },
         "meta": {
           "population": 1316948
         },
         "total": {
           "confirmed": 3366,
-          "deceased": 21,
+          "deceased": 22,
           "recovered": 1798
         }
       },
@@ -1150,12 +1160,10 @@
       "Unknown": {
         "delta": {
           "confirmed": 1955,
-          "deceased": 10,
           "recovered": 1531
         },
         "total": {
           "confirmed": 28542,
-          "deceased": 10,
           "migrated": 3,
           "recovered": 40307
         }
@@ -6577,44 +6585,57 @@
         }
       },
       "East Jaintia Hills": {
+        "delta": {
+          "confirmed": 4,
+          "recovered": 3
+        },
         "meta": {
           "population": 122436
         },
         "total": {
-          "confirmed": 39,
-          "recovered": 22
+          "confirmed": 43,
+          "recovered": 25
         }
       },
       "East Khasi Hills": {
+        "delta": {
+          "confirmed": 14,
+          "recovered": 80
+        },
         "meta": {
           "population": 824059
         },
         "total": {
-          "confirmed": 1540,
+          "confirmed": 1554,
           "deceased": 6,
-          "recovered": 614
+          "recovered": 694
         }
       },
       "North Garo Hills": {
         "delta": {
-          "confirmed": -1
+          "confirmed": -1,
+          "recovered": 2
         },
         "meta": {
           "population": 118325
         },
         "total": {
           "confirmed": 19,
-          "recovered": 8
+          "recovered": 10
         }
       },
       "Ribhoi": {
+        "delta": {
+          "confirmed": 1,
+          "recovered": 2
+        },
         "meta": {
           "population": 258380
         },
         "total": {
-          "confirmed": 191,
+          "confirmed": 192,
           "deceased": 3,
-          "recovered": 132
+          "recovered": 134
         }
       },
       "South Garo Hills": {
@@ -6627,11 +6648,14 @@
         }
       },
       "South West Garo Hills": {
+        "delta": {
+          "confirmed": 1
+        },
         "meta": {
           "population": 172495
         },
         "total": {
-          "confirmed": 14,
+          "confirmed": 15,
           "recovered": 12
         }
       },
@@ -6646,22 +6670,24 @@
       },
       "Unknown": {
         "delta": {
-          "confirmed": 26,
-          "recovered": 113
+          "confirmed": 1
         },
         "total": {
-          "confirmed": 26,
-          "recovered": 113
+          "confirmed": 1
         }
       },
       "West Garo Hills": {
+        "delta": {
+          "confirmed": 5,
+          "recovered": 26
+        },
         "meta": {
           "population": 642923
         },
         "total": {
-          "confirmed": 353,
+          "confirmed": 358,
           "deceased": 1,
-          "recovered": 215
+          "recovered": 241
         }
       },
       "West Jaintia Hills": {
