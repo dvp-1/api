@@ -3240,7 +3240,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-02T20:11:28+05:30",
+      "last_updated": "2020-09-02T20:17:46+05:30",
       "population": 67936000,
       "tested": {
         "last_updated": "2020-09-01",
@@ -4216,7 +4216,8 @@
     "delta": {
       "confirmed": 641,
       "deceased": 15,
-      "recovered": 595
+      "recovered": 595,
+      "tested": 17599
     },
     "districts": {
       "Anantnag": {
@@ -4515,15 +4516,14 @@
       "last_updated": "2020-09-02T18:15:36+05:30",
       "population": 13203000,
       "tested": {
-        "last_updated": "2020-09-01",
-        "source": "https://twitter.com/diprjk/status/1300772832926789633?s=20"
+        "last_updated": "2020-09-02"
       }
     },
     "total": {
       "confirmed": 38864,
       "deceased": 732,
       "recovered": 30079,
-      "tested": 978882
+      "tested": 996481
     }
   },
   "KA": {
@@ -6002,31 +6002,43 @@
     },
     "districts": {
       "East Garo Hills": {
+        "delta": {
+          "confirmed": 2
+        },
         "meta": {
           "population": 317618
         },
         "total": {
-          "confirmed": 85,
+          "confirmed": 87,
           "recovered": 4
         }
       },
       "East Jaintia Hills": {
+        "delta": {
+          "confirmed": 9,
+          "recovered": 4
+        },
         "meta": {
           "population": 122436
         },
         "total": {
-          "confirmed": 43,
-          "recovered": 25
+          "confirmed": 52,
+          "recovered": 29
         }
       },
       "East Khasi Hills": {
+        "delta": {
+          "confirmed": 41,
+          "deceased": 1,
+          "recovered": 68
+        },
         "meta": {
           "population": 824059
         },
         "total": {
-          "confirmed": 1608,
-          "deceased": 8,
-          "recovered": 759
+          "confirmed": 1649,
+          "deceased": 9,
+          "recovered": 827
         }
       },
       "North Garo Hills": {
@@ -6039,21 +6051,28 @@
         }
       },
       "Ribhoi": {
+        "delta": {
+          "confirmed": 16,
+          "recovered": 5
+        },
         "meta": {
           "population": 258380
         },
         "total": {
-          "confirmed": 197,
+          "confirmed": 213,
           "deceased": 3,
-          "recovered": 134
+          "recovered": 139
         }
       },
       "South Garo Hills": {
+        "delta": {
+          "confirmed": 3
+        },
         "meta": {
           "population": 142574
         },
         "total": {
-          "confirmed": 22,
+          "confirmed": 25,
           "recovered": 6
         }
       },
@@ -6075,26 +6094,18 @@
           "recovered": 1
         }
       },
-      "Unknown": {
-        "delta": {
-          "confirmed": 77,
-          "deceased": 1,
-          "recovered": 83
-        },
-        "total": {
-          "confirmed": 77,
-          "deceased": 1,
-          "recovered": 83
-        }
-      },
       "West Garo Hills": {
+        "delta": {
+          "confirmed": 6,
+          "recovered": 6
+        },
         "meta": {
           "population": 642923
         },
         "total": {
-          "confirmed": 365,
+          "confirmed": 371,
           "deceased": 1,
-          "recovered": 246
+          "recovered": 252
         }
       },
       "West Jaintia Hills": {
@@ -6117,7 +6128,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-02T20:14:51+05:30",
+      "last_updated": "2020-09-02T20:21:30+05:30",
       "notes": "[June 17]:\nOne case was identified to be false positive and has been removed from the confirmed cases by ML authorities.",
       "population": 3224000,
       "tested": {
@@ -8213,7 +8224,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-02T20:11:34+05:30",
+      "last_updated": "2020-09-02T20:17:49+05:30",
       "notes": "[July 12th] 20 non-covid deaths reported in state dashboard are included in the deceased count\n[June 22nd]: NDRF/ODRF cases have been redistributed to districts based on state dashboard",
       "population": 43671000,
       "tested": {
@@ -10692,7 +10703,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-02T20:14:31+05:30",
+      "last_updated": "2020-09-02T20:21:26+05:30",
       "notes": "[July 22]: 444 backdated deceased entries added to Chennai in TN bulletin.\n2 deaths cross notified to other states from Chennai and Coimbatore.\n1 patient died after turning negative for infection in Chengalpattu.\nThese cases have been added to TN deceased tally",
       "population": 75695000,
       "tested": {
@@ -10910,7 +10921,7 @@
       "recovered": 43653
     },
     "meta": {
-      "last_updated": "2020-09-02T20:14:22+05:30",
+      "last_updated": "2020-09-02T20:21:24+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-09-01",
