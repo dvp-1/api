@@ -2246,7 +2246,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-02T09:04:25+05:30",
+      "last_updated": "2020-09-02T09:09:32+05:30",
       "population": 959000,
       "tested": {
         "last_updated": "2020-08-30",
@@ -6239,8 +6239,7 @@
   },
   "MZ": {
     "delta": {
-      "confirmed": 7,
-      "recovered": 1
+      "confirmed": 8
     },
     "districts": {
       "Aizawl": {
@@ -6277,14 +6276,14 @@
       },
       "Kolasib": {
         "delta": {
-          "recovered": 1
+          "confirmed": 1
         },
         "meta": {
           "population": 83054
         },
         "total": {
-          "confirmed": 175,
-          "recovered": 63
+          "confirmed": 176,
+          "recovered": 62
         }
       },
       "Lawngtlai": {
@@ -6340,7 +6339,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-02T09:04:26+05:30",
+      "last_updated": "2020-09-02T09:14:22+05:30",
       "population": 1192000,
       "tested": {
         "last_updated": "2020-09-01",
@@ -6348,8 +6347,8 @@
       }
     },
     "total": {
-      "confirmed": 1019,
-      "recovered": 611,
+      "confirmed": 1020,
+      "recovered": 610,
       "tested": 41683
     }
   },
@@ -8458,7 +8457,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-02T09:04:21+05:30",
+      "last_updated": "2020-09-02T09:09:28+05:30",
       "notes": "[July 27]\nTelangana bulletin for the previous day is released on the next day. We will add the cases for Telangana against the date of release, as that is the convention that we are following for other states.\n--\nDistrict-wise numbers are not reported because cumulative counts for each district are not provided in Telangana bulletin",
       "population": 37220000,
       "tested": {
@@ -9067,8 +9066,18 @@
     }
   },
   "TR": {
+    "delta": {
+      "confirmed": 494,
+      "deceased": 5,
+      "migrated": 1,
+      "recovered": 193
+    },
     "districts": {
       "Dhalai": {
+        "delta": {
+          "deceased": 1,
+          "recovered": 16
+        },
         "meta": {
           "population": 377988,
           "tested": {
@@ -9077,14 +9086,19 @@
           }
         },
         "total": {
-          "confirmed": 1142,
-          "deceased": 3,
+          "confirmed": 1214,
+          "deceased": 4,
           "migrated": 1,
-          "recovered": 791,
+          "recovered": 807,
           "tested": 24064
         }
       },
       "Gomati": {
+        "delta": {
+          "confirmed": 31,
+          "deceased": 1,
+          "recovered": 10
+        },
         "meta": {
           "population": 436868,
           "tested": {
@@ -9093,14 +9107,18 @@
           }
         },
         "total": {
-          "confirmed": 1580,
-          "deceased": 16,
+          "confirmed": 1611,
+          "deceased": 17,
           "migrated": 1,
-          "recovered": 1162,
+          "recovered": 1172,
           "tested": 27506
         }
       },
       "Khowai": {
+        "delta": {
+          "confirmed": 29,
+          "recovered": 17
+        },
         "meta": {
           "population": 327391,
           "tested": {
@@ -9109,13 +9127,17 @@
           }
         },
         "total": {
-          "confirmed": 975,
+          "confirmed": 1004,
           "deceased": 9,
-          "recovered": 679,
+          "recovered": 696,
           "tested": 11072
         }
       },
       "North Tripura": {
+        "delta": {
+          "confirmed": 36,
+          "recovered": 15
+        },
         "meta": {
           "population": 415946,
           "tested": {
@@ -9124,14 +9146,19 @@
           }
         },
         "total": {
-          "confirmed": 1080,
+          "confirmed": 1116,
           "deceased": 5,
           "migrated": 6,
-          "recovered": 733,
+          "recovered": 748,
           "tested": 60378
         }
       },
       "Sipahijala": {
+        "delta": {
+          "confirmed": 34,
+          "deceased": 1,
+          "recovered": 13
+        },
         "meta": {
           "population": 484233,
           "tested": {
@@ -9140,13 +9167,17 @@
           }
         },
         "total": {
-          "confirmed": 1727,
-          "deceased": 11,
-          "recovered": 1396,
+          "confirmed": 1761,
+          "deceased": 12,
+          "recovered": 1409,
           "tested": 21221
         }
       },
       "South Tripura": {
+        "delta": {
+          "confirmed": 44,
+          "recovered": 26
+        },
         "meta": {
           "population": 433737,
           "tested": {
@@ -9155,14 +9186,18 @@
           }
         },
         "total": {
-          "confirmed": 797,
+          "confirmed": 841,
           "deceased": 4,
           "migrated": 3,
-          "recovered": 487,
+          "recovered": 513,
           "tested": 28913
         }
       },
       "Unokoti": {
+        "delta": {
+          "confirmed": 51,
+          "recovered": 10
+        },
         "meta": {
           "population": 277335,
           "tested": {
@@ -9171,13 +9206,19 @@
           }
         },
         "total": {
-          "confirmed": 691,
+          "confirmed": 742,
           "deceased": 3,
-          "recovered": 235,
+          "recovered": 245,
           "tested": 15662
         }
       },
       "West Tripura": {
+        "delta": {
+          "confirmed": 269,
+          "deceased": 2,
+          "migrated": 1,
+          "recovered": 86
+        },
         "meta": {
           "population": 917534,
           "tested": {
@@ -9186,16 +9227,16 @@
           }
         },
         "total": {
-          "confirmed": 4161,
-          "deceased": 62,
-          "migrated": 8,
-          "recovered": 2171,
+          "confirmed": 4430,
+          "deceased": 64,
+          "migrated": 9,
+          "recovered": 2257,
           "tested": 85383
         }
       }
     },
     "meta": {
-      "last_updated": "2020-09-01T09:17:29+05:30",
+      "last_updated": "2020-09-02T09:14:20+05:30",
       "notes": "[Aug 4]\nTripura bulletin for the previous day is released on the next day. We will add the cases for Tripura against the date of release, as that is the convention that we are following for other states.",
       "population": 3992000,
       "tested": {
@@ -9204,21 +9245,22 @@
       }
     },
     "total": {
-      "confirmed": 12153,
-      "deceased": 113,
-      "migrated": 19,
-      "recovered": 7654,
+      "confirmed": 12719,
+      "deceased": 118,
+      "migrated": 20,
+      "recovered": 7847,
       "tested": 274199
     }
   },
   "TT": {
     "delta": {
-      "confirmed": 2899,
-      "deceased": 10,
-      "recovered": 2241
+      "confirmed": 3394,
+      "deceased": 15,
+      "migrated": 1,
+      "recovered": 2433
     },
     "meta": {
-      "last_updated": "2020-09-02T09:04:19+05:30",
+      "last_updated": "2020-09-02T09:14:17+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-09-01",
@@ -9226,10 +9268,10 @@
       }
     },
     "total": {
-      "confirmed": 3769007,
-      "deceased": 66470,
-      "migrated": 589,
-      "recovered": 2901763,
+      "confirmed": 3769574,
+      "deceased": 66475,
+      "migrated": 590,
+      "recovered": 2901955,
       "tested": 44337201
     }
   },
