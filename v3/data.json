@@ -53,7 +53,8 @@
     "delta": {
       "confirmed": 10392,
       "deceased": 72,
-      "recovered": 8454
+      "recovered": 8454,
+      "tested": 60804
     },
     "districts": {
       "Anantapur": {
@@ -321,15 +322,14 @@
       "notes": "Total includes patients from other states and a new category \"Foreign Evacuees\" which is now reported in AP bulletin.",
       "population": 52221000,
       "tested": {
-        "last_updated": "2020-09-01",
-        "source": "https://twitter.com/ArogyaAndhra/status/1300789446359396352?s=20"
+        "last_updated": "2020-09-02"
       }
     },
     "total": {
       "confirmed": 455531,
       "deceased": 4125,
       "recovered": 348330,
-      "tested": 3782746
+      "tested": 3843550
     }
   },
   "AR": {
@@ -1814,7 +1814,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-02T19:14:30+05:30",
+      "last_updated": "2020-09-02T19:19:34+05:30",
       "population": 119520000,
       "tested": {
         "last_updated": "2020-09-02",
@@ -1830,8 +1830,18 @@
     }
   },
   "CH": {
+    "delta": {
+      "confirmed": 239,
+      "deceased": 2,
+      "recovered": 119
+    },
     "districts": {
       "Chandigarh": {
+        "delta": {
+          "confirmed": 239,
+          "deceased": 2,
+          "recovered": 119
+        },
         "meta": {
           "population": 1055450,
           "tested": {
@@ -1839,16 +1849,16 @@
           }
         },
         "total": {
-          "confirmed": 4550,
-          "deceased": 57,
+          "confirmed": 4789,
+          "deceased": 59,
           "migrated": 3,
-          "recovered": 2551,
+          "recovered": 2670,
           "tested": 29118
         }
       }
     },
     "meta": {
-      "last_updated": "2020-09-01T19:16:27+05:30",
+      "last_updated": "2020-09-02T19:24:32+05:30",
       "population": 1179000,
       "tested": {
         "last_updated": "2020-09-01",
@@ -1856,10 +1866,10 @@
       }
     },
     "total": {
-      "confirmed": 4550,
-      "deceased": 57,
+      "confirmed": 4789,
+      "deceased": 59,
       "migrated": 3,
-      "recovered": 2551,
+      "recovered": 2670,
       "tested": 31268
     }
   },
@@ -2516,6 +2526,11 @@
     }
   },
   "GA": {
+    "delta": {
+      "confirmed": 636,
+      "deceased": 10,
+      "recovered": 209
+    },
     "districts": {
       "North Goa": {
         "meta": {
@@ -2550,15 +2565,20 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "confirmed": 636,
+          "deceased": 10,
+          "recovered": 209
+        },
         "total": {
-          "confirmed": 11627,
-          "deceased": 2,
-          "recovered": 11289
+          "confirmed": 12263,
+          "deceased": 12,
+          "recovered": 11498
         }
       }
     },
     "meta": {
-      "last_updated": "2020-09-01T19:48:25+05:30",
+      "last_updated": "2020-09-02T19:24:27+05:30",
       "population": 1540000,
       "tested": {
         "last_updated": "2020-09-01",
@@ -2566,9 +2586,9 @@
       }
     },
     "total": {
-      "confirmed": 18006,
-      "deceased": 194,
-      "recovered": 13850,
+      "confirmed": 18642,
+      "deceased": 204,
+      "recovered": 14059,
       "tested": 202730
     }
   },
@@ -6868,7 +6888,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-02T19:13:30+05:30",
+      "last_updated": "2020-09-02T19:19:39+05:30",
       "population": 82232000,
       "tested": {
         "last_updated": "2020-09-01",
@@ -8179,7 +8199,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-02T19:13:33+05:30",
+      "last_updated": "2020-09-02T19:19:43+05:30",
       "population": 1504000,
       "tested": {
         "last_updated": "2020-09-01"
@@ -10128,13 +10148,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 31990,
-      "deceased": 271,
+      "confirmed": 32865,
+      "deceased": 283,
       "migrated": 1,
-      "recovered": 23828
+      "recovered": 24156
     },
     "meta": {
-      "last_updated": "2020-09-02T19:14:27+05:30",
+      "last_updated": "2020-09-02T19:24:24+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-09-01",
@@ -10142,10 +10162,10 @@
       }
     },
     "total": {
-      "confirmed": 3798098,
-      "deceased": 66731,
+      "confirmed": 3798973,
+      "deceased": 66743,
       "migrated": 592,
-      "recovered": 2923350,
+      "recovered": 2923678,
       "tested": 44337201
     }
   },
