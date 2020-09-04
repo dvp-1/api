@@ -260,7 +260,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-03T18:26:23+05:30",
+      "last_updated": "2020-09-04T19:04:54+05:30",
       "notes": "Total includes patients from other states and a new category \"Foreign Evacuees\" which is now reported in AP bulletin.",
       "population": 52221000,
       "tested": {
@@ -2374,7 +2374,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-04T18:52:28+05:30",
+      "last_updated": "2020-09-04T18:58:28+05:30",
       "notes": "[July 14]: Value for the total tests conducted has been reduced by 97008 in the state bulletin. Reason given : \"Reconciled with ICMR figures\". We have made the same change.\n[June 16]: 344 deceased cases have been retroactively added to DL bulletin.",
       "population": 19814000,
       "tested": {
@@ -2391,8 +2391,9 @@
   },
   "DN": {
     "delta": {
-      "confirmed": 40,
-      "recovered": 21
+      "confirmed": 51,
+      "migrated": 4,
+      "recovered": 43
     },
     "districts": {
       "Dadra and Nagar Haveli": {
@@ -2436,6 +2437,11 @@
         }
       },
       "Diu": {
+        "delta": {
+          "confirmed": 11,
+          "migrated": 4,
+          "recovered": 22
+        },
         "meta": {
           "population": 52074,
           "tested": {
@@ -2444,15 +2450,15 @@
           }
         },
         "total": {
-          "confirmed": 231,
-          "migrated": 8,
-          "recovered": 189,
+          "confirmed": 242,
+          "migrated": 12,
+          "recovered": 211,
           "tested": 6469
         }
       }
     },
     "meta": {
-      "last_updated": "2020-09-04T17:54:29+05:30",
+      "last_updated": "2020-09-04T19:05:05+05:30",
       "population": 959000,
       "tested": {
         "last_updated": "2020-08-31",
@@ -2460,10 +2466,10 @@
       }
     },
     "total": {
-      "confirmed": 2499,
+      "confirmed": 2510,
       "deceased": 2,
-      "migrated": 20,
-      "recovered": 2180,
+      "migrated": 24,
+      "recovered": 2202,
       "tested": 54194
     }
   },
@@ -6642,7 +6648,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-04T18:52:33+05:30",
+      "last_updated": "2020-09-04T18:58:33+05:30",
       "population": 1192000,
       "tested": {
         "last_updated": "2020-09-03",
@@ -9782,12 +9788,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 19101,
+      "confirmed": 19112,
       "deceased": 138,
-      "recovered": 11157
+      "migrated": 4,
+      "recovered": 11179
     },
     "meta": {
-      "last_updated": "2020-09-04T18:52:26+05:30",
+      "last_updated": "2020-09-04T19:04:47+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-09-03",
@@ -9795,10 +9802,10 @@
       }
     },
     "total": {
-      "confirmed": 3952225,
+      "confirmed": 3952236,
       "deceased": 68707,
-      "migrated": 600,
-      "recovered": 3046044,
+      "migrated": 604,
+      "recovered": 3046066,
       "tested": 46679145
     }
   },
