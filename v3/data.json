@@ -805,6 +805,9 @@
     }
   },
   "AS": {
+    "delta": {
+      "deceased": 15
+    },
     "districts": {
       "Airport Quarantine": {
         "total": {
@@ -1143,8 +1146,12 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "deceased": 15
+        },
         "total": {
           "confirmed": 34012,
+          "deceased": 15,
           "migrated": 3,
           "recovered": 45546
         }
@@ -1161,7 +1168,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-04T01:07:24+05:30",
+      "last_updated": "2020-09-04T22:39:44+05:30",
       "notes": "Includes 1 case from Nagaland",
       "population": 34293000,
       "tested": {
@@ -1171,7 +1178,7 @@
     },
     "total": {
       "confirmed": 118334,
-      "deceased": 330,
+      "deceased": 345,
       "migrated": 3,
       "recovered": 90698,
       "tested": 2396483
@@ -2754,9 +2761,9 @@
   },
   "GA": {
     "delta": {
-      "confirmed": 580,
+      "confirmed": 508,
       "deceased": 8,
-      "recovered": 360
+      "recovered": 386
     },
     "districts": {
       "North Goa": {
@@ -2793,19 +2800,19 @@
       },
       "Unknown": {
         "delta": {
-          "confirmed": 580,
+          "confirmed": 508,
           "deceased": 8,
-          "recovered": 360
+          "recovered": 386
         },
         "total": {
-          "confirmed": 13556,
+          "confirmed": 13484,
           "deceased": 28,
-          "recovered": 12160
+          "recovered": 12186
         }
       }
     },
     "meta": {
-      "last_updated": "2020-09-04T20:39:49+05:30",
+      "last_updated": "2020-09-04T22:39:51+05:30",
       "population": 1540000,
       "tested": {
         "last_updated": "2020-09-03",
@@ -2813,9 +2820,9 @@
       }
     },
     "total": {
-      "confirmed": 19935,
+      "confirmed": 19863,
       "deceased": 220,
-      "recovered": 14721,
+      "recovered": 14747,
       "tested": 206760
     }
   },
@@ -5735,7 +5742,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-03T22:20:35+05:30",
+      "last_updated": "2020-09-04T22:39:58+05:30",
       "population": 293000,
       "tested": {
         "last_updated": "2020-09-02",
@@ -7826,19 +7833,21 @@
   },
   "MZ": {
     "delta": {
+      "confirmed": 6,
       "recovered": 12,
       "tested": 869
     },
     "districts": {
       "Aizawl": {
         "delta": {
+          "confirmed": 4,
           "recovered": 6
         },
         "meta": {
           "population": 404054
         },
         "total": {
-          "confirmed": 614,
+          "confirmed": 618,
           "recovered": 365
         }
       },
@@ -7863,11 +7872,14 @@
         }
       },
       "Kolasib": {
+        "delta": {
+          "confirmed": 2
+        },
         "meta": {
           "population": 83054
         },
         "total": {
-          "confirmed": 179,
+          "confirmed": 181,
           "recovered": 99
         }
       },
@@ -7930,7 +7942,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-04T18:58:33+05:30",
+      "last_updated": "2020-09-04T22:40:00+05:30",
       "population": 1192000,
       "tested": {
         "last_updated": "2020-09-04",
@@ -7938,7 +7950,7 @@
       }
     },
     "total": {
-      "confirmed": 1040,
+      "confirmed": 1046,
       "recovered": 681,
       "tested": 43846
     }
@@ -10005,7 +10017,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-04T22:24:32+05:30",
+      "last_updated": "2020-09-04T22:36:36+05:30",
       "population": 664000,
       "tested": {
         "last_updated": "2020-09-03",
@@ -10504,7 +10516,8 @@
     "delta": {
       "confirmed": 5976,
       "deceased": 79,
-      "recovered": 6334
+      "recovered": 6334,
+      "tested": 83699
     },
     "districts": {
       "Airport Quarantine": {
@@ -11266,15 +11279,15 @@
       "notes": "[July 22]: 444 backdated deceased entries added to Chennai in TN bulletin.\n2 deaths cross notified to other states from Chennai and Coimbatore.\n1 patient died after turning negative for infection in Chengalpattu.\nThese cases have been added to TN deceased tally",
       "population": 75695000,
       "tested": {
-        "last_updated": "2020-09-03",
-        "source": "https://stopcorona.tn.gov.in/wp-content/uploads/2020/09/Media-Bulletin-03.09.2020-28-Pages-English-478-KB.pdf%22"
+        "last_updated": "2020-09-04",
+        "source": "https://stopcorona.tn.gov.in/wp-content/uploads/2020/03/Media-Bulletin-04-09-20-COVID-19-6-PM.pdf%22"
       }
     },
     "total": {
       "confirmed": 451827,
       "deceased": 7687,
       "recovered": 392507,
-      "tested": 5047042
+      "tested": 5130741
     }
   },
   "TR": {
@@ -11473,13 +11486,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 81725,
-      "deceased": 1045,
+      "confirmed": 81659,
+      "deceased": 1060,
       "migrated": 6,
-      "recovered": 66374
+      "recovered": 66400
     },
     "meta": {
-      "last_updated": "2020-09-04T22:24:28+05:30",
+      "last_updated": "2020-09-04T22:39:35+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-09-03",
@@ -11487,10 +11500,10 @@
       }
     },
     "total": {
-      "confirmed": 4014849,
-      "deceased": 69614,
+      "confirmed": 4014783,
+      "deceased": 69629,
       "migrated": 607,
-      "recovered": 3101261,
+      "recovered": 3101287,
       "tested": 46679145
     }
   },
@@ -12986,7 +12999,8 @@
       "confirmed": 831,
       "deceased": 12,
       "migrated": 1,
-      "recovered": 502
+      "recovered": 502,
+      "tested": 11293
     },
     "districts": {
       "Almora": {
@@ -13249,8 +13263,8 @@
       "last_updated": "2020-09-04T22:19:36+05:30",
       "population": 11141000,
       "tested": {
-        "last_updated": "2020-09-03",
-        "source": "https://twitter.com/DDnews_dehradun/status/1301533931364167680?s=20"
+        "last_updated": "2020-09-04",
+        "source": "https://twitter.com/PIBDehradun/status/1301895203318505474?s=20"
       }
     },
     "total": {
@@ -13258,7 +13272,7 @@
       "deceased": 312,
       "migrated": 65,
       "recovered": 15447,
-      "tested": 424156
+      "tested": 435449
     }
   },
   "WB": {
