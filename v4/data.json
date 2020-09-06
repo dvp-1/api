@@ -2227,7 +2227,8 @@
         "meta": {
           "population": 19814000,
           "tested": {
-            "last_updated": "2020-09-06"
+            "last_updated": "2020-09-06",
+            "source": "https://twitter.com/ANI/status/1302627074809556992?s=20"
           }
         },
         "total": {
@@ -2243,7 +2244,8 @@
       "notes": "[July 14]: Value for the total tests conducted has been reduced by 97008 in the state bulletin. Reason given : \"Reconciled with ICMR figures\". We have made the same change.\n[June 16]: 344 deceased cases have been retroactively added to DL bulletin.",
       "population": 19814000,
       "tested": {
-        "last_updated": "2020-09-06"
+        "last_updated": "2020-09-06",
+        "source": "https://twitter.com/ANI/status/1302627074809556992?s=20"
       }
     },
     "total": {
@@ -3025,6 +3027,7 @@
     "delta": {
       "confirmed": 397,
       "deceased": 1,
+      "other": 1,
       "recovered": 197
     },
     "districts": {
@@ -3238,10 +3241,18 @@
           "recovered": 374,
           "tested": 21835
         }
+      },
+      "Unknown": {
+        "delta": {
+          "other": 1
+        },
+        "total": {
+          "other": 1
+        }
       }
     },
     "meta": {
-      "last_updated": "2020-09-06T21:54:38+05:30",
+      "last_updated": "2020-09-06T22:04:34+05:30",
       "notes": "Death of Tibetan refugee is included in deceased numbers, but not in confirmed",
       "population": 7300000,
       "tested": {
@@ -3252,7 +3263,7 @@
     "total": {
       "confirmed": 7415,
       "deceased": 54,
-      "other": 47,
+      "other": 48,
       "recovered": 5138,
       "tested": 226268
     }
@@ -5901,15 +5912,17 @@
       },
       "East Khasi Hills": {
         "delta": {
-          "confirmed": 35
+          "confirmed": 35,
+          "deceased": 1,
+          "recovered": 4
         },
         "meta": {
           "population": 824059
         },
         "total": {
           "confirmed": 1926,
-          "deceased": 10,
-          "recovered": 966
+          "deceased": 11,
+          "recovered": 970
         }
       },
       "North Garo Hills": {
@@ -5926,7 +5939,8 @@
       },
       "Ribhoi": {
         "delta": {
-          "confirmed": 1
+          "confirmed": 1,
+          "recovered": 4
         },
         "meta": {
           "population": 258380
@@ -5934,27 +5948,31 @@
         "total": {
           "confirmed": 285,
           "deceased": 3,
-          "recovered": 161
+          "recovered": 165
         }
       },
       "South Garo Hills": {
         "delta": {
-          "confirmed": 4
+          "confirmed": 4,
+          "recovered": 11
         },
         "meta": {
           "population": 142574
         },
         "total": {
           "confirmed": 32,
-          "recovered": 6
+          "recovered": 17
         }
       },
       "South West Garo Hills": {
+        "delta": {
+          "confirmed": 1
+        },
         "meta": {
           "population": 172495
         },
         "total": {
-          "confirmed": 15,
+          "confirmed": 16,
           "recovered": 12
         }
       },
@@ -5967,21 +5985,10 @@
           "recovered": 1
         }
       },
-      "Unknown": {
-        "delta": {
-          "confirmed": 2,
-          "deceased": 1,
-          "recovered": 29
-        },
-        "total": {
-          "confirmed": 2,
-          "deceased": 1,
-          "recovered": 29
-        }
-      },
       "West Garo Hills": {
         "delta": {
-          "confirmed": 39
+          "confirmed": 39,
+          "recovered": 10
         },
         "meta": {
           "population": 642923
@@ -5989,15 +5996,18 @@
         "total": {
           "confirmed": 461,
           "deceased": 1,
-          "recovered": 277
+          "recovered": 287
         }
       },
       "West Jaintia Hills": {
+        "delta": {
+          "confirmed": 1
+        },
         "meta": {
           "population": 270352
         },
         "total": {
-          "confirmed": 34,
+          "confirmed": 35,
           "recovered": 26
         }
       },
@@ -6013,7 +6023,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-06T21:54:42+05:30",
+      "last_updated": "2020-09-06T22:02:39+05:30",
       "notes": "[June 17]:\nOne case was identified to be false positive and has been removed from the confirmed cases by ML authorities.",
       "population": 3224000,
       "tested": {
@@ -8055,7 +8065,7 @@
   "PB": {
     "delta": {
       "confirmed": 1946,
-      "deceased": 154,
+      "deceased": 54,
       "recovered": 1606,
       "tested": 25154
     },
@@ -8120,7 +8130,7 @@
       "Faridkot": {
         "delta": {
           "confirmed": 88,
-          "deceased": 103,
+          "deceased": 3,
           "recovered": 64
         },
         "meta": {
@@ -8131,7 +8141,7 @@
         },
         "total": {
           "confirmed": 1536,
-          "deceased": 124,
+          "deceased": 24,
           "recovered": 967,
           "tested": 23635
         }
@@ -8471,7 +8481,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-06T20:55:36+05:30",
+      "last_updated": "2020-09-06T22:04:32+05:30",
       "population": 29859000,
       "tested": {
         "last_updated": "2020-09-06",
@@ -8480,7 +8490,7 @@
     },
     "total": {
       "confirmed": 63473,
-      "deceased": 1962,
+      "deceased": 1862,
       "recovered": 45455,
       "tested": 1193260
     }
@@ -10220,12 +10230,12 @@
   "TT": {
     "delta": {
       "confirmed": 85777,
-      "deceased": 1062,
-      "other": 1,
+      "deceased": 962,
+      "other": 2,
       "recovered": 63530
     },
     "meta": {
-      "last_updated": "2020-09-06T21:55:28+05:30",
+      "last_updated": "2020-09-06T22:04:29+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-09-05",
@@ -10234,8 +10244,8 @@
     },
     "total": {
       "confirmed": 4196616,
-      "deceased": 71741,
-      "other": 622,
+      "deceased": 71641,
+      "other": 623,
       "recovered": 3241203,
       "tested": 48831145
     }
