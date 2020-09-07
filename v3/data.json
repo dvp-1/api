@@ -1853,8 +1853,18 @@
     }
   },
   "CH": {
+    "delta": {
+      "confirmed": 232,
+      "deceased": 3,
+      "recovered": 295
+    },
     "districts": {
       "Chandigarh": {
+        "delta": {
+          "confirmed": 232,
+          "deceased": 3,
+          "recovered": 295
+        },
         "meta": {
           "population": 1055450,
           "tested": {
@@ -1863,16 +1873,16 @@
           }
         },
         "total": {
-          "confirmed": 5763,
-          "deceased": 71,
+          "confirmed": 5995,
+          "deceased": 74,
           "migrated": 3,
-          "recovered": 3439,
+          "recovered": 3734,
           "tested": 32134
         }
       }
     },
     "meta": {
-      "last_updated": "2020-09-07T00:08:36+05:30",
+      "last_updated": "2020-09-07T19:03:57+05:30",
       "population": 1179000,
       "tested": {
         "last_updated": "2020-09-06",
@@ -1880,10 +1890,10 @@
       }
     },
     "total": {
-      "confirmed": 5763,
-      "deceased": 71,
+      "confirmed": 5995,
+      "deceased": 74,
       "migrated": 3,
-      "recovered": 3439,
+      "recovered": 3734,
       "tested": 35288
     }
   },
@@ -2446,7 +2456,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-07T18:52:54+05:30",
+      "last_updated": "2020-09-07T18:58:56+05:30",
       "notes": "[July 14]: Value for the total tests conducted has been reduced by 97008 in the state bulletin. Reason given : \"Reconciled with ICMR figures\". We have made the same change.\n[June 16]: 344 deceased cases have been retroactively added to DL bulletin.",
       "population": 19814000,
       "tested": {
@@ -4283,7 +4293,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-07T18:52:56+05:30",
+      "last_updated": "2020-09-07T18:59:04+05:30",
       "population": 13203000,
       "tested": {
         "last_updated": "2020-09-06",
@@ -6739,12 +6749,15 @@
   },
   "NL": {
     "delta": {
-      "confirmed": 42
+      "confirmed": 42,
+      "migrated": 1,
+      "recovered": 178
     },
     "districts": {
       "Dimapur": {
         "delta": {
-          "confirmed": 36
+          "confirmed": 36,
+          "recovered": 78
         },
         "meta": {
           "population": 379769,
@@ -6757,7 +6770,7 @@
           "confirmed": 1940,
           "deceased": 8,
           "migrated": 5,
-          "recovered": 1602,
+          "recovered": 1680,
           "tested": 896
         }
       },
@@ -6777,7 +6790,8 @@
       },
       "Kohima": {
         "delta": {
-          "confirmed": 6
+          "confirmed": 6,
+          "recovered": 91
         },
         "meta": {
           "population": 270063,
@@ -6789,20 +6803,28 @@
         "total": {
           "confirmed": 1260,
           "migrated": 4,
-          "recovered": 962,
+          "recovered": 1053,
           "tested": 485
         }
       },
       "Longleng": {
+        "delta": {
+          "migrated": 1,
+          "recovered": -1
+        },
         "meta": {
           "population": 50593
         },
         "total": {
           "confirmed": 7,
-          "recovered": 7
+          "migrated": 1,
+          "recovered": 6
         }
       },
       "Mokokchung": {
+        "delta": {
+          "recovered": 1
+        },
         "meta": {
           "population": 193171,
           "tested": {
@@ -6812,11 +6834,14 @@
         },
         "total": {
           "confirmed": 29,
-          "recovered": 19,
+          "recovered": 20,
           "tested": 63
         }
       },
       "Mon": {
+        "delta": {
+          "recovered": 1
+        },
         "meta": {
           "population": 259604,
           "tested": {
@@ -6827,7 +6852,7 @@
         "total": {
           "confirmed": 319,
           "migrated": 3,
-          "recovered": 285,
+          "recovered": 286,
           "tested": 45
         }
       },
@@ -6838,6 +6863,9 @@
         }
       },
       "Peren": {
+        "delta": {
+          "recovered": 2
+        },
         "meta": {
           "population": 163294,
           "tested": {
@@ -6847,7 +6875,7 @@
         },
         "total": {
           "confirmed": 347,
-          "recovered": 345,
+          "recovered": 347,
           "tested": 11
         }
       },
@@ -6866,6 +6894,9 @@
         }
       },
       "Tuensang": {
+        "delta": {
+          "recovered": 4
+        },
         "meta": {
           "population": 414801,
           "tested": {
@@ -6875,11 +6906,14 @@
         },
         "total": {
           "confirmed": 73,
-          "recovered": 53,
+          "recovered": 57,
           "tested": 1
         }
       },
       "Wokha": {
+        "delta": {
+          "recovered": 2
+        },
         "meta": {
           "population": 166239,
           "tested": {
@@ -6889,7 +6923,7 @@
         },
         "total": {
           "confirmed": 34,
-          "recovered": 31,
+          "recovered": 33,
           "tested": 7
         }
       },
@@ -6904,7 +6938,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-07T18:07:54+05:30",
+      "last_updated": "2020-09-07T19:03:55+05:30",
       "population": 2150000,
       "tested": {
         "last_updated": "2020-09-06",
@@ -6914,8 +6948,8 @@
     "total": {
       "confirmed": 4220,
       "deceased": 8,
-      "migrated": 12,
-      "recovered": 3496,
+      "migrated": 13,
+      "recovered": 3674,
       "tested": 65555
     }
   },
@@ -9772,13 +9806,12 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 24542,
-      "deceased": 206,
-      "migrated": -1,
-      "recovered": 22778
+      "confirmed": 24774,
+      "deceased": 209,
+      "recovered": 23251
     },
     "meta": {
-      "last_updated": "2020-09-07T18:52:53+05:30",
+      "last_updated": "2020-09-07T19:03:52+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-09-06",
@@ -9786,10 +9819,10 @@
       }
     },
     "total": {
-      "confirmed": 4227104,
-      "deceased": 71893,
-      "migrated": 622,
-      "recovered": 3270075,
+      "confirmed": 4227336,
+      "deceased": 71896,
+      "migrated": 623,
+      "recovered": 3270548,
       "tested": 49551507
     }
   },
