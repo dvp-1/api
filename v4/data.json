@@ -691,7 +691,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-07T22:03:52+05:30",
+      "last_updated": "2020-09-07T22:08:52+05:30",
       "notes": "Includes 1 case from Nagaland",
       "population": 34293000,
       "tested": {
@@ -2682,9 +2682,10 @@
   },
   "HP": {
     "delta": {
-      "confirmed": 167,
+      "confirmed": 245,
       "deceased": 1,
-      "recovered": 118
+      "other": -35,
+      "recovered": 221
     },
     "districts": {
       "Bilaspur": {
@@ -2707,6 +2708,7 @@
         "delta": {
           "confirmed": 5,
           "deceased": 1,
+          "other": 1,
           "recovered": 3
         },
         "meta": {
@@ -2719,7 +2721,7 @@
         "total": {
           "confirmed": 541,
           "deceased": 5,
-          "other": 1,
+          "other": 2,
           "recovered": 376,
           "tested": 12272
         }
@@ -2800,6 +2802,9 @@
         }
       },
       "Mandi": {
+        "delta": {
+          "confirmed": 55
+        },
         "meta": {
           "population": 999518,
           "tested": {
@@ -2807,13 +2812,16 @@
           }
         },
         "total": {
-          "confirmed": 487,
+          "confirmed": 542,
           "deceased": 8,
           "recovered": 382,
           "tested": 18110
         }
       },
       "Shimla": {
+        "delta": {
+          "confirmed": 17
+        },
         "meta": {
           "notes": "One death of COVID-19 positive patient has occured due to non-covid reasons",
           "population": 813384,
@@ -2822,7 +2830,7 @@
           }
         },
         "total": {
-          "confirmed": 420,
+          "confirmed": 437,
           "deceased": 4,
           "other": 5,
           "recovered": 281,
@@ -2830,6 +2838,10 @@
         }
       },
       "Sirmaur": {
+        "delta": {
+          "confirmed": 6,
+          "recovered": 103
+        },
         "meta": {
           "population": 530164,
           "tested": {
@@ -2837,15 +2849,16 @@
           }
         },
         "total": {
-          "confirmed": 1046,
+          "confirmed": 1052,
           "deceased": 3,
-          "recovered": 710,
+          "recovered": 813,
           "tested": 19935
         }
       },
       "Solan": {
         "delta": {
           "confirmed": 66,
+          "other": -34,
           "recovered": 38
         },
         "meta": {
@@ -2857,7 +2870,7 @@
         "total": {
           "confirmed": 1762,
           "deceased": 14,
-          "other": 36,
+          "other": 2,
           "recovered": 1273,
           "tested": 32216
         }
@@ -2865,6 +2878,7 @@
       "Una": {
         "delta": {
           "confirmed": 27,
+          "other": -2,
           "recovered": 34
         },
         "meta": {
@@ -2876,7 +2890,6 @@
         "total": {
           "confirmed": 624,
           "deceased": 5,
-          "other": 2,
           "recovered": 408,
           "tested": 22079
         }
@@ -2888,7 +2901,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-06T22:10:36+05:30",
+      "last_updated": "2020-09-07T22:13:51+05:30",
       "notes": "Death of Tibetan refugee is included in deceased numbers, but not in confirmed",
       "population": 7300000,
       "tested": {
@@ -2897,10 +2910,10 @@
       }
     },
     "total": {
-      "confirmed": 7582,
+      "confirmed": 7660,
       "deceased": 55,
-      "other": 48,
-      "recovered": 5256,
+      "other": 13,
+      "recovered": 5359,
       "tested": 228691
     }
   },
@@ -7852,7 +7865,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-07T22:03:54+05:30",
+      "last_updated": "2020-09-07T22:08:55+05:30",
       "population": 1504000,
       "tested": {
         "last_updated": "2020-09-07"
@@ -9535,12 +9548,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 51056,
+      "confirmed": 51134,
       "deceased": 670,
-      "recovered": 53771
+      "other": -35,
+      "recovered": 53874
     },
     "meta": {
-      "last_updated": "2020-09-07T22:03:50+05:30",
+      "last_updated": "2020-09-07T22:13:49+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-09-06",
@@ -9548,10 +9562,10 @@
       }
     },
     "total": {
-      "confirmed": 4253618,
+      "confirmed": 4253696,
       "deceased": 72357,
-      "other": 623,
-      "recovered": 3301068,
+      "other": 588,
+      "recovered": 3301171,
       "tested": 49551507
     }
   },
