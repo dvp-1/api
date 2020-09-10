@@ -2656,7 +2656,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-10T20:14:55+05:30",
+      "last_updated": "2020-09-10T20:18:55+05:30",
       "population": 67936000,
       "tested": {
         "last_updated": "2020-09-10",
@@ -3272,7 +3272,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-10T20:14:56+05:30",
+      "last_updated": "2020-09-10T20:18:57+05:30",
       "notes": "[Aug 2]: 21 Foreign Evacuees have been merged to Panchkula and 14 Italian tourists have been merged to Gurugram in HR bulletin.",
       "population": 28672000,
       "tested": {
@@ -3884,7 +3884,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-10T20:14:58+05:30",
+      "last_updated": "2020-09-10T20:18:59+05:30",
       "population": 13203000,
       "tested": {
         "last_updated": "2020-09-10",
@@ -4484,7 +4484,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-10T20:14:53+05:30",
+      "last_updated": "2020-09-10T20:18:54+05:30",
       "population": 65798000,
       "tested": {
         "last_updated": "2020-09-09",
@@ -5251,6 +5251,11 @@
     }
   },
   "ML": {
+    "delta": {
+      "confirmed": 99,
+      "deceased": 1,
+      "recovered": 19
+    },
     "districts": {
       "East Garo Hills": {
         "meta": {
@@ -5262,20 +5267,26 @@
         }
       },
       "East Jaintia Hills": {
+        "delta": {
+          "confirmed": 27
+        },
         "meta": {
           "population": 122436
         },
         "total": {
-          "confirmed": 120,
+          "confirmed": 147,
           "recovered": 35
         }
       },
       "East Khasi Hills": {
+        "delta": {
+          "confirmed": 40
+        },
         "meta": {
           "population": 824059
         },
         "total": {
-          "confirmed": 1986,
+          "confirmed": 2026,
           "deceased": 14,
           "recovered": 1112
         }
@@ -5290,11 +5301,14 @@
         }
       },
       "Ribhoi": {
+        "delta": {
+          "confirmed": 11
+        },
         "meta": {
           "population": 258380
         },
         "total": {
-          "confirmed": 291,
+          "confirmed": 302,
           "deceased": 3,
           "recovered": 171
         }
@@ -5326,6 +5340,18 @@
           "recovered": 1
         }
       },
+      "Unknown": {
+        "delta": {
+          "confirmed": 19,
+          "deceased": 1,
+          "recovered": 19
+        },
+        "total": {
+          "confirmed": 19,
+          "deceased": 1,
+          "recovered": 19
+        }
+      },
       "West Garo Hills": {
         "meta": {
           "population": 642923
@@ -5337,20 +5363,26 @@
         }
       },
       "West Jaintia Hills": {
+        "delta": {
+          "confirmed": 1
+        },
         "meta": {
           "population": 270352
         },
         "total": {
-          "confirmed": 38,
+          "confirmed": 39,
           "recovered": 27
         }
       },
       "West Khasi Hills": {
+        "delta": {
+          "confirmed": 1
+        },
         "meta": {
           "population": 385601
         },
         "total": {
-          "confirmed": 61,
+          "confirmed": 62,
           "deceased": 1,
           "recovered": 29
         }
@@ -5366,9 +5398,9 @@
       }
     },
     "total": {
-      "confirmed": 3197,
-      "deceased": 19,
-      "recovered": 1823,
+      "confirmed": 3296,
+      "deceased": 20,
+      "recovered": 1842,
       "tested": 104090
     }
   },
@@ -8653,7 +8685,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-10T20:14:52+05:30",
+      "last_updated": "2020-09-10T20:18:51+05:30",
       "notes": "[July 22]: 444 backdated deceased entries added to Chennai in TN bulletin.\n2 deaths cross notified to other states from Chennai and Coimbatore.\n1 patient died after turning negative for infection in Chengalpattu.\nThese cases have been added to TN deceased tally",
       "population": 75695000,
       "tested": {
@@ -8856,13 +8888,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 51684,
-      "deceased": 483,
+      "confirmed": 51783,
+      "deceased": 484,
       "other": 2,
-      "recovered": 38351
+      "recovered": 38370
     },
     "meta": {
-      "last_updated": "2020-09-10T20:14:50+05:30",
+      "last_updated": "2020-09-10T20:18:50+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-09-09",
@@ -8870,10 +8902,10 @@
       }
     },
     "total": {
-      "confirmed": 4514649,
-      "deceased": 75574,
+      "confirmed": 4514748,
+      "deceased": 75575,
       "other": 608,
-      "recovered": 3507435,
+      "recovered": 3507454,
       "tested": 52934433
     }
   },
