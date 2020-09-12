@@ -43,7 +43,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-12T23:24:52+05:30",
+      "last_updated": "2020-09-12T23:36:54+05:30",
       "population": 397000,
       "tested": {
         "last_updated": "2020-09-11",
@@ -2554,7 +2554,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-12T23:22:51+05:30",
+      "last_updated": "2020-09-12T23:26:52+05:30",
       "notes": "[Sep 9]:57 Deceased Cases are added from Backlog",
       "population": 28724000,
       "tested": {
@@ -2769,7 +2769,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-12T23:24:54+05:30",
+      "last_updated": "2020-09-12T23:36:55+05:30",
       "population": 959000,
       "tested": {
         "last_updated": "2020-09-09",
@@ -2854,10 +2854,14 @@
   },
   "GJ": {
     "delta": {
+      "deceased": 15,
       "tested": 74781
     },
     "districts": {
       "Ahmedabad": {
+        "delta": {
+          "deceased": 3
+        },
         "meta": {
           "population": 7208200,
           "tested": {
@@ -2867,7 +2871,7 @@
         },
         "total": {
           "confirmed": 33378,
-          "deceased": 1751,
+          "deceased": 1754,
           "recovered": 27415,
           "tested": 978783
         }
@@ -2948,6 +2952,9 @@
         }
       },
       "Bhavnagar": {
+        "delta": {
+          "deceased": 2
+        },
         "meta": {
           "population": 2877961,
           "tested": {
@@ -2957,7 +2964,7 @@
         },
         "total": {
           "confirmed": 3362,
-          "deceased": 47,
+          "deceased": 49,
           "recovered": 2924,
           "tested": 104049
         }
@@ -3037,6 +3044,9 @@
         }
       },
       "Gandhinagar": {
+        "delta": {
+          "deceased": 1
+        },
         "meta": {
           "population": 1387478,
           "tested": {
@@ -3046,12 +3056,15 @@
         },
         "total": {
           "confirmed": 2845,
-          "deceased": 62,
+          "deceased": 63,
           "recovered": 2339,
           "tested": 58153
         }
       },
       "Gir Somnath": {
+        "delta": {
+          "deceased": 1
+        },
         "meta": {
           "population": 1217477,
           "tested": {
@@ -3061,7 +3074,7 @@
         },
         "total": {
           "confirmed": 1135,
-          "deceased": 15,
+          "deceased": 16,
           "recovered": 950,
           "tested": 36891
         }
@@ -3260,6 +3273,9 @@
         }
       },
       "Rajkot": {
+        "delta": {
+          "deceased": 2
+        },
         "meta": {
           "population": 3157676,
           "tested": {
@@ -3269,7 +3285,7 @@
         },
         "total": {
           "confirmed": 6400,
-          "deceased": 110,
+          "deceased": 112,
           "recovered": 4249,
           "tested": 157808
         }
@@ -3290,6 +3306,9 @@
         }
       },
       "Surat": {
+        "delta": {
+          "deceased": 5
+        },
         "meta": {
           "population": 4996391,
           "tested": {
@@ -3299,7 +3318,7 @@
         },
         "total": {
           "confirmed": 23707,
-          "deceased": 681,
+          "deceased": 686,
           "recovered": 20417,
           "tested": 462313
         }
@@ -3335,6 +3354,9 @@
         }
       },
       "Vadodara": {
+        "delta": {
+          "deceased": 1
+        },
         "meta": {
           "population": 3639775,
           "tested": {
@@ -3344,7 +3366,7 @@
         },
         "total": {
           "confirmed": 9571,
-          "deceased": 145,
+          "deceased": 146,
           "recovered": 7988,
           "tested": 185189
         }
@@ -3366,7 +3388,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-11T21:03:01+05:30",
+      "last_updated": "2020-09-12T23:39:52+05:30",
       "population": 67936000,
       "tested": {
         "last_updated": "2020-09-12",
@@ -3375,7 +3397,7 @@
     },
     "total": {
       "confirmed": 110971,
-      "deceased": 3181,
+      "deceased": 3196,
       "recovered": 91570,
       "tested": 3219983
     }
@@ -6496,7 +6518,7 @@
   },
   "ML": {
     "delta": {
-      "confirmed": 161,
+      "confirmed": 168,
       "deceased": 1,
       "recovered": 131,
       "tested": 2703
@@ -6592,7 +6614,11 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "confirmed": 7
+        },
         "total": {
+          "confirmed": 7,
           "deceased": 4,
           "recovered": 47
         }
@@ -6636,15 +6662,16 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-12T22:34:59+05:30",
+      "last_updated": "2020-09-12T23:39:54+05:30",
       "notes": "[June 17]: One case was identified to be false positive and has been removed from the confirmed cases by ML authorities.",
       "population": 3224000,
       "tested": {
-        "last_updated": "2020-09-12"
+        "last_updated": "2020-09-12",
+        "source": "https://www.syllad.com/meghalaya-teenager-dies-of-covid-19-168-fresh-cases-detected/"
       }
     },
     "total": {
-      "confirmed": 3608,
+      "confirmed": 3615,
       "deceased": 25,
       "recovered": 2020,
       "tested": 112221
@@ -8757,7 +8784,8 @@
       "notes": "[July 12th] :20 non-covid deaths reported in state dashboard are included in the deceased count\n[June 22nd]: NDRF/ODRF cases have been redistributed to districts based on state dashboard",
       "population": 43671000,
       "tested": {
-        "last_updated": "2020-09-12"
+        "last_updated": "2020-09-12",
+        "source": "https://t.me/Covid19india_Auxiliary_Test_Data/2320"
       }
     },
     "total": {
@@ -9315,7 +9343,8 @@
       "last_updated": "2020-09-12T21:26:53+05:30",
       "population": 1504000,
       "tested": {
-        "last_updated": "2020-09-12"
+        "last_updated": "2020-09-12",
+        "source": "https://t.me/Covid19india_Auxiliary_Test_Data/2329"
       }
     },
     "total": {
@@ -10072,7 +10101,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-12T22:18:54+05:30",
+      "last_updated": "2020-09-12T23:37:57+05:30",
       "population": 664000,
       "tested": {
         "last_updated": "2020-09-12",
@@ -11535,13 +11564,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 93037,
-      "deceased": 1095,
+      "confirmed": 93044,
+      "deceased": 1110,
       "migrated": 17,
       "recovered": 76533
     },
     "meta": {
-      "last_updated": "2020-09-12T23:24:50+05:30",
+      "last_updated": "2020-09-12T23:39:51+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-09-11",
@@ -11549,8 +11578,8 @@
       }
     },
     "total": {
-      "confirmed": 4750416,
-      "deceased": 78598,
+      "confirmed": 4750423,
+      "deceased": 78613,
       "migrated": 665,
       "recovered": 3697971,
       "tested": 55189226
