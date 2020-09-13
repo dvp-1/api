@@ -1,7 +1,15 @@
 {
   "AN": {
+    "delta": {
+      "confirmed": 25,
+      "recovered": 41
+    },
     "districts": {
       "Unknown": {
+        "delta": {
+          "confirmed": 25,
+          "recovered": 41
+        },
         "meta": {
           "tested": {
             "last_updated": "2020-09-11",
@@ -9,15 +17,15 @@
           }
         },
         "total": {
-          "confirmed": 3521,
+          "confirmed": 3546,
           "deceased": 51,
-          "recovered": 3202,
+          "recovered": 3243,
           "tested": 43680
         }
       }
     },
     "meta": {
-      "last_updated": "2020-09-13T00:28:52+05:30",
+      "last_updated": "2020-09-13T22:39:00+05:30",
       "population": 397000,
       "tested": {
         "last_updated": "2020-09-11",
@@ -25,9 +33,9 @@
       }
     },
     "total": {
-      "confirmed": 3521,
+      "confirmed": 3546,
       "deceased": 51,
-      "recovered": 3202,
+      "recovered": 3243,
       "tested": 43680
     }
   },
@@ -669,12 +677,14 @@
   },
   "AS": {
     "delta": {
+      "confirmed": 1292,
       "deceased": 16,
       "tested": 15515
     },
     "districts": {
       "Unknown": {
         "delta": {
+          "confirmed": 1292,
           "deceased": 16,
           "tested": 15515
         },
@@ -685,7 +695,7 @@
           }
         },
         "total": {
-          "confirmed": 140471,
+          "confirmed": 141763,
           "deceased": 469,
           "other": 3,
           "recovered": 110883,
@@ -694,7 +704,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-13T21:46:57+05:30",
+      "last_updated": "2020-09-13T22:38:57+05:30",
       "notes": "Includes 1 case from Nagaland",
       "population": 34293000,
       "tested": {
@@ -703,7 +713,7 @@
       }
     },
     "total": {
-      "confirmed": 140471,
+      "confirmed": 141763,
       "deceased": 469,
       "other": 3,
       "recovered": 110883,
@@ -2687,7 +2697,8 @@
     "delta": {
       "confirmed": 326,
       "deceased": 4,
-      "recovered": 152
+      "recovered": 152,
+      "tested": 2366
     },
     "districts": {
       "Bilaspur": {
@@ -2903,8 +2914,8 @@
       "notes": "Death of Tibetan refugee is included in deceased numbers, but not in confirmed",
       "population": 7300000,
       "tested": {
-        "last_updated": "2020-09-12",
-        "source": "https://twitter.com/nhm_hp/status/1304808547432034304?s=20"
+        "last_updated": "2020-09-13",
+        "source": "https://twitter.com/nhm_hp/status/1305173566686523392?s=20"
       }
     },
     "total": {
@@ -2912,7 +2923,7 @@
       "deceased": 76,
       "other": 17,
       "recovered": 6099,
-      "tested": 244213
+      "tested": 246579
     }
   },
   "HR": {
@@ -3345,9 +3356,10 @@
   },
   "JH": {
     "delta": {
-      "confirmed": 968,
-      "deceased": 11,
-      "recovered": 1451
+      "confirmed": 1014,
+      "deceased": 13,
+      "recovered": 1509,
+      "tested": 24962
     },
     "districts": {
       "Bokaro": {
@@ -3717,29 +3729,33 @@
         }
       },
       "West Singhbhum": {
+        "delta": {
+          "confirmed": 46,
+          "deceased": 2,
+          "recovered": 58
+        },
         "meta": {
           "population": 1501619
         },
         "total": {
-          "confirmed": 2315,
-          "deceased": 16,
-          "recovered": 1895
+          "confirmed": 2361,
+          "deceased": 18,
+          "recovered": 1953
         }
       }
     },
     "meta": {
-      "last_updated": "2020-09-13T22:25:04+05:30",
+      "last_updated": "2020-09-13T22:35:00+05:30",
       "population": 37403000,
       "tested": {
-        "last_updated": "2020-09-12",
-        "source": "https://twitter.com/rnuddkranchi/status/1304826673028714496?s=20"
+        "last_updated": "2020-09-13"
       }
     },
     "total": {
-      "confirmed": 61428,
-      "deceased": 553,
-      "recovered": 46525,
-      "tested": 1352611
+      "confirmed": 61474,
+      "deceased": 555,
+      "recovered": 46583,
+      "tested": 1377573
     }
   },
   "JK": {
@@ -4914,8 +4930,17 @@
     }
   },
   "LA": {
+    "delta": {
+      "confirmed": 51,
+      "deceased": 1,
+      "recovered": 22
+    },
     "districts": {
       "Kargil": {
+        "delta": {
+          "confirmed": 30,
+          "recovered": 2
+        },
         "meta": {
           "population": 143000,
           "tested": {
@@ -4923,13 +4948,17 @@
           }
         },
         "total": {
-          "confirmed": 1456,
+          "confirmed": 1486,
           "deceased": 23,
-          "recovered": 1057,
+          "recovered": 1059,
           "tested": 15256
         }
       },
       "Leh": {
+        "delta": {
+          "confirmed": 21,
+          "recovered": 20
+        },
         "meta": {
           "population": 147000,
           "tested": {
@@ -4937,15 +4966,23 @@
           }
         },
         "total": {
-          "confirmed": 1838,
+          "confirmed": 1859,
           "deceased": 16,
-          "recovered": 1357,
+          "recovered": 1377,
           "tested": 26824
+        }
+      },
+      "Unknown": {
+        "delta": {
+          "deceased": 1
+        },
+        "total": {
+          "deceased": 1
         }
       }
     },
     "meta": {
-      "last_updated": "2020-09-13T00:00:54+05:30",
+      "last_updated": "2020-09-13T22:39:02+05:30",
       "notes": "[Sep 08] : Testing details are not available in Ladakh bulletin from Sep 06 onwards",
       "population": 293000,
       "tested": {
@@ -4954,9 +4991,9 @@
       }
     },
     "total": {
-      "confirmed": 3294,
-      "deceased": 39,
-      "recovered": 2414,
+      "confirmed": 3345,
+      "deceased": 40,
+      "recovered": 2436,
       "tested": 42080
     }
   },
@@ -9624,13 +9661,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 87132,
-      "deceased": 1087,
+      "confirmed": 88546,
+      "deceased": 1090,
       "other": 9,
-      "recovered": 69695
+      "recovered": 69816
     },
     "meta": {
-      "last_updated": "2020-09-13T22:24:56+05:30",
+      "last_updated": "2020-09-13T22:38:55+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-09-12",
@@ -9638,10 +9675,10 @@
       }
     },
     "total": {
-      "confirmed": 4838920,
-      "deceased": 79701,
+      "confirmed": 4840334,
+      "deceased": 79704,
       "other": 674,
-      "recovered": 3768993,
+      "recovered": 3769114,
       "tested": 56260928
     }
   },
