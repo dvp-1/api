@@ -332,6 +332,10 @@
     },
     "districts": {
       "Anjaw": {
+        "delta": {
+          "confirmed": -1,
+          "recovered": -4
+        },
         "meta": {
           "population": 21089,
           "tested": {
@@ -339,14 +343,15 @@
           }
         },
         "total": {
-          "confirmed": 79,
-          "recovered": 55,
+          "confirmed": 78,
+          "recovered": 51,
           "tested": 1205
         }
       },
       "Changlang": {
         "delta": {
           "confirmed": 10,
+          "deceased": 2,
           "recovered": 6
         },
         "meta": {
@@ -357,6 +362,7 @@
         },
         "total": {
           "confirmed": 623,
+          "deceased": 2,
           "recovered": 503,
           "tested": 17803
         }
@@ -387,7 +393,7 @@
       "East Siang": {
         "delta": {
           "confirmed": 5,
-          "recovered": 2
+          "recovered": 4
         },
         "meta": {
           "population": 99019,
@@ -398,7 +404,7 @@
         "total": {
           "confirmed": 422,
           "deceased": 1,
-          "recovered": 264,
+          "recovered": 266,
           "tested": 12795
         }
       },
@@ -429,6 +435,7 @@
       },
       "Kurung Kumey": {
         "delta": {
+          "confirmed": -1,
           "recovered": 2
         },
         "meta": {
@@ -438,7 +445,7 @@
           }
         },
         "total": {
-          "confirmed": 20,
+          "confirmed": 19,
           "recovered": 7,
           "tested": 3235
         }
@@ -494,7 +501,7 @@
       },
       "Lower Dibang Valley": {
         "delta": {
-          "confirmed": 5,
+          "confirmed": 2,
           "recovered": 9
         },
         "meta": {
@@ -504,7 +511,7 @@
           }
         },
         "total": {
-          "confirmed": 162,
+          "confirmed": 159,
           "recovered": 69,
           "tested": 6534
         }
@@ -575,8 +582,9 @@
       },
       "Papum Pare": {
         "delta": {
-          "confirmed": 104,
-          "recovered": 56
+          "confirmed": 107,
+          "deceased": -1,
+          "recovered": 57
         },
         "meta": {
           "population": 176385,
@@ -585,9 +593,9 @@
           }
         },
         "total": {
-          "confirmed": 2447,
-          "deceased": 5,
-          "recovered": 1738,
+          "confirmed": 2450,
+          "deceased": 4,
+          "recovered": 1739,
           "tested": 80359
         }
       },
@@ -656,12 +664,12 @@
       },
       "Unknown": {
         "delta": {
-          "confirmed": -1,
-          "deceased": 2
+          "confirmed": 1,
+          "deceased": 1
         },
         "total": {
-          "confirmed": -1,
-          "deceased": 2
+          "confirmed": 1,
+          "deceased": 1
         }
       },
       "Upper Dibang Valley": {
@@ -674,6 +682,9 @@
         }
       },
       "Upper Siang": {
+        "delta": {
+          "recovered": 1
+        },
         "meta": {
           "population": 35289,
           "tested": {
@@ -682,7 +693,7 @@
         },
         "total": {
           "confirmed": 104,
-          "recovered": 66,
+          "recovered": 67,
           "tested": 2719
         }
       },
@@ -786,7 +797,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-15T22:28:55+05:30",
+      "last_updated": "2020-09-15T23:22:56+05:30",
       "notes": "Includes 1 case from Nagaland",
       "population": 34293000,
       "tested": {
@@ -2889,7 +2900,7 @@
   },
   "HP": {
     "delta": {
-      "confirmed": 416,
+      "confirmed": 412,
       "deceased": 8,
       "other": 10,
       "recovered": 250,
@@ -2954,7 +2965,7 @@
       },
       "Kangra": {
         "delta": {
-          "confirmed": 36,
+          "confirmed": 32,
           "deceased": 2,
           "recovered": 19
         },
@@ -2966,7 +2977,7 @@
           }
         },
         "total": {
-          "confirmed": 1571,
+          "confirmed": 1567,
           "deceased": 20,
           "recovered": 921,
           "tested": 54856
@@ -3118,7 +3129,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-15T22:56:58+05:30",
+      "last_updated": "2020-09-15T23:41:01+05:30",
       "notes": "Death of Tibetan refugee is included in deceased numbers, but not in confirmed",
       "population": 7300000,
       "tested": {
@@ -3127,7 +3138,7 @@
       }
     },
     "total": {
-      "confirmed": 10339,
+      "confirmed": 10335,
       "deceased": 89,
       "other": 27,
       "recovered": 6417,
@@ -3958,7 +3969,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-15T23:13:56+05:30",
+      "last_updated": "2020-09-15T23:22:57+05:30",
       "population": 37403000,
       "tested": {
         "last_updated": "2020-09-15",
@@ -4912,12 +4923,13 @@
       "Idukki": {
         "delta": {
           "confirmed": 29,
-          "recovered": 43
+          "recovered": 43,
+          "tested": 1295
         },
         "meta": {
           "population": 1107453,
           "tested": {
-            "last_updated": "2020-09-14"
+            "last_updated": "2020-09-15"
           }
         },
         "total": {
@@ -4925,18 +4937,19 @@
           "deceased": 3,
           "other": 1,
           "recovered": 1835,
-          "tested": 64652
+          "tested": 65947
         }
       },
       "Kannur": {
         "delta": {
           "confirmed": 213,
-          "recovered": 228
+          "recovered": 228,
+          "tested": 1809
         },
         "meta": {
           "population": 2525637,
           "tested": {
-            "last_updated": "2020-09-14"
+            "last_updated": "2020-09-15"
           }
         },
         "total": {
@@ -4944,7 +4957,7 @@
           "deceased": 36,
           "other": 2,
           "recovered": 4315,
-          "tested": 91155
+          "tested": 92964
         }
       },
       "Kasaragod": {
@@ -4995,12 +5008,13 @@
         "delta": {
           "confirmed": 260,
           "deceased": 1,
-          "recovered": 306
+          "recovered": 306,
+          "tested": 6119
         },
         "meta": {
           "population": 3089543,
           "tested": {
-            "last_updated": "2020-09-14"
+            "last_updated": "2020-09-15"
           }
         },
         "total": {
@@ -5008,19 +5022,20 @@
           "deceased": 44,
           "other": 5,
           "recovered": 6567,
-          "tested": 256387
+          "tested": 262506
         }
       },
       "Malappuram": {
         "delta": {
           "confirmed": 348,
           "deceased": 1,
-          "recovered": 303
+          "recovered": 303,
+          "tested": 1477
         },
         "meta": {
           "population": 4110956,
           "tested": {
-            "last_updated": "2020-09-14"
+            "last_updated": "2020-09-15"
           }
         },
         "total": {
@@ -5028,19 +5043,20 @@
           "deceased": 39,
           "other": 6,
           "recovered": 10300,
-          "tested": 133039
+          "tested": 134516
         }
       },
       "Palakkad": {
         "delta": {
           "confirmed": 136,
           "deceased": 1,
-          "recovered": 120
+          "recovered": 120,
+          "tested": 4553
         },
         "meta": {
           "population": 2810892,
           "tested": {
-            "last_updated": "2020-09-13"
+            "last_updated": "2020-09-15"
           }
         },
         "total": {
@@ -5048,18 +5064,19 @@
           "deceased": 12,
           "other": 2,
           "recovered": 5047,
-          "tested": 118908
+          "tested": 123461
         }
       },
       "Pathanamthitta": {
         "delta": {
           "confirmed": 146,
-          "recovered": 122
+          "recovered": 122,
+          "tested": 914
         },
         "meta": {
           "population": 1195537,
           "tested": {
-            "last_updated": "2020-09-14"
+            "last_updated": "2020-09-15"
           }
         },
         "total": {
@@ -5067,7 +5084,7 @@
           "deceased": 3,
           "other": 2,
           "recovered": 3829,
-          "tested": 62707
+          "tested": 63621
         }
       },
       "Thiruvananthapuram": {
@@ -5105,19 +5122,20 @@
       "Wayanad": {
         "delta": {
           "confirmed": 64,
-          "recovered": 32
+          "recovered": 32,
+          "tested": 1789
         },
         "meta": {
           "population": 816558,
           "tested": {
-            "last_updated": "2020-09-14"
+            "last_updated": "2020-09-15"
           }
         },
         "total": {
           "confirmed": 2151,
           "deceased": 5,
           "recovered": 1675,
-          "tested": 65113
+          "tested": 66902
         }
       }
     },
@@ -5187,7 +5205,7 @@
   },
   "MH": {
     "delta": {
-      "confirmed": 20432,
+      "confirmed": 20482,
       "deceased": 515,
       "other": 3,
       "recovered": 19423,
@@ -5246,7 +5264,7 @@
       },
       "Aurangabad": {
         "delta": {
-          "confirmed": 417,
+          "confirmed": 467,
           "deceased": 10,
           "recovered": 214
         },
@@ -5257,7 +5275,7 @@
           }
         },
         "total": {
-          "confirmed": 30234,
+          "confirmed": 30284,
           "deceased": 772,
           "recovered": 22097,
           "tested": 11800
@@ -5850,7 +5868,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-15T22:08:55+05:30",
+      "last_updated": "2020-09-15T23:40:58+05:30",
       "notes": "[Sep 9] : After reconciling COVID-19 cases in Mumbai, owing to the removal of duplicates and change of addresses as per the original residence, 239 cases have been removed from the progressive figures. \n[Aug 15] : MH bulletin has reduced 819 confirmed cases in Mumbai and 72 confirmed cases from 'Other States' from the tally\n[Jun 16] : 1328 deceased cases have been retroactively added to MH bulletin.\n[Jun 20] : 69 deceased cases have been reduced based on state bulletin.",
       "population": 122153000,
       "tested": {
@@ -5859,7 +5877,7 @@
       }
     },
     "total": {
-      "confirmed": 1097806,
+      "confirmed": 1097856,
       "deceased": 30409,
       "other": 377,
       "recovered": 775273,
@@ -6013,7 +6031,8 @@
       "notes": "[June 17]: One case was identified to be false positive and has been removed from the confirmed cases by ML authorities.",
       "population": 3224000,
       "tested": {
-        "last_updated": "2020-09-15"
+        "last_updated": "2020-09-15",
+        "source": "https://www.eastmojo.com/meghalaya/2020/09/15/meghalaya-67-year-old-succumbs-to-covid-19-death-toll-at-29"
       }
     },
     "total": {
@@ -7017,7 +7036,7 @@
   "MZ": {
     "delta": {
       "confirmed": 40,
-      "recovered": 4,
+      "recovered": 3,
       "tested": 1306
     },
     "districts": {
@@ -7125,10 +7144,18 @@
           "confirmed": 19,
           "recovered": 13
         }
+      },
+      "Unknown": {
+        "delta": {
+          "recovered": -1
+        },
+        "total": {
+          "recovered": -1
+        }
       }
     },
     "meta": {
-      "last_updated": "2020-09-15T19:29:02+05:30",
+      "last_updated": "2020-09-15T23:41:06+05:30",
       "population": 1192000,
       "tested": {
         "last_updated": "2020-09-15",
@@ -7137,7 +7164,7 @@
     },
     "total": {
       "confirmed": 1468,
-      "recovered": 923,
+      "recovered": 922,
       "tested": 52622
     }
   },
@@ -8302,14 +8329,14 @@
         "meta": {
           "population": 1120070,
           "tested": {
-            "last_updated": "2020-09-02"
+            "last_updated": "2020-09-13"
           }
         },
         "total": {
           "confirmed": 1239,
           "deceased": 46,
           "recovered": 863,
-          "tested": 30260
+          "tested": 33313
         }
       }
     },
@@ -8418,7 +8445,8 @@
       "last_updated": "2020-09-15T19:28:58+05:30",
       "population": 1504000,
       "tested": {
-        "last_updated": "2020-09-15"
+        "last_updated": "2020-09-15",
+        "source": "https://t.me/Covid19india_Auxiliary_Test_Data/2389"
       }
     },
     "total": {
@@ -9112,7 +9140,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-15T23:13:58+05:30",
+      "last_updated": "2020-09-15T23:23:01+05:30",
       "population": 664000,
       "tested": {
         "last_updated": "2020-09-15",
@@ -10096,13 +10124,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 90970,
+      "confirmed": 91016,
       "deceased": 1280,
       "other": 25,
-      "recovered": 82803
+      "recovered": 82802
     },
     "meta": {
-      "last_updated": "2020-09-15T23:13:54+05:30",
+      "last_updated": "2020-09-15T23:40:57+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-09-14",
@@ -10110,10 +10138,10 @@
       }
     },
     "total": {
-      "confirmed": 5017884,
+      "confirmed": 5017930,
       "deceased": 82088,
       "other": 715,
-      "recovered": 3939049,
+      "recovered": 3939048,
       "tested": 58312273
     }
   },
