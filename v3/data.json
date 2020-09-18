@@ -5766,8 +5766,17 @@
     }
   },
   "LA": {
+    "delta": {
+      "confirmed": 59,
+      "deceased": 1,
+      "recovered": 42
+    },
     "districts": {
       "Kargil": {
+        "delta": {
+          "confirmed": 24,
+          "recovered": 4
+        },
         "meta": {
           "population": 143000,
           "tested": {
@@ -5776,13 +5785,17 @@
           }
         },
         "total": {
-          "confirmed": 1557,
+          "confirmed": 1581,
           "deceased": 27,
-          "recovered": 1065,
+          "recovered": 1069,
           "tested": 15876
         }
       },
       "Leh": {
+        "delta": {
+          "confirmed": 35,
+          "recovered": 38
+        },
         "meta": {
           "population": 147000,
           "tested": {
@@ -5791,15 +5804,23 @@
           }
         },
         "total": {
-          "confirmed": 2019,
+          "confirmed": 2054,
           "deceased": 20,
-          "recovered": 1493,
+          "recovered": 1531,
           "tested": 28271
+        }
+      },
+      "Unknown": {
+        "delta": {
+          "deceased": 1
+        },
+        "total": {
+          "deceased": 1
         }
       }
     },
     "meta": {
-      "last_updated": "2020-09-17T23:18:15+05:30",
+      "last_updated": "2020-09-18T23:05:20+05:30",
       "notes": "[Sep 08] : Testing details are not available in Ladakh bulletin from Sep 06 onwards",
       "population": 293000,
       "tested": {
@@ -5808,9 +5829,9 @@
       }
     },
     "total": {
-      "confirmed": 3576,
-      "deceased": 47,
-      "recovered": 2558,
+      "confirmed": 3635,
+      "deceased": 48,
+      "recovered": 2600,
       "tested": 44147
     }
   },
@@ -5823,6 +5844,7 @@
     "delta": {
       "confirmed": 21656,
       "deceased": 440,
+      "migrated": 3,
       "recovered": 22078,
       "tested": 88455
     },
@@ -6130,6 +6152,7 @@
         "delta": {
           "confirmed": 2283,
           "deceased": 52,
+          "migrated": 3,
           "recovered": 928
         },
         "meta": {
@@ -6143,7 +6166,7 @@
         "total": {
           "confirmed": 180668,
           "deceased": 8375,
-          "migrated": 367,
+          "migrated": 370,
           "recovered": 137664,
           "tested": 964609
         }
@@ -6510,7 +6533,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-18T22:53:43+05:30",
+      "last_updated": "2020-09-18T23:05:16+05:30",
       "notes": "[Sep 9] : After reconciling COVID-19 cases in Mumbai, owing to the removal of duplicates and change of addresses as per the original residence, 239 cases have been removed from the progressive figures. \n[Aug 15] : MH bulletin has reduced 819 confirmed cases in Mumbai and 72 confirmed cases from 'Other States' from the tally\n[Jun 16] : 1328 deceased cases have been retroactively added to MH bulletin.\n[Jun 20] : 69 deceased cases have been reduced based on state bulletin.",
       "population": 122153000,
       "tested": {
@@ -6521,7 +6544,7 @@
     "total": {
       "confirmed": 1167496,
       "deceased": 31791,
-      "migrated": 383,
+      "migrated": 386,
       "recovered": 834432,
       "tested": 5693345
     }
@@ -6530,7 +6553,8 @@
     "delta": {
       "confirmed": 90,
       "deceased": 2,
-      "recovered": 95
+      "recovered": 95,
+      "tested": 1932
     },
     "districts": {
       "East Garo Hills": {
@@ -6650,19 +6674,18 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-18T22:52:36+05:30",
+      "last_updated": "2020-09-18T23:05:26+05:30",
       "notes": "[June 17]: One case was identified to be false positive and has been removed from the confirmed cases by ML authorities.",
       "population": 3224000,
       "tested": {
-        "last_updated": "2020-09-17",
-        "source": "https://www.syllad.com/meghalaya-3-more-dies-of-covid-19-161-fresh-cases-detected/"
+        "last_updated": "2020-09-18"
       }
     },
     "total": {
       "confirmed": 4447,
       "deceased": 34,
       "recovered": 2437,
-      "tested": 127571
+      "tested": 129503
     }
   },
   "MN": {
@@ -6845,7 +6868,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-18T22:52:33+05:30",
+      "last_updated": "2020-09-18T22:54:03+05:30",
       "population": 3103000,
       "tested": {
         "last_updated": "2020-09-18",
@@ -7954,7 +7977,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-18T22:52:40+05:30",
+      "last_updated": "2020-09-18T22:54:12+05:30",
       "population": 1192000,
       "tested": {
         "last_updated": "2020-09-18",
@@ -9215,7 +9238,8 @@
     "delta": {
       "confirmed": 485,
       "deceased": 6,
-      "recovered": 462
+      "recovered": 462,
+      "tested": 5278
     },
     "districts": {
       "Karaikal": {
@@ -9304,15 +9328,14 @@
       "last_updated": "2020-09-18T22:09:27+05:30",
       "population": 1504000,
       "tested": {
-        "last_updated": "2020-09-17",
-        "source": "https://t.me/Covid19india_Auxiliary_Test_Data/2430"
+        "last_updated": "2020-09-18"
       }
     },
     "total": {
       "confirmed": 21913,
       "deceased": 437,
       "recovered": 16715,
-      "tested": 124821
+      "tested": 130099
     }
   },
   "RJ": {
@@ -10006,6 +10029,9 @@
   },
   "SK": {
     "delta": {
+      "confirmed": 29,
+      "deceased": 3,
+      "recovered": 68,
       "tested": 227
     },
     "districts": {
@@ -10038,10 +10064,15 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "confirmed": 29,
+          "deceased": 3,
+          "recovered": 68
+        },
         "total": {
-          "confirmed": 265,
-          "deceased": 20,
-          "recovered": 594
+          "confirmed": 294,
+          "deceased": 23,
+          "recovered": 662
         }
       },
       "West Sikkim": {
@@ -10055,16 +10086,16 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-18T00:12:34+05:30",
+      "last_updated": "2020-09-18T23:05:29+05:30",
       "population": 664000,
       "tested": {
         "last_updated": "2020-09-18"
       }
     },
     "total": {
-      "confirmed": 2274,
-      "deceased": 23,
-      "recovered": 1789,
+      "confirmed": 2303,
+      "deceased": 26,
+      "recovered": 1857,
       "tested": 46292
     }
   },
@@ -11519,13 +11550,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 92700,
-      "deceased": 1217,
-      "migrated": 2,
-      "recovered": 93189
+      "confirmed": 92788,
+      "deceased": 1221,
+      "migrated": 5,
+      "recovered": 93299
     },
     "meta": {
-      "last_updated": "2020-09-18T22:53:29+05:30",
+      "last_updated": "2020-09-18T23:05:13+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-09-17",
@@ -11533,10 +11564,10 @@
       }
     },
     "total": {
-      "confirmed": 5305387,
-      "deceased": 85621,
-      "migrated": 739,
-      "recovered": 4203017,
+      "confirmed": 5305475,
+      "deceased": 85625,
+      "migrated": 742,
+      "recovered": 4203127,
       "tested": 61572343
     }
   },
