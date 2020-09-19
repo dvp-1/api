@@ -707,7 +707,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-19T23:19:08+05:30",
+      "last_updated": "2020-09-19T23:26:22+05:30",
       "population": 34293000,
       "tested": {
         "last_updated": "2020-09-19",
@@ -2006,7 +2006,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-19T23:24:18+05:30",
+      "last_updated": "2020-09-19T23:30:14+05:30",
       "population": 959000,
       "tested": {
         "last_updated": "2020-09-16",
@@ -4937,19 +4937,20 @@
       "Wayanad": {
         "delta": {
           "confirmed": 95,
-          "recovered": 31
+          "recovered": 31,
+          "tested": 2815
         },
         "meta": {
           "population": 816558,
           "tested": {
-            "last_updated": "2020-09-17"
+            "last_updated": "2020-09-19"
           }
         },
         "total": {
           "confirmed": 2520,
           "deceased": 5,
           "recovered": 1876,
-          "tested": 70271
+          "tested": 73086
         }
       }
     },
@@ -5023,7 +5024,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-19T23:24:12+05:30",
+      "last_updated": "2020-09-19T23:30:12+05:30",
       "notes": "[Sep 08] : Testing details are not available in Ladakh bulletin from Sep 06 onwards",
       "population": 293000,
       "tested": {
@@ -5705,7 +5706,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-19T23:19:05+05:30",
+      "last_updated": "2020-09-19T23:26:10+05:30",
       "notes": "[Sep 9] : After reconciling COVID-19 cases in Mumbai, owing to the removal of duplicates and change of addresses as per the original residence, 239 cases have been removed from the progressive figures. \n[Aug 15] : MH bulletin has reduced 819 confirmed cases in Mumbai and 72 confirmed cases from 'Other States' from the tally\n[Jun 16] : 1328 deceased cases have been retroactively added to MH bulletin.\n[Jun 20] : 69 deceased cases have been reduced based on state bulletin.",
       "population": 122153000,
       "tested": {
@@ -5868,7 +5869,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-19T23:24:26+05:30",
+      "last_updated": "2020-09-19T23:30:17+05:30",
       "notes": "[June 17]: One case was identified to be false positive and has been removed from the confirmed cases by ML authorities.",
       "population": 3224000,
       "tested": {
@@ -5885,13 +5886,17 @@
   },
   "MN": {
     "delta": {
-      "confirmed": 116,
+      "confirmed": 117,
+      "deceased": 3,
+      "recovered": 94,
       "tested": 2115
     },
     "districts": {
       "Unknown": {
         "delta": {
-          "confirmed": 116,
+          "confirmed": 117,
+          "deceased": 3,
+          "recovered": 94,
           "tested": 2115
         },
         "meta": {
@@ -5901,15 +5906,15 @@
           }
         },
         "total": {
-          "confirmed": 8723,
-          "deceased": 52,
-          "recovered": 6629,
+          "confirmed": 8724,
+          "deceased": 55,
+          "recovered": 6723,
           "tested": 206986
         }
       }
     },
     "meta": {
-      "last_updated": "2020-09-18T22:54:03+05:30",
+      "last_updated": "2020-09-19T23:41:07+05:30",
       "population": 3103000,
       "tested": {
         "last_updated": "2020-09-19",
@@ -5917,9 +5922,9 @@
       }
     },
     "total": {
-      "confirmed": 8723,
-      "deceased": 52,
-      "recovered": 6629,
+      "confirmed": 8724,
+      "deceased": 55,
+      "recovered": 6723,
       "tested": 206986
     }
   },
@@ -6860,7 +6865,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-19T23:19:10+05:30",
+      "last_updated": "2020-09-19T23:26:34+05:30",
       "population": 82232000,
       "tested": {
         "last_updated": "2020-09-19",
@@ -7008,7 +7013,7 @@
   "NL": {
     "delta": {
       "confirmed": 35,
-      "recovered": 40,
+      "recovered": 42,
       "tested": 211
     },
     "districts": {
@@ -7086,6 +7091,9 @@
         }
       },
       "Mon": {
+        "delta": {
+          "recovered": 2
+        },
         "meta": {
           "population": 259604,
           "tested": {
@@ -7096,7 +7104,7 @@
           "confirmed": 333,
           "deceased": 1,
           "other": 5,
-          "recovered": 307,
+          "recovered": 309,
           "tested": 45
         }
       },
@@ -7175,7 +7183,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-19T18:08:04+05:30",
+      "last_updated": "2020-09-19T23:41:09+05:30",
       "population": 2150000,
       "tested": {
         "last_updated": "2020-09-19",
@@ -7186,7 +7194,7 @@
       "confirmed": 5392,
       "deceased": 10,
       "other": 26,
-      "recovered": 4148,
+      "recovered": 4150,
       "tested": 72807
     }
   },
@@ -8879,11 +8887,17 @@
   },
   "SK": {
     "delta": {
+      "confirmed": 39,
+      "deceased": 2,
+      "recovered": 34,
       "tested": 398
     },
     "districts": {
       "Unknown": {
         "delta": {
+          "confirmed": 39,
+          "deceased": 2,
+          "recovered": 34,
           "tested": 398
         },
         "meta": {
@@ -8893,15 +8907,15 @@
           }
         },
         "total": {
-          "confirmed": 2303,
-          "deceased": 26,
-          "recovered": 1857,
+          "confirmed": 2342,
+          "deceased": 28,
+          "recovered": 1891,
           "tested": 46690
         }
       }
     },
     "meta": {
-      "last_updated": "2020-09-18T23:18:20+05:30",
+      "last_updated": "2020-09-19T23:40:09+05:30",
       "population": 664000,
       "tested": {
         "last_updated": "2020-09-19",
@@ -8909,9 +8923,9 @@
       }
     },
     "total": {
-      "confirmed": 2303,
-      "deceased": 26,
-      "recovered": 1857,
+      "confirmed": 2342,
+      "deceased": 28,
+      "recovered": 1891,
       "tested": 46690
     }
   },
@@ -9888,13 +9902,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 87010,
-      "deceased": 1074,
+      "confirmed": 87050,
+      "deceased": 1079,
       "other": 14,
-      "recovered": 90415
+      "recovered": 90545
     },
     "meta": {
-      "last_updated": "2020-09-19T23:24:05+05:30",
+      "last_updated": "2020-09-19T23:41:03+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-09-18",
@@ -9902,10 +9916,10 @@
       }
     },
     "total": {
-      "confirmed": 5392666,
-      "deceased": 86699,
+      "confirmed": 5392706,
+      "deceased": 86704,
       "other": 757,
-      "recovered": 4295755,
+      "recovered": 4295885,
       "tested": 62454254
     }
   },
