@@ -1,5 +1,9 @@
 {
   "AN": {
+    "delta": {
+      "confirmed": 21,
+      "recovered": 15
+    },
     "districts": {
       "Nicobars": {
         "meta": {
@@ -27,15 +31,19 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "confirmed": 21,
+          "recovered": 15
+        },
         "total": {
-          "confirmed": 3639,
+          "confirmed": 3660,
           "deceased": 52,
-          "recovered": 3446
+          "recovered": 3461
         }
       }
     },
     "meta": {
-      "last_updated": "2020-09-22T23:08:12+05:30",
+      "last_updated": "2020-09-23T22:39:46+05:30",
       "population": 397000,
       "tested": {
         "last_updated": "2020-09-22",
@@ -43,9 +51,9 @@
       }
     },
     "total": {
-      "confirmed": 3691,
+      "confirmed": 3712,
       "deceased": 52,
-      "recovered": 3479,
+      "recovered": 3494,
       "tested": 52845
     }
   },
@@ -1124,7 +1132,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-23T22:24:46+05:30",
+      "last_updated": "2020-09-23T22:29:41+05:30",
       "population": 34293000,
       "tested": {
         "last_updated": "2020-09-22",
@@ -5644,8 +5652,17 @@
     }
   },
   "LA": {
+    "delta": {
+      "confirmed": 46,
+      "deceased": 1,
+      "recovered": 35
+    },
     "districts": {
       "Kargil": {
+        "delta": {
+          "confirmed": 16,
+          "recovered": 14
+        },
         "meta": {
           "population": 143000,
           "tested": {
@@ -5654,13 +5671,17 @@
           }
         },
         "total": {
-          "confirmed": 1628,
+          "confirmed": 1644,
           "deceased": 29,
-          "recovered": 1152,
+          "recovered": 1166,
           "tested": 17241
         }
       },
       "Leh": {
+        "delta": {
+          "confirmed": 30,
+          "recovered": 21
+        },
         "meta": {
           "population": 147000,
           "tested": {
@@ -5669,15 +5690,23 @@
           }
         },
         "total": {
-          "confirmed": 2259,
+          "confirmed": 2289,
           "deceased": 21,
-          "recovered": 1657,
+          "recovered": 1678,
           "tested": 31249
+        }
+      },
+      "Unknown": {
+        "delta": {
+          "deceased": 1
+        },
+        "total": {
+          "deceased": 1
         }
       }
     },
     "meta": {
-      "last_updated": "2020-09-23T00:32:10+05:30",
+      "last_updated": "2020-09-23T22:39:43+05:30",
       "notes": "[Sep 08] : Testing details are not available in Ladakh bulletin from Sep 06 onwards",
       "population": 293000,
       "tested": {
@@ -5686,9 +5715,9 @@
       }
     },
     "total": {
-      "confirmed": 3887,
-      "deceased": 50,
-      "recovered": 2809,
+      "confirmed": 3933,
+      "deceased": 51,
+      "recovered": 2844,
       "tested": 48490
     }
   },
@@ -6379,7 +6408,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-23T22:24:50+05:30",
+      "last_updated": "2020-09-23T22:29:44+05:30",
       "notes": "[June 17]: One case was identified to be false positive and has been removed from the confirmed cases by ML authorities.",
       "population": 3224000,
       "tested": {
@@ -8281,7 +8310,8 @@
     "delta": {
       "confirmed": 2123,
       "deceased": 64,
-      "recovered": 2117
+      "recovered": 2117,
+      "tested": 26687
     },
     "districts": {
       "Amritsar": {
@@ -8720,12 +8750,17 @@
     },
     "meta": {
       "last_updated": "2020-09-23T21:55:49+05:30",
-      "population": 29859000
+      "population": 29859000,
+      "tested": {
+        "last_updated": "2020-09-23",
+        "source": "https://twitter.com/ANI/status/1308776577166118912?s=20"
+      }
     },
     "total": {
       "confirmed": 103464,
       "deceased": 2990,
-      "recovered": 79244
+      "recovered": 79244,
+      "tested": 1654508
     }
   },
   "PY": {
@@ -8836,7 +8871,8 @@
     "delta": {
       "confirmed": 1946,
       "deceased": 15,
-      "recovered": 1553
+      "recovered": 1553,
+      "tested": 31698
     },
     "districts": {
       "Ajmer": {
@@ -9539,15 +9575,26 @@
     },
     "meta": {
       "last_updated": "2020-09-23T19:14:37+05:30",
-      "population": 77264000
+      "population": 77264000,
+      "tested": {
+        "last_updated": "2020-09-23",
+        "source": "https://twitter.com/DDNewsRajasthan/status/1308757649366818816?s=20"
+      }
     },
     "total": {
       "confirmed": 120739,
       "deceased": 1382,
-      "recovered": 100365
+      "recovered": 100365,
+      "tested": 2935751
     }
   },
   "SK": {
+    "delta": {
+      "confirmed": 35,
+      "deceased": 1,
+      "recovered": 14,
+      "tested": 363
+    },
     "districts": {
       "East Sikkim": {
         "meta": {
@@ -9578,10 +9625,15 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "confirmed": 35,
+          "deceased": 1,
+          "recovered": 14
+        },
         "total": {
-          "confirmed": 504,
-          "deceased": 26,
-          "recovered": 733
+          "confirmed": 539,
+          "deceased": 27,
+          "recovered": 747
         }
       },
       "West Sikkim": {
@@ -9595,20 +9647,25 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-22T22:29:26+05:30",
-      "population": 664000
+      "last_updated": "2020-09-23T22:39:51+05:30",
+      "population": 664000,
+      "tested": {
+        "last_updated": "2020-09-23"
+      }
     },
     "total": {
-      "confirmed": 2513,
-      "deceased": 29,
-      "recovered": 1928
+      "confirmed": 2548,
+      "deceased": 30,
+      "recovered": 1942,
+      "tested": 47893
     }
   },
   "TG": {
     "delta": {
       "confirmed": 2296,
       "deceased": 10,
-      "recovered": 2062
+      "recovered": 2062,
+      "tested": 55892
     },
     "districts": {
       "Adilabad": {
@@ -10071,19 +10128,25 @@
     "meta": {
       "last_updated": "2020-09-23T11:19:38+05:30",
       "notes": "[July 27] : Telangana bulletin for the previous day is released on the next day. We will add the cases for Telangana against the date of release, as that is the convention that we are following for other states.\n--\nDistrict-wise numbers are not reported because cumulative counts for each district are not provided in Telangana bulletin",
-      "population": 37220000
+      "population": 37220000,
+      "tested": {
+        "last_updated": "2020-09-23",
+        "source": "https://twitter.com/Eatala_Rajender/status/1308615930499399680?s=20"
+      }
     },
     "total": {
       "confirmed": 177070,
       "deceased": 1062,
-      "recovered": 146135
+      "recovered": 146135,
+      "tested": 2628897
     }
   },
   "TN": {
     "delta": {
       "confirmed": 5325,
       "deceased": 63,
-      "recovered": 5363
+      "recovered": 5363,
+      "tested": 84979
     },
     "districts": {
       "Airport Quarantine": {
@@ -10841,19 +10904,25 @@
     "meta": {
       "last_updated": "2020-09-23T21:55:43+05:30",
       "notes": "[July 22]: 444 backdated deceased entries added to Chennai in TN bulletin.\n2 deaths cross notified to other states from Chennai and Coimbatore.\n1 patient died after turning negative for infection in Chengalpattu.\nThese cases have been added to TN deceased tally",
-      "population": 75695000
+      "population": 75695000,
+      "tested": {
+        "last_updated": "2020-09-23",
+        "source": "https://twitter.com/ANI/status/1308799639273893893?s=20"
+      }
     },
     "total": {
       "confirmed": 557999,
       "deceased": 9010,
-      "recovered": 502740
+      "recovered": 502740,
+      "tested": 6725037
     }
   },
   "TR": {
     "delta": {
       "confirmed": 504,
       "deceased": 2,
-      "recovered": 603
+      "recovered": 603,
+      "tested": 4357
     },
     "districts": {
       "Dhalai": {
@@ -11027,24 +11096,29 @@
     "meta": {
       "last_updated": "2020-09-23T11:19:40+05:30",
       "notes": "[Aug 4]: Tripura bulletin for the previous day is released on the next day. We will add the cases for Tripura against the date of release, as that is the convention that we are following for other states.",
-      "population": 3992000
+      "population": 3992000,
+      "tested": {
+        "last_updated": "2020-09-23",
+        "source": "https://t.me/Covid19india_Auxiliary_Test_Data/2538"
+      }
     },
     "total": {
       "confirmed": 23335,
       "deceased": 250,
       "migrated": 23,
-      "recovered": 16463
+      "recovered": 16463,
+      "tested": 366835
     }
   },
   "TT": {
     "delta": {
-      "confirmed": 60436,
-      "deceased": 589,
+      "confirmed": 60538,
+      "deceased": 591,
       "migrated": 2,
-      "recovered": 60865
+      "recovered": 60929
     },
     "meta": {
-      "last_updated": "2020-09-23T22:24:40+05:30",
+      "last_updated": "2020-09-23T22:39:39+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-09-22",
@@ -11052,10 +11126,10 @@
       }
     },
     "total": {
-      "confirmed": 5703917,
-      "deceased": 90639,
+      "confirmed": 5704019,
+      "deceased": 90641,
       "migrated": 811,
-      "recovered": 4645257,
+      "recovered": 4645321,
       "tested": 66279462
     }
   },
@@ -11069,7 +11143,8 @@
     "delta": {
       "confirmed": 5143,
       "deceased": 87,
-      "recovered": 6506
+      "recovered": 6506,
+      "tested": 165698
     },
     "districts": {
       "Agra": {
@@ -12540,19 +12615,25 @@
     },
     "meta": {
       "last_updated": "2020-09-23T17:37:39+05:30",
-      "population": 224979000
+      "population": 224979000,
+      "tested": {
+        "last_updated": "2020-09-23",
+        "source": "https://twitter.com/ShishirGoUP/status/1308717019437518848?s=20"
+      }
     },
     "total": {
       "confirmed": 369686,
       "deceased": 5299,
-      "recovered": 302689
+      "recovered": 302689,
+      "tested": 8992424
     }
   },
   "UT": {
     "delta": {
       "confirmed": 1069,
       "deceased": 17,
-      "recovered": 1016
+      "recovered": 1016,
+      "tested": 8259
     },
     "districts": {
       "Almora": {
@@ -12821,20 +12902,26 @@
     },
     "meta": {
       "last_updated": "2020-09-23T19:55:43+05:30",
-      "population": 11141000
+      "population": 11141000,
+      "tested": {
+        "last_updated": "2020-09-23",
+        "source": "https://twitter.com/DDnews_dehradun/status/1308769211053826048?s=20"
+      }
     },
     "total": {
       "confirmed": 43720,
       "deceased": 529,
       "migrated": 201,
-      "recovered": 31123
+      "recovered": 31123,
+      "tested": 638707
     }
   },
   "WB": {
     "delta": {
       "confirmed": 3189,
       "deceased": 61,
-      "recovered": 2998
+      "recovered": 2998,
+      "tested": 45229
     },
     "districts": {
       "Alipurduar": {
@@ -13186,12 +13273,17 @@
     },
     "meta": {
       "last_updated": "2020-09-23T20:38:39+05:30",
-      "population": 96906000
+      "population": 96906000,
+      "tested": {
+        "last_updated": "2020-09-23",
+        "source": "https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_23rd_SEPTEMBER_REPORT_FINAL.pdf"
+      }
     },
     "total": {
       "confirmed": 234673,
       "deceased": 4544,
-      "recovered": 205028
+      "recovered": 205028,
+      "tested": 2924507
     }
   }
 }
