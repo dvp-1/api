@@ -1851,7 +1851,7 @@
     },
     "meta": {
       "last_updated": "2020-09-28T00:57:47+05:30",
-      "notes": "[Sep 9]:57 Deceased Cases are added from Backlog",
+      "notes": "[Sep 9]:57 backdated deceased cases have been added.",
       "population": 28724000,
       "tested": {
         "last_updated": "2020-09-27",
@@ -3284,9 +3284,9 @@
   },
   "JH": {
     "delta": {
-      "confirmed": 1421,
-      "deceased": 8,
-      "recovered": 1743,
+      "confirmed": 1508,
+      "deceased": 9,
+      "recovered": 1806,
       "tested": 93455
     },
     "districts": {
@@ -3655,18 +3655,23 @@
         }
       },
       "West Singhbhum": {
+        "delta": {
+          "confirmed": 87,
+          "deceased": 1,
+          "recovered": 63
+        },
         "meta": {
           "population": 1501619
         },
         "total": {
-          "confirmed": 3430,
-          "deceased": 31,
-          "recovered": 3056
+          "confirmed": 3517,
+          "deceased": 32,
+          "recovered": 3119
         }
       }
     },
     "meta": {
-      "last_updated": "2020-09-28T22:00:50+05:30",
+      "last_updated": "2020-09-28T22:14:42+05:30",
       "population": 37403000,
       "tested": {
         "last_updated": "2020-09-28",
@@ -3674,9 +3679,9 @@
       }
     },
     "total": {
-      "confirmed": 81330,
-      "deceased": 687,
-      "recovered": 68540,
+      "confirmed": 81417,
+      "deceased": 688,
+      "recovered": 68603,
       "tested": 2153151
     }
   },
@@ -4580,7 +4585,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-09-28T22:00:48+05:30",
+      "last_updated": "2020-09-28T22:05:43+05:30",
       "population": 65798000,
       "tested": {
         "last_updated": "2020-09-28",
@@ -8424,11 +8429,17 @@
   },
   "SK": {
     "delta": {
+      "confirmed": 25,
+      "deceased": 2,
+      "recovered": 18,
       "tested": 157
     },
     "districts": {
       "Unknown": {
         "delta": {
+          "confirmed": 25,
+          "deceased": 2,
+          "recovered": 18,
           "tested": 157
         },
         "meta": {
@@ -8437,24 +8448,24 @@
           }
         },
         "total": {
-          "confirmed": 2790,
-          "deceased": 33,
-          "recovered": 2065,
+          "confirmed": 2815,
+          "deceased": 35,
+          "recovered": 2083,
           "tested": 49495
         }
       }
     },
     "meta": {
-      "last_updated": "2020-09-27T21:38:58+05:30",
+      "last_updated": "2020-09-28T22:14:45+05:30",
       "population": 664000,
       "tested": {
         "last_updated": "2020-09-28"
       }
     },
     "total": {
-      "confirmed": 2790,
-      "deceased": 33,
-      "recovered": 2065,
+      "confirmed": 2815,
+      "deceased": 35,
+      "recovered": 2083,
       "tested": 49495
     }
   },
@@ -9425,13 +9436,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 57650,
-      "deceased": 632,
+      "confirmed": 57762,
+      "deceased": 635,
       "other": 4,
-      "recovered": 70592
+      "recovered": 70673
     },
     "meta": {
-      "last_updated": "2020-09-28T22:00:39+05:30",
+      "last_updated": "2020-09-28T22:14:40+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-09-27",
@@ -9439,10 +9450,10 @@
       }
     },
     "total": {
-      "confirmed": 6131001,
-      "deceased": 96208,
+      "confirmed": 6131113,
+      "deceased": 96211,
       "other": 859,
-      "recovered": 5083971,
+      "recovered": 5084052,
       "tested": 71967230
     }
   },
