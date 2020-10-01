@@ -50,6 +50,9 @@
     }
   },
   "AP": {
+    "delta": {
+      "tested": 71577
+    },
     "districts": {
       "Anantapur": {
         "meta": {
@@ -263,15 +266,15 @@
       "last_updated": "2020-09-30T20:39:43+05:30",
       "population": 52221000,
       "tested": {
-        "last_updated": "2020-09-30",
-        "source": "https://twitter.com/ArogyaAndhra/status/1311281095103533056?s=20"
+        "last_updated": "2020-10-01",
+        "source": "https://twitter.com/ArogyaAndhra/status/1311637217702420480?s=20"
       }
     },
     "total": {
       "confirmed": 693484,
       "deceased": 5828,
       "recovered": 629211,
-      "tested": 5806558
+      "tested": 5878135
     }
   },
   "AR": {
@@ -2212,7 +2215,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-10-01T18:55:44+05:30",
+      "last_updated": "2020-10-01T19:07:52+05:30",
       "notes": "[July 14]: Value for the total tests conducted has been reduced by 97008 in the state bulletin. Reason given : \"Reconciled with ICMR figures\". We have made the same change.\n[June 16]: 344 deceased cases have been retroactively added to DL bulletin.",
       "population": 19814000,
       "tested": {
@@ -2229,11 +2232,15 @@
   },
   "DN": {
     "delta": {
-      "confirmed": 6,
-      "recovered": 4
+      "confirmed": 14,
+      "recovered": 10
     },
     "districts": {
       "Dadra and Nagar Haveli": {
+        "delta": {
+          "confirmed": 8,
+          "recovered": 6
+        },
         "meta": {
           "population": 343709,
           "tested": {
@@ -2242,10 +2249,10 @@
           }
         },
         "total": {
-          "confirmed": 1469,
+          "confirmed": 1477,
           "deceased": 1,
           "migrated": 5,
-          "recovered": 1421,
+          "recovered": 1427,
           "tested": 39979
         }
       },
@@ -2286,7 +2293,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-10-01T15:39:51+05:30",
+      "last_updated": "2020-10-01T19:06:54+05:30",
       "population": 959000,
       "tested": {
         "last_updated": "2020-09-27",
@@ -2294,10 +2301,10 @@
       }
     },
     "total": {
-      "confirmed": 3049,
+      "confirmed": 3057,
       "deceased": 2,
       "migrated": 32,
-      "recovered": 2902,
+      "recovered": 2908,
       "tested": 64691
     }
   },
@@ -3743,7 +3750,8 @@
     "delta": {
       "confirmed": 1093,
       "deceased": 17,
-      "recovered": 1680
+      "recovered": 1680,
+      "tested": 20947
     },
     "districts": {
       "Anantnag": {
@@ -4038,15 +4046,15 @@
       "last_updated": "2020-10-01T18:46:47+05:30",
       "population": 13203000,
       "tested": {
-        "last_updated": "2020-09-30",
-        "source": "https://twitter.com/diprjk/status/1311289523997831168?s=20"
+        "last_updated": "2020-10-01",
+        "source": "https://twitter.com/ANI/status/1311656569172447233?s=20"
       }
     },
     "total": {
       "confirmed": 76163,
       "deceased": 1198,
       "recovered": 58552,
-      "tested": 1622775
+      "tested": 1643722
     }
   },
   "KA": {
@@ -6511,8 +6519,16 @@
     }
   },
   "NL": {
+    "delta": {
+      "confirmed": 81,
+      "migrated": 4,
+      "tested": 713
+    },
     "districts": {
       "Dimapur": {
+        "delta": {
+          "confirmed": 57
+        },
         "meta": {
           "population": 379769,
           "tested": {
@@ -6521,7 +6537,7 @@
           }
         },
         "total": {
-          "confirmed": 3127,
+          "confirmed": 3184,
           "deceased": 9,
           "migrated": 35,
           "recovered": 2370,
@@ -6543,6 +6559,9 @@
         }
       },
       "Kohima": {
+        "delta": {
+          "confirmed": 20
+        },
         "meta": {
           "population": 270063,
           "tested": {
@@ -6551,7 +6570,7 @@
           }
         },
         "total": {
-          "confirmed": 1875,
+          "confirmed": 1895,
           "deceased": 1,
           "migrated": 6,
           "recovered": 1611,
@@ -6559,6 +6578,10 @@
         }
       },
       "Longleng": {
+        "delta": {
+          "confirmed": 1,
+          "migrated": 1
+        },
         "meta": {
           "population": 50593,
           "tested": {
@@ -6567,13 +6590,16 @@
           }
         },
         "total": {
-          "confirmed": 11,
-          "migrated": 4,
+          "confirmed": 12,
+          "migrated": 5,
           "recovered": 6,
           "tested": 771
         }
       },
       "Mokokchung": {
+        "delta": {
+          "confirmed": 2
+        },
         "meta": {
           "population": 193171,
           "tested": {
@@ -6582,12 +6608,15 @@
           }
         },
         "total": {
-          "confirmed": 46,
+          "confirmed": 48,
           "recovered": 37,
           "tested": 2693
         }
       },
       "Mon": {
+        "delta": {
+          "confirmed": 1
+        },
         "meta": {
           "population": 259604,
           "tested": {
@@ -6596,7 +6625,7 @@
           }
         },
         "total": {
-          "confirmed": 409,
+          "confirmed": 410,
           "deceased": 2,
           "migrated": 6,
           "recovered": 324,
@@ -6666,6 +6695,9 @@
         }
       },
       "Zunheboto": {
+        "delta": {
+          "migrated": 3
+        },
         "meta": {
           "population": 141014,
           "tested": {
@@ -6675,6 +6707,7 @@
         },
         "total": {
           "confirmed": 125,
+          "migrated": 3,
           "recovered": 119,
           "tested": 1678
         }
@@ -6684,16 +6717,16 @@
       "last_updated": "2020-09-30T22:05:46+05:30",
       "population": 2150000,
       "tested": {
-        "last_updated": "2020-09-30",
-        "source": "https://twitter.com/MyGovNagaland/status/1311296071314808832?s=20"
+        "last_updated": "2020-10-01",
+        "source": "https://twitter.com/MyGovNagaland/status/1311657117116375040?s=20"
       }
     },
     "total": {
-      "confirmed": 6163,
+      "confirmed": 6244,
       "deceased": 12,
-      "migrated": 51,
+      "migrated": 55,
       "recovered": 5025,
-      "tested": 79713
+      "tested": 80426
     }
   },
   "OR": {
@@ -7702,6 +7735,9 @@
     }
   },
   "RJ": {
+    "delta": {
+      "tested": 24775
+    },
     "districts": {
       "Ajmer": {
         "meta": {
@@ -8228,15 +8264,14 @@
       "last_updated": "2020-09-30T21:09:51+05:30",
       "population": 77264000,
       "tested": {
-        "last_updated": "2020-09-30",
-        "source": "https://twitter.com/ANI/status/1311296975938097155?s=20"
+        "last_updated": "2020-10-01"
       }
     },
     "total": {
       "confirmed": 135292,
       "deceased": 1486,
       "recovered": 113225,
-      "tested": 3118797
+      "tested": 3143572
     }
   },
   "SK": {
@@ -8786,7 +8821,8 @@
     "delta": {
       "confirmed": 5688,
       "deceased": 66,
-      "recovered": 5516
+      "recovered": 5516,
+      "tested": 87647
     },
     "districts": {
       "Airport Quarantine": {
@@ -9540,15 +9576,15 @@
       "notes": "[July 22]: 444 backdated deceased entries added to Chennai in TN bulletin.\n2 deaths cross notified to other states from Chennai and Coimbatore.\n1 patient died after turning negative for infection in Chengalpattu.\nThese cases have been added to TN deceased tally",
       "population": 75695000,
       "tested": {
-        "last_updated": "2020-09-30",
-        "source": "https://twitter.com/ANI/status/1311286859784314886?s=20"
+        "last_updated": "2020-10-01",
+        "source": "https://stopcorona.tn.gov.in/wp-content/uploads/2020/10/Media-Bulletin-01.10.2020-23-Pages-English-464-KB.pdf%22"
       }
     },
     "total": {
       "confirmed": 603290,
       "deceased": 9586,
       "recovered": 547335,
-      "tested": 7354050
+      "tested": 7441697
     }
   },
   "TR": {
@@ -9747,12 +9783,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 16017,
+      "confirmed": 16106,
       "deceased": 154,
-      "recovered": 13364
+      "migrated": 4,
+      "recovered": 13370
     },
     "meta": {
-      "last_updated": "2020-10-01T18:55:42+05:30",
+      "last_updated": "2020-10-01T19:07:50+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-09-30",
@@ -9760,10 +9797,10 @@
       }
     },
     "total": {
-      "confirmed": 6326284,
+      "confirmed": 6326373,
       "deceased": 98862,
-      "migrated": 908,
-      "recovered": 5283371,
+      "migrated": 912,
+      "recovered": 5283377,
       "tested": 75619781
     }
   },
@@ -10908,7 +10945,8 @@
       "last_updated": "2020-09-30T17:13:41+05:30",
       "population": 224979000,
       "tested": {
-        "last_updated": "2020-10-01"
+        "last_updated": "2020-10-01",
+        "source": "https://twitter.com/ShishirGoUP/status/1311613774974070789?s=20"
       }
     },
     "total": {
