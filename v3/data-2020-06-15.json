@@ -4664,7 +4664,8 @@
     "delta": {
       "confirmed": 82,
       "deceased": 1,
-      "recovered": 73,
+      "migrated": -2,
+      "recovered": 76,
       "tested": 2522
     },
     "districts": {
@@ -4845,6 +4846,16 @@
           "recovered": 73
         }
       },
+      "Unknown": {
+        "delta": {
+          "migrated": -2,
+          "recovered": 3
+        },
+        "total": {
+          "migrated": -3,
+          "recovered": 4
+        }
+      },
       "Wayanad": {
         "delta": {
           "confirmed": 1
@@ -4869,8 +4880,8 @@
     "total": {
       "confirmed": 2544,
       "deceased": 21,
-      "migrated": 1,
-      "recovered": 1174,
+      "migrated": -2,
+      "recovered": 1178,
       "tested": 151686
     }
   },
@@ -9607,8 +9618,8 @@
     "delta": {
       "confirmed": 10032,
       "deceased": 396,
-      "migrated": 3,
-      "recovered": 10639,
+      "migrated": 1,
+      "recovered": 10642,
       "tested": 146936
     },
     "meta": {
@@ -9621,8 +9632,8 @@
     "total": {
       "confirmed": 343070,
       "deceased": 9917,
-      "migrated": 44,
-      "recovered": 180323,
+      "migrated": 41,
+      "recovered": 180327,
       "tested": 5921069
     }
   },
