@@ -693,7 +693,7 @@
         "meta": {
           "population": 2954367,
           "tested": {
-            "last_updated": "2020-10-03"
+            "last_updated": "2020-09-26"
           }
         },
         "total": {
@@ -763,14 +763,14 @@
         "meta": {
           "population": 5082868,
           "tested": {
-            "last_updated": "2020-10-03"
+            "last_updated": "2020-08-31"
           }
         },
         "total": {
           "confirmed": 6701,
           "deceased": 36,
           "recovered": 6225,
-          "tested": 347492
+          "tested": 148944
         }
       },
       "Gaya": {
@@ -1550,14 +1550,14 @@
         "meta": {
           "population": 1537520,
           "tested": {
-            "last_updated": "2020-10-02"
+            "last_updated": "2020-10-03"
           }
         },
         "total": {
           "confirmed": 8129,
           "deceased": 41,
           "recovered": 6696,
-          "tested": 71311
+          "tested": 72443
         }
       },
       "Sukma": {
@@ -5373,6 +5373,9 @@
     }
   },
   "MZ": {
+    "delta": {
+      "confirmed": 17
+    },
     "districts": {
       "Aizawl": {
         "meta": {
@@ -5384,11 +5387,14 @@
         }
       },
       "Champhai": {
+        "delta": {
+          "confirmed": 2
+        },
         "meta": {
           "population": 125370
         },
         "total": {
-          "confirmed": 21,
+          "confirmed": 23,
           "recovered": 17
         }
       },
@@ -5414,29 +5420,38 @@
         }
       },
       "Lawngtlai": {
+        "delta": {
+          "confirmed": 1
+        },
         "meta": {
           "population": 117444
         },
         "total": {
-          "confirmed": 77,
+          "confirmed": 78,
           "recovered": 39
         }
       },
       "Lunglei": {
+        "delta": {
+          "confirmed": 13
+        },
         "meta": {
           "population": 154094
         },
         "total": {
-          "confirmed": 241,
+          "confirmed": 254,
           "recovered": 178
         }
       },
       "Mamit": {
+        "delta": {
+          "confirmed": 1
+        },
         "meta": {
           "population": 85757
         },
         "total": {
-          "confirmed": 46,
+          "confirmed": 47,
           "recovered": 34
         }
       },
@@ -5466,7 +5481,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-10-03T17:49:02+05:30",
+      "last_updated": "2020-10-04T12:40:54+05:30",
       "population": 1192000,
       "tested": {
         "last_updated": "2020-10-03",
@@ -5474,7 +5489,7 @@
       }
     },
     "total": {
-      "confirmed": 2103,
+      "confirmed": 2120,
       "recovered": 1772,
       "tested": 81967
     }
@@ -7020,11 +7035,17 @@
   },
   "TG": {
     "delta": {
+      "confirmed": 1949,
+      "deceased": 10,
+      "recovered": 2366,
       "tested": 51623
     },
     "districts": {
       "Unknown": {
         "delta": {
+          "confirmed": 1949,
+          "deceased": 10,
+          "recovered": 2366,
           "tested": 51623
         },
         "meta": {
@@ -7034,15 +7055,15 @@
           }
         },
         "total": {
-          "confirmed": 197327,
-          "deceased": 1153,
-          "recovered": 167846,
+          "confirmed": 199276,
+          "deceased": 1163,
+          "recovered": 170212,
           "tested": 3205249
         }
       }
     },
     "meta": {
-      "last_updated": "2020-10-03T12:49:51+05:30",
+      "last_updated": "2020-10-04T12:40:51+05:30",
       "notes": "[July 27] : Telangana bulletin for the previous day is released on the next day. We will add the cases for Telangana against the date of release, as that is the convention that we are following for other states.\n--\nDistrict-wise numbers are not reported because cumulative counts for each district are not provided in Telangana bulletin",
       "population": 37220000,
       "tested": {
@@ -7051,9 +7072,9 @@
       }
     },
     "total": {
-      "confirmed": 197327,
-      "deceased": 1153,
-      "recovered": 167846,
+      "confirmed": 199276,
+      "deceased": 1163,
+      "recovered": 170212,
       "tested": 3205249
     }
   },
@@ -7802,12 +7823,12 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 322,
-      "deceased": 4,
-      "recovered": 513
+      "confirmed": 2288,
+      "deceased": 14,
+      "recovered": 2879
     },
     "meta": {
-      "last_updated": "2020-10-04T09:27:50+05:30",
+      "last_updated": "2020-10-04T12:40:48+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-10-03",
@@ -7815,10 +7836,10 @@
       }
     },
     "total": {
-      "confirmed": 6547735,
-      "deceased": 101816,
+      "confirmed": 6549701,
+      "deceased": 101826,
       "other": 927,
-      "recovered": 5507245,
+      "recovered": 5509611,
       "tested": 78992534
     }
   },
