@@ -681,6 +681,7 @@
     "delta": {
       "confirmed": 1518,
       "deceased": 11,
+      "recovered": 1364,
       "tested": 35670
     },
     "districts": {
@@ -688,6 +689,7 @@
         "delta": {
           "confirmed": 1518,
           "deceased": 11,
+          "recovered": 1364,
           "tested": 35670
         },
         "meta": {
@@ -700,13 +702,13 @@
           "confirmed": 187718,
           "deceased": 760,
           "other": 3,
-          "recovered": 152124,
+          "recovered": 153488,
           "tested": 3673960
         }
       }
     },
     "meta": {
-      "last_updated": "2020-10-05T23:13:03+05:30",
+      "last_updated": "2020-10-06T00:55:02+05:30",
       "population": 34293000,
       "tested": {
         "last_updated": "2020-10-05",
@@ -717,7 +719,7 @@
       "confirmed": 187718,
       "deceased": 760,
       "other": 3,
-      "recovered": 152124,
+      "recovered": 153488,
       "tested": 3673960
     }
   },
@@ -5088,8 +5090,16 @@
     }
   },
   "LA": {
+    "delta": {
+      "confirmed": 120,
+      "recovered": 60
+    },
     "districts": {
       "Kargil": {
+        "delta": {
+          "confirmed": 2,
+          "recovered": 24
+        },
         "meta": {
           "population": 143000,
           "tested": {
@@ -5097,13 +5107,17 @@
           }
         },
         "total": {
-          "confirmed": 1712,
+          "confirmed": 1714,
           "deceased": 35,
-          "recovered": 1344,
+          "recovered": 1368,
           "tested": 19698
         }
       },
       "Leh": {
+        "delta": {
+          "confirmed": 118,
+          "recovered": 36
+        },
         "meta": {
           "population": 147000,
           "tested": {
@@ -5111,15 +5125,15 @@
           }
         },
         "total": {
-          "confirmed": 2809,
+          "confirmed": 2927,
           "deceased": 26,
-          "recovered": 2010,
+          "recovered": 2046,
           "tested": 36579
         }
       }
     },
     "meta": {
-      "last_updated": "2020-10-05T01:47:01+05:30",
+      "last_updated": "2020-10-06T00:55:06+05:30",
       "notes": "[Sep 08] : Testing details are not available in Ladakh bulletin from Sep 06 onwards",
       "population": 293000,
       "tested": {
@@ -5128,9 +5142,9 @@
       }
     },
     "total": {
-      "confirmed": 4521,
+      "confirmed": 4641,
       "deceased": 61,
-      "recovered": 3354,
+      "recovered": 3414,
       "tested": 56277
     }
   },
@@ -5601,13 +5615,14 @@
         "delta": {
           "confirmed": 1215,
           "deceased": 30,
-          "recovered": 266
+          "recovered": 266,
+          "tested": 17265
         },
         "meta": {
           "notes": "Number of active cases differs in the state bulletin and district bulletin. We follow the state bulletin.",
           "population": 9426959,
           "tested": {
-            "last_updated": "2020-10-03"
+            "last_updated": "2020-10-05"
           }
         },
         "total": {
@@ -5615,7 +5630,7 @@
           "deceased": 6002,
           "other": 1,
           "recovered": 239066,
-          "tested": 1206443
+          "tested": 1223708
         }
       },
       "Raigad": {
@@ -5673,12 +5688,13 @@
         "delta": {
           "confirmed": 486,
           "deceased": 15,
-          "recovered": 541
+          "recovered": 541,
+          "tested": 1348
         },
         "meta": {
           "population": 3003922,
           "tested": {
-            "last_updated": "2020-10-04"
+            "last_updated": "2020-10-05"
           }
         },
         "total": {
@@ -5686,7 +5702,7 @@
           "deceased": 1123,
           "other": 2,
           "recovered": 30748,
-          "tested": 136899
+          "tested": 138247
         }
       },
       "Sindhudurg": {
@@ -5782,19 +5798,20 @@
         "delta": {
           "confirmed": 55,
           "deceased": 12,
-          "recovered": 180
+          "recovered": 180,
+          "tested": 2522
         },
         "meta": {
           "population": 2775457,
           "tested": {
-            "last_updated": "2020-09-28"
+            "last_updated": "2020-10-05"
           }
         },
         "total": {
           "confirmed": 9314,
           "deceased": 248,
           "recovered": 7313,
-          "tested": 73719
+          "tested": 76241
         }
       }
     },
@@ -10077,13 +10094,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 59773,
+      "confirmed": 59893,
       "deceased": 885,
       "other": 3,
-      "recovered": 74233
+      "recovered": 75657
     },
     "meta": {
-      "last_updated": "2020-10-05T23:19:52+05:30",
+      "last_updated": "2020-10-06T00:54:59+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-10-04",
@@ -10091,10 +10108,10 @@
       }
     },
     "total": {
-      "confirmed": 6681953,
+      "confirmed": 6682073,
       "deceased": 103600,
       "other": 934,
-      "recovered": 5657686,
+      "recovered": 5659110,
       "tested": 79982394
     }
   },
