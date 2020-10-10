@@ -3533,7 +3533,7 @@
     "delta": {
       "confirmed": 697,
       "deceased": 3,
-      "recovered": 1153,
+      "recovered": 1151,
       "tested": 38934
     },
     "districts": {
@@ -3702,7 +3702,7 @@
       "Hazaribagh": {
         "delta": {
           "confirmed": 14,
-          "recovered": 77
+          "recovered": 75
         },
         "meta": {
           "population": 1734005
@@ -3710,7 +3710,7 @@
         "total": {
           "confirmed": 3770,
           "deceased": 25,
-          "recovered": 3430
+          "recovered": 3428
         }
       },
       "Jamtara": {
@@ -3918,7 +3918,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-10-11T00:01:20+05:30",
+      "last_updated": "2020-10-11T00:10:20+05:30",
       "population": 37403000,
       "tested": {
         "last_updated": "2020-10-10",
@@ -3928,7 +3928,7 @@
     "total": {
       "confirmed": 91951,
       "deceased": 784,
-      "recovered": 82807,
+      "recovered": 82805,
       "tested": 2615470
     }
   },
@@ -5128,8 +5128,17 @@
     }
   },
   "LA": {
+    "delta": {
+      "confirmed": 72,
+      "deceased": 1,
+      "recovered": 87
+    },
     "districts": {
       "Kargil": {
+        "delta": {
+          "confirmed": 5,
+          "deceased": 1
+        },
         "meta": {
           "population": 143000,
           "tested": {
@@ -5137,13 +5146,16 @@
           }
         },
         "total": {
-          "confirmed": 1754,
-          "deceased": 37,
+          "confirmed": 1759,
+          "deceased": 38,
           "recovered": 1451,
           "tested": 20909
         }
       },
       "Leh": {
+        "delta": {
+          "confirmed": 67
+        },
         "meta": {
           "population": 147000,
           "tested": {
@@ -5151,15 +5163,23 @@
           }
         },
         "total": {
-          "confirmed": 3233,
+          "confirmed": 3300,
           "deceased": 26,
           "recovered": 2435,
           "tested": 39781
         }
+      },
+      "Unknown": {
+        "delta": {
+          "recovered": 87
+        },
+        "total": {
+          "recovered": 87
+        }
       }
     },
     "meta": {
-      "last_updated": "2020-10-10T09:19:19+05:30",
+      "last_updated": "2020-10-11T00:10:23+05:30",
       "notes": "[Sep 08] : Testing details are not available in Ladakh bulletin from Sep 06 onwards",
       "population": 293000,
       "tested": {
@@ -5168,9 +5188,9 @@
       }
     },
     "total": {
-      "confirmed": 4987,
-      "deceased": 63,
-      "recovered": 3886,
+      "confirmed": 5059,
+      "deceased": 64,
+      "recovered": 3973,
       "tested": 60690
     }
   },
@@ -9889,13 +9909,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 60601,
-      "deceased": 597,
+      "confirmed": 60673,
+      "deceased": 598,
       "other": 7,
-      "recovered": 60187
+      "recovered": 60272
     },
     "meta": {
-      "last_updated": "2020-10-11T00:01:18+05:30",
+      "last_updated": "2020-10-11T00:10:18+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-10-09",
@@ -9903,10 +9923,10 @@
       }
     },
     "total": {
-      "confirmed": 7037694,
-      "deceased": 108047,
+      "confirmed": 7037766,
+      "deceased": 108048,
       "other": 1063,
-      "recovered": 6046028,
+      "recovered": 6046113,
       "tested": 85798698
     }
   },
