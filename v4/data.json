@@ -706,7 +706,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-10-12T21:43:28+05:30",
+      "last_updated": "2020-10-12T22:00:21+05:30",
       "population": 34293000,
       "tested": {
         "last_updated": "2020-10-11",
@@ -2016,7 +2016,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-10-12T21:43:31+05:30",
+      "last_updated": "2020-10-12T22:00:22+05:30",
       "notes": "[Sep 9]:57 backdated deceased cases have been added.",
       "population": 28724000,
       "tested": {
@@ -2076,8 +2076,15 @@
     }
   },
   "DN": {
+    "delta": {
+      "confirmed": 4,
+      "recovered": 5
+    },
     "districts": {
       "Dadra and Nagar Haveli": {
+        "delta": {
+          "recovered": 1
+        },
         "meta": {
           "population": 343709,
           "tested": {
@@ -2088,11 +2095,15 @@
           "confirmed": 1542,
           "deceased": 1,
           "other": 5,
-          "recovered": 1473,
+          "recovered": 1474,
           "tested": 42435
         }
       },
       "Daman": {
+        "delta": {
+          "confirmed": 4,
+          "recovered": 4
+        },
         "meta": {
           "population": 191173,
           "tested": {
@@ -2100,10 +2111,10 @@
           }
         },
         "total": {
-          "confirmed": 1312,
+          "confirmed": 1316,
           "deceased": 1,
           "other": 20,
-          "recovered": 1252,
+          "recovered": 1256,
           "tested": 18495
         }
       },
@@ -2122,7 +2133,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-10-12T12:02:17+05:30",
+      "last_updated": "2020-10-12T22:06:22+05:30",
       "population": 959000,
       "tested": {
         "last_updated": "2020-10-09",
@@ -2130,10 +2141,10 @@
       }
     },
     "total": {
-      "confirmed": 3163,
+      "confirmed": 3167,
       "deceased": 2,
       "other": 25,
-      "recovered": 3031,
+      "recovered": 3036,
       "tested": 69192
     }
   },
@@ -3040,7 +3051,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-10-12T21:43:36+05:30",
+      "last_updated": "2020-10-12T22:00:23+05:30",
       "population": 7300000,
       "tested": {
         "last_updated": "2020-10-12",
@@ -5681,7 +5692,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-10-12T21:44:20+05:30",
+      "last_updated": "2020-10-12T22:00:20+05:30",
       "notes": "[Sep 9] :239 cases have been removed from the hospitalized figures owing to the removal of duplicates and change of addresses as per the original residence,\n[Aug 15] : MH bulletin has reduced 819 confirmed cases in Mumbai and 72 confirmed cases from 'Other States' from the tally\n[Jun 16] : 1328 deceased cases have been retroactively added to MH bulletin.\n[Jun 20] : 69 deceased cases have been reduced based on state bulletin.",
       "population": 122153000,
       "tested": {
@@ -5698,53 +5709,76 @@
     }
   },
   "ML": {
+    "delta": {
+      "confirmed": 88,
+      "deceased": 1,
+      "recovered": 131
+    },
     "districts": {
       "East Garo Hills": {
+        "delta": {
+          "confirmed": -1
+        },
         "meta": {
           "population": 317618
         },
         "total": {
-          "confirmed": 138,
+          "confirmed": 137,
           "deceased": 1,
           "recovered": 116
         }
       },
       "East Jaintia Hills": {
+        "delta": {
+          "confirmed": 2,
+          "recovered": 5
+        },
         "meta": {
           "population": 122436
         },
         "total": {
-          "confirmed": 382,
-          "recovered": 357
+          "confirmed": 384,
+          "recovered": 362
         }
       },
       "East Khasi Hills": {
+        "delta": {
+          "confirmed": 50,
+          "deceased": 1,
+          "recovered": 86
+        },
         "meta": {
           "population": 824059
         },
         "total": {
-          "confirmed": 5053,
-          "deceased": 56,
-          "recovered": 3261
+          "confirmed": 5103,
+          "deceased": 57,
+          "recovered": 3347
         }
       },
       "North Garo Hills": {
+        "delta": {
+          "recovered": 6
+        },
         "meta": {
           "population": 118325
         },
         "total": {
           "confirmed": 74,
-          "recovered": 48
+          "recovered": 54
         }
       },
       "Ribhoi": {
+        "delta": {
+          "recovered": 7
+        },
         "meta": {
           "population": 258380
         },
         "total": {
           "confirmed": 728,
           "deceased": 1,
-          "recovered": 395
+          "recovered": 402
         }
       },
       "South Garo Hills": {
@@ -5757,41 +5791,55 @@
         }
       },
       "South West Garo Hills": {
+        "delta": {
+          "recovered": 11
+        },
         "meta": {
           "population": 172495
         },
         "total": {
           "confirmed": 87,
           "deceased": 2,
-          "recovered": 51
+          "recovered": 62
         }
       },
       "South West Khasi Hills": {
+        "delta": {
+          "recovered": 11
+        },
         "meta": {
           "population": 110152
         },
         "total": {
           "confirmed": 44,
-          "recovered": 8
+          "recovered": 19
         }
       },
       "West Garo Hills": {
+        "delta": {
+          "confirmed": 11,
+          "recovered": 4
+        },
         "meta": {
           "population": 642923
         },
         "total": {
-          "confirmed": 923,
+          "confirmed": 934,
           "deceased": 2,
-          "recovered": 750
+          "recovered": 754
         }
       },
       "West Jaintia Hills": {
+        "delta": {
+          "confirmed": 26,
+          "recovered": 1
+        },
         "meta": {
           "population": 270352
         },
         "total": {
-          "confirmed": 105,
-          "recovered": 49
+          "confirmed": 131,
+          "recovered": 50
         }
       },
       "West Khasi Hills": {
@@ -5806,7 +5854,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-10-12T12:03:09+05:30",
+      "last_updated": "2020-10-12T22:06:21+05:30",
       "population": 3224000,
       "tested": {
         "last_updated": "2020-10-10",
@@ -5814,9 +5862,9 @@
       }
     },
     "total": {
-      "confirmed": 7683,
-      "deceased": 63,
-      "recovered": 5142,
+      "confirmed": 7771,
+      "deceased": 64,
+      "recovered": 5273,
       "tested": 171415
     }
   },
@@ -9904,13 +9952,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 53160,
-      "deceased": 695,
+      "confirmed": 53252,
+      "deceased": 696,
       "other": 17,
-      "recovered": 76804
+      "recovered": 76940
     },
     "meta": {
-      "last_updated": "2020-10-12T21:44:19+05:30",
+      "last_updated": "2020-10-12T22:06:19+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-10-11",
@@ -9918,10 +9966,10 @@
       }
     },
     "total": {
-      "confirmed": 7172460,
-      "deceased": 109879,
+      "confirmed": 7172552,
+      "deceased": 109880,
       "other": 1095,
-      "recovered": 6223231,
+      "recovered": 6223367,
       "tested": 87872093
     }
   },
