@@ -866,6 +866,7 @@
     "delta": {
       "confirmed": 1427,
       "deceased": 4,
+      "recovered": 1013,
       "tested": 139868
     },
     "districts": {
@@ -1213,13 +1214,14 @@
       "Unknown": {
         "delta": {
           "confirmed": 1427,
-          "deceased": 4
+          "deceased": 4,
+          "recovered": 1013
         },
         "total": {
           "confirmed": 88385,
           "deceased": 242,
           "migrated": 3,
-          "recovered": 121904
+          "recovered": 122917
         }
       },
       "West Karbi Anglong": {
@@ -1234,7 +1236,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-10-14T21:22:28+05:30",
+      "last_updated": "2020-10-15T04:40:29+05:30",
       "population": 34293000,
       "tested": {
         "last_updated": "2020-10-14",
@@ -1245,7 +1247,7 @@
       "confirmed": 198213,
       "deceased": 834,
       "migrated": 3,
-      "recovered": 167056,
+      "recovered": 168069,
       "tested": 4215994
     }
   },
@@ -8104,19 +8106,21 @@
   "MZ": {
     "delta": {
       "confirmed": 10,
+      "recovered": 15,
       "tested": 953
     },
     "districts": {
       "Aizawl": {
         "delta": {
-          "confirmed": 7
+          "confirmed": 7,
+          "recovered": 3
         },
         "meta": {
           "population": 404054
         },
         "total": {
           "confirmed": 1426,
-          "recovered": 1379
+          "recovered": 1382
         }
       },
       "Champhai": {
@@ -8168,21 +8172,27 @@
         }
       },
       "Lunglei": {
+        "delta": {
+          "recovered": 9
+        },
         "meta": {
           "population": 154094
         },
         "total": {
           "confirmed": 267,
-          "recovered": 235
+          "recovered": 244
         }
       },
       "Mamit": {
+        "delta": {
+          "recovered": 2
+        },
         "meta": {
           "population": 85757
         },
         "total": {
           "confirmed": 53,
-          "recovered": 45
+          "recovered": 47
         }
       },
       "Saiha": {
@@ -8201,17 +8211,20 @@
         }
       },
       "Serchhip": {
+        "delta": {
+          "recovered": 1
+        },
         "meta": {
           "population": 64875
         },
         "total": {
           "confirmed": 65,
-          "recovered": 60
+          "recovered": 61
         }
       }
     },
     "meta": {
-      "last_updated": "2020-10-14T10:56:24+05:30",
+      "last_updated": "2020-10-15T04:40:33+05:30",
       "population": 1192000,
       "tested": {
         "last_updated": "2020-10-14",
@@ -8220,7 +8233,7 @@
     },
     "total": {
       "confirmed": 2212,
-      "recovered": 2093,
+      "recovered": 2108,
       "tested": 90748
     }
   },
@@ -11835,10 +11848,10 @@
       "confirmed": 67791,
       "deceased": 690,
       "migrated": 23,
-      "recovered": 80554
+      "recovered": 81582
     },
     "meta": {
-      "last_updated": "2020-10-15T02:17:27+05:30",
+      "last_updated": "2020-10-15T04:41:24+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-10-13",
@@ -11849,7 +11862,7 @@
       "confirmed": 7305070,
       "deceased": 111311,
       "migrated": 1131,
-      "recovered": 6379428,
+      "recovered": 6380456,
       "tested": 90090122
     }
   },
