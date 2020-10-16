@@ -1912,7 +1912,8 @@
     "delta": {
       "confirmed": 2472,
       "deceased": 40,
-      "recovered": 2926
+      "recovered": 2926,
+      "tested": 23090
     },
     "districts": {
       "Balod": {
@@ -2463,19 +2464,19 @@
       }
     },
     "meta": {
-      "last_updated": "2020-10-16T21:26:25+05:30",
+      "last_updated": "2020-10-16T21:40:26+05:30",
       "notes": "[Sep 9]:57 backdated deceased cases have been added.",
       "population": 28724000,
       "tested": {
-        "last_updated": "2020-10-15",
-        "source": "https://twitter.com/HealthCgGov/status/1316788449685331969"
+        "last_updated": "2020-10-16",
+        "source": "https://twitter.com/HealthCgGov/status/1317130052337741824"
       }
     },
     "total": {
       "confirmed": 155987,
       "deceased": 1425,
       "recovered": 126869,
-      "tested": 1466334
+      "tested": 1489424
     }
   },
   "DL": {
@@ -3419,6 +3420,9 @@
     }
   },
   "HP": {
+    "delta": {
+      "tested": 3363
+    },
     "districts": {
       "Bilaspur": {
         "meta": {
@@ -3611,8 +3615,8 @@
       "last_updated": "2020-10-15T23:22:28+05:30",
       "population": 7300000,
       "tested": {
-        "last_updated": "2020-10-15",
-        "source": "https://twitter.com/nhm_hp/status/1316768768274513920"
+        "last_updated": "2020-10-16",
+        "source": "https://twitter.com/nhm_hp/status/1317132878552027137"
       }
     },
     "total": {
@@ -3620,7 +3624,7 @@
       "deceased": 255,
       "migrated": 27,
       "recovered": 15367,
-      "tested": 336756
+      "tested": 340119
     }
   },
   "HR": {
@@ -3856,15 +3860,15 @@
         "meta": {
           "population": 964231,
           "tested": {
-            "last_updated": "2020-10-06",
-            "source": "https://twitter.com/dipro_kkr/status/1313450351400493062?s=20"
+            "last_updated": "2020-10-15",
+            "source": "https://twitter.com/dipro_kkr/status/1317041881478430720/photo/1"
           }
         },
         "total": {
           "confirmed": 6285,
           "deceased": 97,
           "recovered": 5805,
-          "tested": 87715
+          "tested": 98934
         }
       },
       "Mahendragarh": {
@@ -4071,6 +4075,9 @@
     }
   },
   "JH": {
+    "delta": {
+      "tested": 34513
+    },
     "districts": {
       "Bokaro": {
         "meta": {
@@ -4366,15 +4373,15 @@
       "last_updated": "2020-10-15T22:00:28+05:30",
       "population": 37403000,
       "tested": {
-        "last_updated": "2020-10-15",
-        "source": "https://twitter.com/rnuddkranchi/status/1316765362784858113"
+        "last_updated": "2020-10-16",
+        "source": "https://twitter.com/rnuddkranchi/status/1317132312014852102"
       }
     },
     "total": {
       "confirmed": 94952,
       "deceased": 819,
       "recovered": 87240,
-      "tested": 2767553
+      "tested": 2802066
     }
   },
   "JK": {
@@ -5492,7 +5499,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-10-16T21:26:26+05:30",
+      "last_updated": "2020-10-16T21:40:37+05:30",
       "notes": "[Sep 08] : Testing details are not available in Ladakh bulletin from Sep 06 onwards",
       "population": 293000,
       "tested": {
@@ -6058,115 +6065,161 @@
     }
   },
   "ML": {
+    "delta": {
+      "confirmed": 139,
+      "deceased": 2,
+      "recovered": 90
+    },
     "districts": {
       "East Garo Hills": {
+        "delta": {
+          "confirmed": 7,
+          "recovered": 4
+        },
         "meta": {
           "population": 317618
         },
         "total": {
-          "confirmed": 148,
+          "confirmed": 155,
           "deceased": 1,
-          "recovered": 118
+          "recovered": 122
         }
       },
       "East Jaintia Hills": {
+        "delta": {
+          "confirmed": 7,
+          "recovered": 1
+        },
         "meta": {
           "population": 122436
         },
         "total": {
-          "confirmed": 390,
-          "recovered": 379
+          "confirmed": 397,
+          "recovered": 380
         }
       },
       "East Khasi Hills": {
+        "delta": {
+          "confirmed": 71,
+          "deceased": 2,
+          "recovered": 37
+        },
         "meta": {
           "population": 824059
         },
         "total": {
-          "confirmed": 5376,
-          "deceased": 66,
-          "recovered": 3622
+          "confirmed": 5447,
+          "deceased": 68,
+          "recovered": 3659
         }
       },
       "North Garo Hills": {
+        "delta": {
+          "confirmed": 1
+        },
         "meta": {
           "population": 118325
         },
         "total": {
-          "confirmed": 79,
+          "confirmed": 80,
           "recovered": 54
         }
       },
       "Ribhoi": {
+        "delta": {
+          "confirmed": 21,
+          "recovered": 25
+        },
         "meta": {
           "population": 258380
         },
         "total": {
-          "confirmed": 749,
+          "confirmed": 770,
           "deceased": 1,
-          "recovered": 415
+          "recovered": 440
         }
       },
       "South Garo Hills": {
+        "delta": {
+          "confirmed": 2,
+          "recovered": 3
+        },
         "meta": {
           "population": 142574
         },
         "total": {
-          "confirmed": 80,
-          "recovered": 39
+          "confirmed": 82,
+          "recovered": 42
         }
       },
       "South West Garo Hills": {
+        "delta": {
+          "recovered": 2
+        },
         "meta": {
           "population": 172495
         },
         "total": {
           "confirmed": 89,
           "deceased": 2,
-          "recovered": 64
+          "recovered": 66
         }
       },
       "South West Khasi Hills": {
+        "delta": {
+          "recovered": 1
+        },
         "meta": {
           "population": 110152
         },
         "total": {
           "confirmed": 45,
-          "recovered": 24
+          "recovered": 25
         }
       },
       "West Garo Hills": {
+        "delta": {
+          "confirmed": 12,
+          "recovered": 16
+        },
         "meta": {
           "population": 642923
         },
         "total": {
-          "confirmed": 995,
+          "confirmed": 1007,
           "deceased": 2,
-          "recovered": 806
+          "recovered": 822
         }
       },
       "West Jaintia Hills": {
+        "delta": {
+          "confirmed": 6,
+          "recovered": 1
+        },
         "meta": {
           "population": 270352
         },
         "total": {
-          "confirmed": 136,
-          "recovered": 56
+          "confirmed": 142,
+          "recovered": 57
         }
       },
       "West Khasi Hills": {
+        "delta": {
+          "confirmed": 12
+        },
         "meta": {
           "population": 385601
         },
         "total": {
-          "confirmed": 77,
+          "confirmed": 89,
           "deceased": 1,
           "recovered": 69
         }
       }
     },
     "meta": {
-      "last_updated": "2020-10-15T23:14:28+05:30",
+      "last_updated": "2020-10-16T21:44:23+05:30",
       "population": 3224000,
       "tested": {
         "last_updated": "2020-10-14",
@@ -6174,9 +6227,9 @@
       }
     },
     "total": {
-      "confirmed": 8164,
-      "deceased": 73,
-      "recovered": 5646,
+      "confirmed": 8303,
+      "deceased": 75,
+      "recovered": 5736,
       "tested": 178894
     }
   },
@@ -6184,7 +6237,8 @@
     "delta": {
       "confirmed": 337,
       "deceased": 5,
-      "recovered": 164
+      "recovered": 164,
+      "tested": 2332
     },
     "districts": {
       "Bishnupur": {
@@ -6403,15 +6457,15 @@
       "last_updated": "2020-10-16T20:07:38+05:30",
       "population": 3103000,
       "tested": {
-        "last_updated": "2020-10-15",
-        "source": "https://twitter.com/DiprManipur/status/1316733546023714817?s=20"
+        "last_updated": "2020-10-16",
+        "source": "https://twitter.com/DiprManipur/status/1317126136086683650"
       }
     },
     "total": {
       "confirmed": 14715,
       "deceased": 109,
       "recovered": 11245,
-      "tested": 311269
+      "tested": 313601
     }
   },
   "MP": {
@@ -8817,82 +8871,86 @@
       "Karaikal": {
         "delta": {
           "confirmed": 28,
-          "recovered": 85
+          "recovered": 85,
+          "tested": 511
         },
         "meta": {
           "notes": "2 case of TN has been transferred,so has been reduced from the total count.",
           "population": 200222,
           "tested": {
-            "last_updated": "2020-10-15",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/3010"
+            "last_updated": "2020-10-16",
+            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/3027"
           }
         },
         "total": {
           "confirmed": 3217,
           "deceased": 52,
           "recovered": 2714,
-          "tested": 31335
+          "tested": 31846
         }
       },
       "Mahe": {
         "delta": {
           "confirmed": 7,
-          "recovered": 50
+          "recovered": 50,
+          "tested": 67
         },
         "meta": {
           "notes": "1 case of KL have been transferred,so have been reduced from the total count",
           "population": 41816,
           "tested": {
-            "last_updated": "2020-10-15",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/3010"
+            "last_updated": "2020-10-16",
+            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/3027"
           }
         },
         "total": {
           "confirmed": 710,
           "deceased": 4,
           "recovered": 496,
-          "tested": 10833
+          "tested": 10900
         }
       },
       "Puducherry": {
         "delta": {
           "confirmed": 229,
           "deceased": 1,
-          "recovered": 158
+          "recovered": 158,
+          "tested": 3456
         },
         "meta": {
           "notes": "209 cases(204 of TN, 1 of AP and 4 other) have been transferred,so have been reduced from the total count.[July 18]4 cases have transferred to TN and have been reduced from recovered cases.",
           "population": 950289,
           "tested": {
-            "last_updated": "2020-10-15",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/3010"
+            "last_updated": "2020-10-16",
+            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/3027"
           }
         },
         "total": {
           "confirmed": 27013,
           "deceased": 473,
           "recovered": 22768,
-          "tested": 200183
+          "tested": 203639
         }
       },
       "Yanam": {
         "delta": {
           "confirmed": 16,
-          "recovered": 13
+          "recovered": 13,
+          "tested": 253
         },
         "meta": {
           "notes": "2 cases of AP have been transferred,so have been reduced from the total count",
           "population": 55626,
           "tested": {
-            "last_updated": "2020-10-15",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/3010"
+            "last_updated": "2020-10-16",
+            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/3027"
           }
         },
         "total": {
           "confirmed": 1826,
           "deceased": 42,
           "recovered": 1693,
-          "tested": 12844
+          "tested": 13097
         }
       }
     },
@@ -8923,40 +8981,42 @@
         "delta": {
           "confirmed": 64,
           "deceased": 1,
-          "recovered": 79
+          "recovered": 79,
+          "tested": 908
         },
         "meta": {
           "population": 2584913,
           "tested": {
-            "last_updated": "2020-10-15",
-            "source": "https://twitter.com/airnews_jaipur/status/1316727083972784130?s=20"
+            "last_updated": "2020-10-16",
+            "source": "https://twitter.com/airnews_jaipur/status/1317127932737843201"
           }
         },
         "total": {
           "confirmed": 8532,
           "deceased": 124,
           "recovered": 8128,
-          "tested": 156018
+          "tested": 156926
         }
       },
       "Alwar": {
         "delta": {
           "confirmed": 84,
           "deceased": 1,
-          "recovered": 178
+          "recovered": 178,
+          "tested": 970
         },
         "meta": {
           "population": 3671999,
           "tested": {
-            "last_updated": "2020-10-15",
-            "source": "https://twitter.com/airnews_jaipur/status/1316727083972784130?s=20"
+            "last_updated": "2020-10-16",
+            "source": "https://twitter.com/airnews_jaipur/status/1317127932737843201"
           }
         },
         "total": {
           "confirmed": 13240,
           "deceased": 50,
           "recovered": 12737,
-          "tested": 154316
+          "tested": 155286
         }
       },
       "BSF Camp": {
@@ -8968,231 +9028,243 @@
       "Banswara": {
         "delta": {
           "confirmed": 23,
-          "recovered": 28
+          "recovered": 28,
+          "tested": 200
         },
         "meta": {
           "population": 1798194,
           "tested": {
-            "last_updated": "2020-10-15",
-            "source": "https://twitter.com/airnews_jaipur/status/1316727083972784130?s=20"
+            "last_updated": "2020-10-16",
+            "source": "https://twitter.com/airnews_jaipur/status/1317127932737843201"
           }
         },
         "total": {
           "confirmed": 1419,
           "deceased": 26,
           "recovered": 1285,
-          "tested": 28337
+          "tested": 28537
         }
       },
       "Baran": {
         "delta": {
           "confirmed": 8,
-          "recovered": 5
+          "recovered": 5,
+          "tested": 93
         },
         "meta": {
           "population": 1223921,
           "tested": {
-            "last_updated": "2020-10-15",
-            "source": "https://twitter.com/airnews_jaipur/status/1316727083972784130?s=20"
+            "last_updated": "2020-10-16",
+            "source": "https://twitter.com/airnews_jaipur/status/1317127932737843201"
           }
         },
         "total": {
           "confirmed": 1422,
           "deceased": 26,
           "recovered": 1298,
-          "tested": 31881
+          "tested": 31974
         }
       },
       "Barmer": {
         "delta": {
           "confirmed": 22,
-          "recovered": 7
+          "recovered": 7,
+          "tested": 262
         },
         "meta": {
           "population": 2604453,
           "tested": {
-            "last_updated": "2020-10-15",
-            "source": "https://twitter.com/airnews_jaipur/status/1316727083972784130?s=20"
+            "last_updated": "2020-10-16",
+            "source": "https://twitter.com/airnews_jaipur/status/1317127932737843201"
           }
         },
         "total": {
           "confirmed": 3047,
           "deceased": 30,
           "recovered": 2897,
-          "tested": 70764
+          "tested": 71026
         }
       },
       "Bharatpur": {
         "delta": {
           "confirmed": 66,
           "deceased": 1,
-          "recovered": 69
+          "recovered": 69,
+          "tested": 1553
         },
         "meta": {
           "population": 2549121,
           "tested": {
-            "last_updated": "2020-10-15",
-            "source": "https://twitter.com/airnews_jaipur/status/1316727083972784130?s=20"
+            "last_updated": "2020-10-16",
+            "source": "https://twitter.com/airnews_jaipur/status/1317127932737843201"
           }
         },
         "total": {
           "confirmed": 5014,
           "deceased": 88,
           "recovered": 4718,
-          "tested": 100709
+          "tested": 102262
         }
       },
       "Bhilwara": {
         "delta": {
           "confirmed": 29,
-          "recovered": 19
+          "recovered": 19,
+          "tested": 324
         },
         "meta": {
           "population": 2410459,
           "tested": {
-            "last_updated": "2020-10-15",
-            "source": "https://twitter.com/airnews_jaipur/status/1316727083972784130?s=20"
+            "last_updated": "2020-10-16",
+            "source": "https://twitter.com/airnews_jaipur/status/1317127932737843201"
           }
         },
         "total": {
           "confirmed": 5514,
           "deceased": 29,
           "recovered": 5318,
-          "tested": 104491
+          "tested": 104815
         }
       },
       "Bikaner": {
         "delta": {
           "confirmed": 265,
-          "recovered": 240
+          "recovered": 240,
+          "tested": 892
         },
         "meta": {
           "population": 2367745,
           "tested": {
-            "last_updated": "2020-10-15",
-            "source": "https://twitter.com/airnews_jaipur/status/1316727083972784130?s=20"
+            "last_updated": "2020-10-16",
+            "source": "https://twitter.com/airnews_jaipur/status/1317127932737843201"
           }
         },
         "total": {
           "confirmed": 10624,
           "deceased": 127,
           "recovered": 8789,
-          "tested": 193611
+          "tested": 194503
         }
       },
       "Bundi": {
         "delta": {
           "confirmed": 4,
-          "recovered": 4
+          "recovered": 4,
+          "tested": 430
         },
         "meta": {
           "population": 1113725,
           "tested": {
-            "last_updated": "2020-10-15",
-            "source": "https://twitter.com/airnews_jaipur/status/1316727083972784130?s=20"
+            "last_updated": "2020-10-16",
+            "source": "https://twitter.com/airnews_jaipur/status/1317127932737843201"
           }
         },
         "total": {
           "confirmed": 1359,
           "deceased": 9,
           "recovered": 1264,
-          "tested": 28718
+          "tested": 29148
         }
       },
       "Chittorgarh": {
         "delta": {
           "confirmed": 22,
           "deceased": 1,
-          "recovered": 24
+          "recovered": 24,
+          "tested": 299
         },
         "meta": {
           "population": 1544392,
           "tested": {
-            "last_updated": "2020-10-15",
-            "source": "https://twitter.com/airnews_jaipur/status/1316727083972784130?s=20"
+            "last_updated": "2020-10-16",
+            "source": "https://twitter.com/airnews_jaipur/status/1317127932737843201"
           }
         },
         "total": {
           "confirmed": 2084,
           "deceased": 23,
           "recovered": 1894,
-          "tested": 54269
+          "tested": 54568
         }
       },
       "Churu": {
         "delta": {
           "confirmed": 63,
-          "recovered": 30
+          "recovered": 30,
+          "tested": 808
         },
         "meta": {
           "population": 2041172,
           "tested": {
-            "last_updated": "2020-10-15",
-            "source": "https://twitter.com/airnews_jaipur/status/1316727083972784130?s=20"
+            "last_updated": "2020-10-16",
+            "source": "https://twitter.com/airnews_jaipur/status/1317127932737843201"
           }
         },
         "total": {
           "confirmed": 2472,
           "deceased": 19,
           "recovered": 2098,
-          "tested": 78979
+          "tested": 79787
         }
       },
       "Dausa": {
         "delta": {
           "confirmed": 22,
-          "recovered": 13
+          "recovered": 13,
+          "tested": 280
         },
         "meta": {
           "population": 1637226,
           "tested": {
-            "last_updated": "2020-10-15",
-            "source": "https://twitter.com/airnews_jaipur/status/1316727083972784130?s=20"
+            "last_updated": "2020-10-16",
+            "source": "https://twitter.com/airnews_jaipur/status/1317127932737843201"
           }
         },
         "total": {
           "confirmed": 1304,
           "deceased": 10,
           "recovered": 1142,
-          "tested": 35671
+          "tested": 35951
         }
       },
       "Dholpur": {
         "delta": {
           "confirmed": 11,
-          "recovered": 5
+          "recovered": 5,
+          "tested": 245
         },
         "meta": {
           "population": 1207293,
           "tested": {
-            "last_updated": "2020-10-15",
-            "source": "https://twitter.com/airnews_jaipur/status/1316727083972784130?s=20"
+            "last_updated": "2020-10-16",
+            "source": "https://twitter.com/airnews_jaipur/status/1317127932737843201"
           }
         },
         "total": {
           "confirmed": 3211,
           "deceased": 26,
           "recovered": 3084,
-          "tested": 94751
+          "tested": 94996
         }
       },
       "Dungarpur": {
         "delta": {
           "confirmed": 45,
-          "recovered": 17
+          "recovered": 17,
+          "tested": 237
         },
         "meta": {
           "population": 1388906,
           "tested": {
-            "last_updated": "2020-10-15",
-            "source": "https://twitter.com/airnews_jaipur/status/1316727083972784130?s=20"
+            "last_updated": "2020-10-16",
+            "source": "https://twitter.com/airnews_jaipur/status/1317127932737843201"
           }
         },
         "total": {
           "confirmed": 2329,
           "deceased": 20,
           "recovered": 2086,
-          "tested": 85363
+          "tested": 85600
         }
       },
       "Evacuees": {
@@ -9205,39 +9277,41 @@
         "delta": {
           "confirmed": 52,
           "deceased": 1,
-          "recovered": 77
+          "recovered": 77,
+          "tested": 273
         },
         "meta": {
           "population": 1969520,
           "tested": {
-            "last_updated": "2020-10-15",
-            "source": "https://twitter.com/airnews_jaipur/status/1316727083972784130?s=20"
+            "last_updated": "2020-10-16",
+            "source": "https://twitter.com/airnews_jaipur/status/1317127932737843201"
           }
         },
         "total": {
           "confirmed": 2408,
           "deceased": 21,
           "recovered": 2089,
-          "tested": 32762
+          "tested": 33035
         }
       },
       "Hanumangarh": {
         "delta": {
           "confirmed": 23,
-          "recovered": 3
+          "recovered": 3,
+          "tested": 159
         },
         "meta": {
           "population": 1779650,
           "tested": {
-            "last_updated": "2020-10-15",
-            "source": "https://twitter.com/airnews_jaipur/status/1316727083972784130?s=20"
+            "last_updated": "2020-10-16",
+            "source": "https://twitter.com/airnews_jaipur/status/1317127932737843201"
           }
         },
         "total": {
           "confirmed": 1282,
           "deceased": 8,
           "recovered": 1079,
-          "tested": 35272
+          "tested": 35431
         }
       },
       "Italians": {
@@ -9250,178 +9324,187 @@
         "delta": {
           "confirmed": 394,
           "deceased": 2,
-          "recovered": 594
+          "recovered": 594,
+          "tested": 3304
         },
         "meta": {
           "population": 6663971,
           "tested": {
-            "last_updated": "2020-10-15",
-            "source": "https://twitter.com/airnews_jaipur/status/1316727083972784130?s=20"
+            "last_updated": "2020-10-16",
+            "source": "https://twitter.com/airnews_jaipur/status/1317127932737843201"
           }
         },
         "total": {
           "confirmed": 28117,
           "deceased": 346,
           "recovered": 19783,
-          "tested": 449583
+          "tested": 452887
         }
       },
       "Jaisalmer": {
         "delta": {
           "confirmed": 16,
           "deceased": 1,
-          "recovered": 7
+          "recovered": 7,
+          "tested": 440
         },
         "meta": {
           "population": 672008,
           "tested": {
-            "last_updated": "2020-10-15",
-            "source": "https://twitter.com/airnews_jaipur/status/1316727083972784130?s=20"
+            "last_updated": "2020-10-16",
+            "source": "https://twitter.com/airnews_jaipur/status/1317127932737843201"
           }
         },
         "total": {
           "confirmed": 1061,
           "deceased": 13,
           "recovered": 867,
-          "tested": 52897
+          "tested": 53337
         }
       },
       "Jalore": {
         "delta": {
           "confirmed": 56,
           "deceased": 1,
-          "recovered": 32
+          "recovered": 32,
+          "tested": 954
         },
         "meta": {
           "population": 1830151,
           "tested": {
-            "last_updated": "2020-10-15",
-            "source": "https://twitter.com/airnews_jaipur/status/1316727083972784130?s=20"
+            "last_updated": "2020-10-16",
+            "source": "https://twitter.com/airnews_jaipur/status/1317127932737843201"
           }
         },
         "total": {
           "confirmed": 3057,
           "deceased": 33,
           "recovered": 2791,
-          "tested": 107369
+          "tested": 108323
         }
       },
       "Jhalawar": {
         "delta": {
           "confirmed": 7,
-          "recovered": 3
+          "recovered": 3,
+          "tested": 219
         },
         "meta": {
           "population": 1411327,
           "tested": {
-            "last_updated": "2020-10-15",
-            "source": "https://twitter.com/airnews_jaipur/status/1316727083972784130?s=20"
+            "last_updated": "2020-10-16",
+            "source": "https://twitter.com/airnews_jaipur/status/1317127932737843201"
           }
         },
         "total": {
           "confirmed": 2553,
           "deceased": 13,
           "recovered": 2465,
-          "tested": 64477
+          "tested": 64696
         }
       },
       "Jhunjhunu": {
         "delta": {
           "confirmed": 33,
           "deceased": 1,
-          "recovered": 78
+          "recovered": 78,
+          "tested": 595
         },
         "meta": {
           "population": 2139658,
           "tested": {
-            "last_updated": "2020-10-15",
-            "source": "https://twitter.com/airnews_jaipur/status/1316727083972784130?s=20"
+            "last_updated": "2020-10-16",
+            "source": "https://twitter.com/airnews_jaipur/status/1317127932737843201"
           }
         },
         "total": {
           "confirmed": 2215,
           "deceased": 21,
           "recovered": 1994,
-          "tested": 69205
+          "tested": 69800
         }
       },
       "Jodhpur": {
         "delta": {
           "confirmed": 302,
           "deceased": 2,
-          "recovered": 363
+          "recovered": 363,
+          "tested": 1890
         },
         "meta": {
           "population": 3685681,
           "tested": {
-            "last_updated": "2020-10-15",
-            "source": "https://twitter.com/airnews_jaipur/status/1316727083972784130?s=20"
+            "last_updated": "2020-10-16",
+            "source": "https://twitter.com/airnews_jaipur/status/1317127932737843201"
           }
         },
         "total": {
           "confirmed": 25368,
           "deceased": 163,
           "recovered": 19831,
-          "tested": 426079
+          "tested": 427969
         }
       },
       "Karauli": {
         "delta": {
           "confirmed": 12,
-          "recovered": 10
+          "recovered": 10,
+          "tested": 282
         },
         "meta": {
           "population": 1458459,
           "tested": {
-            "last_updated": "2020-10-15",
-            "source": "https://twitter.com/airnews_jaipur/status/1316727083972784130?s=20"
+            "last_updated": "2020-10-16",
+            "source": "https://twitter.com/airnews_jaipur/status/1317127932737843201"
           }
         },
         "total": {
           "confirmed": 1091,
           "deceased": 13,
           "recovered": 929,
-          "tested": 36384
+          "tested": 36666
         }
       },
       "Kota": {
         "delta": {
           "confirmed": 89,
           "deceased": 1,
-          "recovered": 113
+          "recovered": 113,
+          "tested": 1075
         },
         "meta": {
           "population": 1950491,
           "tested": {
-            "last_updated": "2020-10-15",
-            "source": "https://twitter.com/airnews_jaipur/status/1316727083972784130?s=20"
+            "last_updated": "2020-10-16",
+            "source": "https://twitter.com/airnews_jaipur/status/1317127932737843201"
           }
         },
         "total": {
           "confirmed": 10114,
           "deceased": 111,
           "recovered": 9382,
-          "tested": 209756
+          "tested": 210831
         }
       },
       "Nagaur": {
         "delta": {
           "confirmed": 56,
           "deceased": 1,
-          "recovered": 33
+          "recovered": 33,
+          "tested": 643
         },
         "meta": {
           "population": 3309234,
           "tested": {
-            "last_updated": "2020-10-15",
-            "source": "https://twitter.com/airnews_jaipur/status/1316727083972784130?s=20"
+            "last_updated": "2020-10-16",
+            "source": "https://twitter.com/airnews_jaipur/status/1317127932737843201"
           }
         },
         "total": {
           "confirmed": 4460,
           "deceased": 52,
           "recovered": 4113,
-          "tested": 125574
+          "tested": 126217
         }
       },
       "Other State": {
@@ -9434,153 +9517,161 @@
       "Pali": {
         "delta": {
           "confirmed": 52,
-          "recovered": 55
+          "recovered": 55,
+          "tested": 321
         },
         "meta": {
           "population": 2038533,
           "tested": {
-            "last_updated": "2020-10-15",
-            "source": "https://twitter.com/airnews_jaipur/status/1316727083972784130?s=20"
+            "last_updated": "2020-10-16",
+            "source": "https://twitter.com/airnews_jaipur/status/1317127932737843201"
           }
         },
         "total": {
           "confirmed": 6626,
           "deceased": 73,
           "recovered": 6289,
-          "tested": 124794
+          "tested": 125115
         }
       },
       "Pratapgarh": {
         "delta": {
           "confirmed": 4,
-          "recovered": 4
+          "recovered": 4,
+          "tested": 22
         },
         "meta": {
           "population": 868231,
           "tested": {
-            "last_updated": "2020-10-15",
-            "source": "https://twitter.com/airnews_jaipur/status/1316727083972784130?s=20"
+            "last_updated": "2020-10-16",
+            "source": "https://twitter.com/airnews_jaipur/status/1317127932737843201"
           }
         },
         "total": {
           "confirmed": 876,
           "deceased": 14,
           "recovered": 817,
-          "tested": 25818
+          "tested": 25840
         }
       },
       "Rajsamand": {
         "delta": {
           "confirmed": 16,
-          "recovered": 8
+          "recovered": 8,
+          "tested": 206
         },
         "meta": {
           "population": 1158283,
           "tested": {
-            "last_updated": "2020-10-15",
-            "source": "https://twitter.com/airnews_jaipur/status/1316727083972784130?s=20"
+            "last_updated": "2020-10-16",
+            "source": "https://twitter.com/airnews_jaipur/status/1317127932737843201"
           }
         },
         "total": {
           "confirmed": 2240,
           "deceased": 26,
           "recovered": 2039,
-          "tested": 56535
+          "tested": 56741
         }
       },
       "Sawai Madhopur": {
         "delta": {
           "confirmed": 13,
-          "recovered": 3
+          "recovered": 3,
+          "tested": 217
         },
         "meta": {
           "population": 1338114,
           "tested": {
-            "last_updated": "2020-10-15",
-            "source": "https://twitter.com/airnews_jaipur/status/1316727083972784130?s=20"
+            "last_updated": "2020-10-16",
+            "source": "https://twitter.com/airnews_jaipur/status/1317127932737843201"
           }
         },
         "total": {
           "confirmed": 1047,
           "deceased": 20,
           "recovered": 916,
-          "tested": 51587
+          "tested": 51804
         }
       },
       "Sikar": {
         "delta": {
           "confirmed": 74,
-          "recovered": 10
+          "recovered": 10,
+          "tested": 485
         },
         "meta": {
           "population": 2677737,
           "tested": {
-            "last_updated": "2020-10-15",
-            "source": "https://twitter.com/airnews_jaipur/status/1316727083972784130?s=20"
+            "last_updated": "2020-10-16",
+            "source": "https://twitter.com/airnews_jaipur/status/1317127932737843201"
           }
         },
         "total": {
           "confirmed": 4924,
           "deceased": 45,
           "recovered": 4578,
-          "tested": 101033
+          "tested": 101518
         }
       },
       "Sirohi": {
         "delta": {
-          "recovered": 12
+          "recovered": 12,
+          "tested": 194
         },
         "meta": {
           "population": 1037185,
           "tested": {
-            "last_updated": "2020-10-15",
-            "source": "https://twitter.com/airnews_jaipur/status/1316727083972784130?s=20"
+            "last_updated": "2020-10-16",
+            "source": "https://twitter.com/airnews_jaipur/status/1317127932737843201"
           }
         },
         "total": {
           "confirmed": 2286,
           "deceased": 23,
           "recovered": 2156,
-          "tested": 54255
+          "tested": 54449
         }
       },
       "Tonk": {
         "delta": {
           "confirmed": 6,
-          "recovered": 18
+          "recovered": 18,
+          "tested": 170
         },
         "meta": {
           "population": 1421711,
           "tested": {
-            "last_updated": "2020-10-15",
-            "source": "https://twitter.com/airnews_jaipur/status/1316727083972784130?s=20"
+            "last_updated": "2020-10-16",
+            "source": "https://twitter.com/airnews_jaipur/status/1317127932737843201"
           }
         },
         "total": {
           "confirmed": 1636,
           "deceased": 23,
           "recovered": 1412,
-          "tested": 35628
+          "tested": 35798
         }
       },
       "Udaipur": {
         "delta": {
           "confirmed": 77,
           "deceased": 1,
-          "recovered": 60
+          "recovered": 60,
+          "tested": 958
         },
         "meta": {
           "population": 3067549,
           "tested": {
-            "last_updated": "2020-10-15",
-            "source": "https://twitter.com/airnews_jaipur/status/1316727083972784130?s=20"
+            "last_updated": "2020-10-16",
+            "source": "https://twitter.com/airnews_jaipur/status/1317127932737843201"
           }
         },
         "total": {
           "confirmed": 6020,
           "deceased": 59,
           "recovered": 5619,
-          "tested": 153223
+          "tested": 154181
         }
       }
     },
@@ -10273,15 +10364,15 @@
         "meta": {
           "population": 1502900,
           "tested": {
-            "last_updated": "2020-10-07",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/2876"
+            "last_updated": "2020-10-14",
+            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/3035"
           }
         },
         "total": {
           "confirmed": 5034,
           "deceased": 44,
           "recovered": 4172,
-          "tested": 85277
+          "tested": 94806
         }
       },
       "Dindigul": {
@@ -11112,13 +11203,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 51998,
-      "deceased": 721,
+      "confirmed": 52137,
+      "deceased": 723,
       "migrated": 3,
-      "recovered": 58593
+      "recovered": 58683
     },
     "meta": {
-      "last_updated": "2020-10-16T21:26:23+05:30",
+      "last_updated": "2020-10-16T21:44:21+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-10-15",
@@ -11126,10 +11217,10 @@
       }
     },
     "total": {
-      "confirmed": 7420529,
-      "deceased": 112914,
+      "confirmed": 7420668,
+      "deceased": 112916,
       "migrated": 1184,
-      "recovered": 6509841,
+      "recovered": 6509931,
       "tested": 92254927
     }
   },
