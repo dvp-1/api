@@ -298,7 +298,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-10-20T20:16:31+05:30",
+      "last_updated": "2020-10-20T20:24:47+05:30",
       "population": 52221000,
       "tested": {
         "last_updated": "2020-10-20",
@@ -1432,7 +1432,7 @@
     "delta": {
       "confirmed": 57,
       "deceased": 1,
-      "recovered": 108,
+      "recovered": 107,
       "tested": 931
     },
     "districts": {
@@ -1440,7 +1440,7 @@
         "delta": {
           "confirmed": 57,
           "deceased": 1,
-          "recovered": 108,
+          "recovered": 107,
           "tested": 931
         },
         "meta": {
@@ -1453,13 +1453,13 @@
         "total": {
           "confirmed": 13743,
           "deceased": 209,
-          "recovered": 12725,
+          "recovered": 12724,
           "tested": 96707
         }
       }
     },
     "meta": {
-      "last_updated": "2020-10-20T20:16:44+05:30",
+      "last_updated": "2020-10-20T20:25:05+05:30",
       "population": 1179000,
       "tested": {
         "last_updated": "2020-10-20",
@@ -1469,7 +1469,7 @@
     "total": {
       "confirmed": 13743,
       "deceased": 209,
-      "recovered": 12725,
+      "recovered": 12724,
       "tested": 96707
     }
   },
@@ -1919,7 +1919,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-10-20T20:15:32+05:30",
+      "last_updated": "2020-10-20T20:20:40+05:30",
       "notes": "[July 14]: Value for the total tests conducted has been reduced by 97008 in the state bulletin. Reason given : \"Reconciled with ICMR figures\". We have made the same change.\n[June 16]: 344 deceased cases have been retroactively added to DL bulletin.",
       "population": 19814000,
       "tested": {
@@ -2026,7 +2026,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-10-20T20:16:40+05:30",
+      "last_updated": "2020-10-20T20:24:58+05:30",
       "population": 1540000,
       "tested": {
         "last_updated": "2020-10-20",
@@ -3135,7 +3135,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-10-20T20:16:38+05:30",
+      "last_updated": "2020-10-20T20:24:56+05:30",
       "notes": "[Aug 2]: 21 Foreign Evacuees have been merged to Panchkula and 14 Italian tourists have been merged to Gurugram in HR bulletin.",
       "population": 28672000,
       "tested": {
@@ -4473,7 +4473,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-10-20T20:15:33+05:30",
+      "last_updated": "2020-10-20T20:20:42+05:30",
       "notes": "Mahe native who expired in Kannur included in Kerala's deceased tally.\nSome non-covid deaths have also been reported in the bulletin.\nThese have been reduced from active count",
       "population": 35125000,
       "tested": {
@@ -5039,6 +5039,10 @@
     }
   },
   "ML": {
+    "delta": {
+      "confirmed": 56,
+      "recovered": 105
+    },
     "districts": {
       "East Garo Hills": {
         "meta": {
@@ -5116,6 +5120,16 @@
           "recovered": 31
         }
       },
+      "Unknown": {
+        "delta": {
+          "confirmed": 56,
+          "recovered": 105
+        },
+        "total": {
+          "confirmed": 56,
+          "recovered": 105
+        }
+      },
       "West Garo Hills": {
         "meta": {
           "population": 642923
@@ -5147,7 +5161,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-10-19T21:58:43+05:30",
+      "last_updated": "2020-10-20T20:25:38+05:30",
       "population": 3224000,
       "tested": {
         "last_updated": "2020-10-19",
@@ -5155,19 +5169,25 @@
       }
     },
     "total": {
-      "confirmed": 8536,
+      "confirmed": 8592,
       "deceased": 75,
-      "recovered": 6392,
+      "recovered": 6497,
       "tested": 188256
     }
   },
   "MN": {
     "delta": {
+      "confirmed": 284,
+      "deceased": 4,
+      "recovered": 146,
       "tested": 2930
     },
     "districts": {
       "Unknown": {
         "delta": {
+          "confirmed": 284,
+          "deceased": 4,
+          "recovered": 146,
           "tested": 2930
         },
         "meta": {
@@ -5177,15 +5197,15 @@
           }
         },
         "total": {
-          "confirmed": 15778,
-          "deceased": 117,
-          "recovered": 11913,
+          "confirmed": 16062,
+          "deceased": 121,
+          "recovered": 12059,
           "tested": 325782
         }
       }
     },
     "meta": {
-      "last_updated": "2020-10-20T03:58:44+05:30",
+      "last_updated": "2020-10-20T20:25:35+05:30",
       "population": 3103000,
       "tested": {
         "last_updated": "2020-10-20",
@@ -5193,9 +5213,9 @@
       }
     },
     "total": {
-      "confirmed": 15778,
-      "deceased": 117,
-      "recovered": 11913,
+      "confirmed": 16062,
+      "deceased": 121,
+      "recovered": 12059,
       "tested": 325782
     }
   },
@@ -6135,7 +6155,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-10-20T20:16:36+05:30",
+      "last_updated": "2020-10-20T20:24:54+05:30",
       "notes": "[Oct 14]: 4469 confirmed cases and 4469 recoveries added in MP bulletin as reconciliation with private labs and hospitals",
       "population": 82232000,
       "tested": {
@@ -6281,10 +6301,16 @@
   },
   "NL": {
     "delta": {
+      "confirmed": 67,
+      "recovered": 60,
       "tested": 524
     },
     "districts": {
       "Dimapur": {
+        "delta": {
+          "confirmed": 38,
+          "recovered": 7
+        },
         "meta": {
           "population": 379769,
           "tested": {
@@ -6292,10 +6318,10 @@
           }
         },
         "total": {
-          "confirmed": 4209,
+          "confirmed": 4247,
           "deceased": 16,
           "other": 44,
-          "recovered": 3030,
+          "recovered": 3037,
           "tested": 30449
         }
       },
@@ -6313,6 +6339,10 @@
         }
       },
       "Kohima": {
+        "delta": {
+          "confirmed": 13,
+          "recovered": 13
+        },
         "meta": {
           "population": 270063,
           "tested": {
@@ -6320,10 +6350,10 @@
           }
         },
         "total": {
-          "confirmed": 2377,
+          "confirmed": 2390,
           "deceased": 2,
           "other": 10,
-          "recovered": 2018,
+          "recovered": 2031,
           "tested": 21377
         }
       },
@@ -6356,6 +6386,10 @@
         }
       },
       "Mon": {
+        "delta": {
+          "confirmed": 5,
+          "recovered": 13
+        },
         "meta": {
           "population": 259604,
           "tested": {
@@ -6363,10 +6397,10 @@
           }
         },
         "total": {
-          "confirmed": 466,
+          "confirmed": 471,
           "deceased": 2,
           "other": 8,
-          "recovered": 399,
+          "recovered": 412,
           "tested": 8825
         }
       },
@@ -6403,6 +6437,10 @@
         }
       },
       "Tuensang": {
+        "delta": {
+          "confirmed": 11,
+          "recovered": 27
+        },
         "meta": {
           "population": 414801,
           "tested": {
@@ -6410,8 +6448,8 @@
           }
         },
         "total": {
-          "confirmed": 135,
-          "recovered": 100,
+          "confirmed": 146,
+          "recovered": 127,
           "tested": 2864
         }
       },
@@ -6444,7 +6482,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-10-20T03:58:46+05:30",
+      "last_updated": "2020-10-20T20:25:39+05:30",
       "population": 2150000,
       "tested": {
         "last_updated": "2020-10-20",
@@ -6452,10 +6490,10 @@
       }
     },
     "total": {
-      "confirmed": 7953,
+      "confirmed": 8020,
       "deceased": 21,
       "other": 72,
-      "recovered": 6208,
+      "recovered": 6268,
       "tested": 91678
     }
   },
@@ -7403,7 +7441,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-10-20T20:16:42+05:30",
+      "last_updated": "2020-10-20T20:25:00+05:30",
       "population": 1504000,
       "tested": {
         "last_updated": "2020-10-19",
@@ -8720,7 +8758,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-10-20T20:16:33+05:30",
+      "last_updated": "2020-10-20T20:24:49+05:30",
       "notes": "[July 22]: 444 backdated deceased entries added to Chennai in TN bulletin.\n2 deaths cross notified to other states from Chennai and Coimbatore.\n1 patient died after turning negative for infection in Chengalpattu.\nThese cases have been added to TN deceased tally",
       "population": 75695000,
       "tested": {
@@ -8919,12 +8957,12 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 31525,
-      "deceased": 316,
-      "recovered": 32875
+      "confirmed": 31932,
+      "deceased": 320,
+      "recovered": 33185
     },
     "meta": {
-      "last_updated": "2020-10-20T20:16:29+05:30",
+      "last_updated": "2020-10-20T20:25:30+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-10-19",
@@ -8932,10 +8970,10 @@
       }
     },
     "total": {
-      "confirmed": 7626261,
-      "deceased": 115552,
+      "confirmed": 7626668,
+      "deceased": 115556,
       "other": 1261,
-      "recovered": 6763492,
+      "recovered": 6763802,
       "tested": 96116771
     }
   },
@@ -10903,7 +10941,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-10-20T20:16:34+05:30",
+      "last_updated": "2020-10-20T20:24:51+05:30",
       "population": 96906000,
       "tested": {
         "last_updated": "2020-10-19",
