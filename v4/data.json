@@ -5036,6 +5036,7 @@
     "delta": {
       "confirmed": 7347,
       "deceased": 184,
+      "other": 5,
       "recovered": 13247,
       "tested": 76596
     },
@@ -5254,6 +5255,9 @@
         }
       },
       "Mumbai": {
+        "delta": {
+          "other": 4
+        },
         "meta": {
           "notes": "[Sep 9]After reconciling COVID-19 cases in Mumbai, owing to the removal of duplicates and change of addresses as per the original residence, 239 cases have been removed from the progressive figures.",
           "population": 12442373,
@@ -5264,7 +5268,7 @@
         "total": {
           "confirmed": 247332,
           "deceased": 9961,
-          "other": 477,
+          "other": 481,
           "recovered": 219389,
           "tested": 1206324
         }
@@ -5385,6 +5389,9 @@
         }
       },
       "Pune": {
+        "delta": {
+          "other": 1
+        },
         "meta": {
           "notes": "Number of active cases differs in the state bulletin and district bulletin. We follow the state bulletin.",
           "population": 9426959,
@@ -5395,7 +5402,7 @@
         "total": {
           "confirmed": 327670,
           "deceased": 6595,
-          "other": 1,
+          "other": 2,
           "recovered": 291967,
           "tested": 1356271
         }
@@ -5545,7 +5552,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-10-23T21:42:39+05:30",
+      "last_updated": "2020-10-23T23:26:40+05:30",
       "notes": "[Sep 9] :239 cases have been removed from the hospitalized figures owing to the removal of duplicates and change of addresses as per the original residence,\n[Aug 15] : MH bulletin has reduced 819 confirmed cases in Mumbai and 72 confirmed cases from 'Other States' from the tally\n[Jun 16] : 1328 deceased cases have been retroactively added to MH bulletin.\n[Jun 20] : 69 deceased cases have been reduced based on state bulletin.",
       "population": 122153000,
       "tested": {
@@ -5556,7 +5563,7 @@
     "total": {
       "confirmed": 1632544,
       "deceased": 43015,
-      "other": 499,
+      "other": 504,
       "recovered": 1445103,
       "tested": 8479155
     }
@@ -5671,12 +5678,6 @@
           "recovered": 44
         }
       },
-      "Unknown": {
-        "total": {
-          "confirmed": 56,
-          "recovered": 105
-        }
-      },
       "West Garo Hills": {
         "delta": {
           "confirmed": 21,
@@ -5720,7 +5721,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-10-23T23:08:37+05:30",
+      "last_updated": "2020-10-23T23:26:46+05:30",
       "population": 3224000,
       "tested": {
         "last_updated": "2020-10-23",
@@ -5728,9 +5729,9 @@
       }
     },
     "total": {
-      "confirmed": 8857,
+      "confirmed": 8801,
       "deceased": 79,
-      "recovered": 7197,
+      "recovered": 7092,
       "tested": 194818
     }
   },
@@ -9750,10 +9751,11 @@
     "delta": {
       "confirmed": 50796,
       "deceased": 573,
+      "other": 5,
       "recovered": 63120
     },
     "meta": {
-      "last_updated": "2020-10-23T23:08:34+05:30",
+      "last_updated": "2020-10-23T23:26:38+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-10-22",
@@ -9761,10 +9763,10 @@
       }
     },
     "total": {
-      "confirmed": 7810585,
+      "confirmed": 7810529,
       "deceased": 117910,
-      "other": 1300,
-      "recovered": 7009800,
+      "other": 1305,
+      "recovered": 7009695,
       "tested": 100113085
     }
   },
