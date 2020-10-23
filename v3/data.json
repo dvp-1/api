@@ -6320,13 +6320,19 @@
     }
   },
   "MZ": {
+    "delta": {
+      "confirmed": 18
+    },
     "districts": {
       "Aizawl": {
+        "delta": {
+          "confirmed": 11
+        },
         "meta": {
           "population": 404054
         },
         "total": {
-          "confirmed": 1519,
+          "confirmed": 1530,
           "recovered": 1407
         }
       },
@@ -6361,20 +6367,26 @@
         }
       },
       "Lawngtlai": {
+        "delta": {
+          "confirmed": 1
+        },
         "meta": {
           "population": 117444
         },
         "total": {
-          "confirmed": 86,
+          "confirmed": 87,
           "recovered": 81
         }
       },
       "Lunglei": {
+        "delta": {
+          "confirmed": 2
+        },
         "meta": {
           "population": 154094
         },
         "total": {
-          "confirmed": 276,
+          "confirmed": 278,
           "recovered": 262
         }
       },
@@ -6403,17 +6415,20 @@
         }
       },
       "Serchhip": {
+        "delta": {
+          "confirmed": 4
+        },
         "meta": {
           "population": 64875
         },
         "total": {
-          "confirmed": 77,
+          "confirmed": 81,
           "recovered": 64
         }
       }
     },
     "meta": {
-      "last_updated": "2020-10-22T20:19:32+05:30",
+      "last_updated": "2020-10-23T09:01:36+05:30",
       "population": 1192000,
       "tested": {
         "last_updated": "2020-10-20",
@@ -6421,7 +6436,7 @@
       }
     },
     "total": {
-      "confirmed": 2341,
+      "confirmed": 2359,
       "recovered": 2175,
       "tested": 97664
     }
@@ -8097,7 +8112,9 @@
   },
   "TG": {
     "delta": {
-      "confirmed": 1421
+      "confirmed": 1421,
+      "deceased": 6,
+      "recovered": 1221
     },
     "districts": {
       "Adilabad": {
@@ -8483,10 +8500,14 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "deceased": 6,
+          "recovered": 1221
+        },
         "total": {
           "confirmed": 457,
-          "deceased": 1262,
-          "recovered": 205554
+          "deceased": 1268,
+          "recovered": 206775
         }
       },
       "Vikarabad": {
@@ -8559,7 +8580,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-10-23T08:43:39+05:30",
+      "last_updated": "2020-10-23T08:59:35+05:30",
       "notes": "[July 27] : Telangana bulletin for the previous day is released on the next day. We will add the cases for Telangana against the date of release, as that is the convention that we are following for other states.\n--\nDistrict-wise numbers are not reported because cumulative counts for each district are not provided in Telangana bulletin",
       "population": 37220000,
       "tested": {
@@ -8569,8 +8590,8 @@
     },
     "total": {
       "confirmed": 229001,
-      "deceased": 1292,
-      "recovered": 206105,
+      "deceased": 1298,
+      "recovered": 207326,
       "tested": 3978869
     }
   },
@@ -9314,10 +9335,12 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 1421
+      "confirmed": 1439,
+      "deceased": 6,
+      "recovered": 1221
     },
     "meta": {
-      "last_updated": "2020-10-23T08:43:37+05:30",
+      "last_updated": "2020-10-23T09:01:34+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-10-22",
@@ -9325,10 +9348,10 @@
       }
     },
     "total": {
-      "confirmed": 7761061,
-      "deceased": 117336,
+      "confirmed": 7761079,
+      "deceased": 117342,
       "migrated": 1299,
-      "recovered": 6946325,
+      "recovered": 6947546,
       "tested": 100113085
     }
   },
