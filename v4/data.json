@@ -726,7 +726,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-10-25T00:23:44+05:30",
+      "last_updated": "2020-10-25T00:28:43+05:30",
       "notes": "[July 25]: All numbers corresponding to Papum Pare and Captial Complex are tracked under Papum Pare district.",
       "population": 1504000,
       "tested": {
@@ -2884,7 +2884,8 @@
     "delta": {
       "confirmed": 173,
       "deceased": 5,
-      "recovered": 182,
+      "other": -4,
+      "recovered": 183,
       "tested": 3897
     },
     "districts": {
@@ -2909,7 +2910,8 @@
       "Chamba": {
         "delta": {
           "confirmed": 3,
-          "recovered": 2
+          "other": -1,
+          "recovered": 3
         },
         "meta": {
           "notes": "One death of COVID-19 positive patient has occured due to non-covid reasons",
@@ -2921,8 +2923,8 @@
         "total": {
           "confirmed": 1093,
           "deceased": 14,
-          "other": 9,
-          "recovered": 972,
+          "other": 8,
+          "recovered": 973,
           "tested": 21692
         }
       },
@@ -3106,10 +3108,18 @@
           "recovered": 1376,
           "tested": 32438
         }
+      },
+      "Unknown": {
+        "delta": {
+          "other": -3
+        },
+        "total": {
+          "other": -3
+        }
       }
     },
     "meta": {
-      "last_updated": "2020-10-24T23:39:39+05:30",
+      "last_updated": "2020-10-25T00:41:40+05:30",
       "population": 7300000,
       "tested": {
         "last_updated": "2020-10-24",
@@ -3119,8 +3129,8 @@
     "total": {
       "confirmed": 20213,
       "deceased": 285,
-      "other": 31,
-      "recovered": 17295,
+      "other": 27,
+      "recovered": 17296,
       "tested": 365838
     }
   },
@@ -5853,53 +5863,78 @@
     }
   },
   "ML": {
+    "delta": {
+      "confirmed": 81,
+      "deceased": 1,
+      "recovered": 136
+    },
     "districts": {
       "East Garo Hills": {
+        "delta": {
+          "confirmed": 3,
+          "recovered": 1
+        },
         "meta": {
           "population": 317618
         },
         "total": {
-          "confirmed": 179,
+          "confirmed": 182,
           "deceased": 1,
-          "recovered": 128
+          "recovered": 129
         }
       },
       "East Jaintia Hills": {
+        "delta": {
+          "confirmed": 1,
+          "recovered": 1
+        },
         "meta": {
           "population": 122436
         },
         "total": {
-          "confirmed": 403,
-          "recovered": 388
+          "confirmed": 404,
+          "recovered": 389
         }
       },
       "East Khasi Hills": {
+        "delta": {
+          "confirmed": 42,
+          "deceased": 1,
+          "recovered": 95
+        },
         "meta": {
           "population": 824059
         },
         "total": {
-          "confirmed": 5710,
-          "deceased": 71,
-          "recovered": 4594
+          "confirmed": 5752,
+          "deceased": 72,
+          "recovered": 4689
         }
       },
       "North Garo Hills": {
+        "delta": {
+          "recovered": 3
+        },
         "meta": {
           "population": 118325
         },
         "total": {
           "confirmed": 83,
-          "recovered": 63
+          "recovered": 66
         }
       },
       "Ribhoi": {
+        "delta": {
+          "confirmed": 2,
+          "recovered": 1
+        },
         "meta": {
           "population": 258380
         },
         "total": {
-          "confirmed": 815,
+          "confirmed": 817,
           "deceased": 1,
-          "recovered": 656
+          "recovered": 657
         }
       },
       "South Garo Hills": {
@@ -5912,13 +5947,16 @@
         }
       },
       "South West Garo Hills": {
+        "delta": {
+          "recovered": 2
+        },
         "meta": {
           "population": 172495
         },
         "total": {
           "confirmed": 92,
           "deceased": 2,
-          "recovered": 86
+          "recovered": 88
         }
       },
       "South West Khasi Hills": {
@@ -5930,39 +5968,59 @@
           "recovered": 44
         }
       },
+      "Unknown": {
+        "delta": {
+          "recovered": -1
+        },
+        "total": {
+          "recovered": -1
+        }
+      },
       "West Garo Hills": {
+        "delta": {
+          "confirmed": 13,
+          "recovered": 25
+        },
         "meta": {
           "population": 642923
         },
         "total": {
-          "confirmed": 1092,
+          "confirmed": 1105,
           "deceased": 2,
-          "recovered": 912
+          "recovered": 937
         }
       },
       "West Jaintia Hills": {
+        "delta": {
+          "confirmed": 13,
+          "recovered": 7
+        },
         "meta": {
           "population": 270352
         },
         "total": {
-          "confirmed": 164,
+          "confirmed": 177,
           "deceased": 1,
-          "recovered": 83
+          "recovered": 90
         }
       },
       "West Khasi Hills": {
+        "delta": {
+          "confirmed": 7,
+          "recovered": 2
+        },
         "meta": {
           "population": 385601
         },
         "total": {
-          "confirmed": 120,
+          "confirmed": 127,
           "deceased": 1,
-          "recovered": 74
+          "recovered": 76
         }
       }
     },
     "meta": {
-      "last_updated": "2020-10-23T23:39:44+05:30",
+      "last_updated": "2020-10-25T00:41:43+05:30",
       "population": 3224000,
       "tested": {
         "last_updated": "2020-10-23",
@@ -5970,9 +6028,9 @@
       }
     },
     "total": {
-      "confirmed": 8801,
-      "deceased": 79,
-      "recovered": 7092,
+      "confirmed": 8882,
+      "deceased": 80,
+      "recovered": 7228,
       "tested": 194818
     }
   },
@@ -6006,7 +6064,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-10-25T00:23:38+05:30",
+      "last_updated": "2020-10-25T00:28:40+05:30",
       "population": 3103000,
       "tested": {
         "last_updated": "2020-10-24",
@@ -10038,13 +10096,12 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 49782,
-      "deceased": 566,
-      "other": 4,
-      "recovered": 61563
+      "confirmed": 49863,
+      "deceased": 567,
+      "recovered": 61700
     },
     "meta": {
-      "last_updated": "2020-10-25T00:23:35+05:30",
+      "last_updated": "2020-10-25T00:41:37+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-10-23",
@@ -10052,10 +10109,10 @@
       }
     },
     "total": {
-      "confirmed": 7863450,
-      "deceased": 118558,
-      "other": 1310,
-      "recovered": 7075132,
+      "confirmed": 7863531,
+      "deceased": 118559,
+      "other": 1306,
+      "recovered": 7075269,
       "tested": 101382564
     }
   },
