@@ -12151,15 +12151,21 @@
         "delta": {
           "confirmed": 42,
           "deceased": 1,
-          "recovered": 70
+          "recovered": 70,
+          "tested": 600
         },
         "meta": {
-          "population": 3712738
+          "population": 3712738,
+          "tested": {
+            "last_updated": "2020-09-12",
+            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/2342"
+          }
         },
         "total": {
           "confirmed": 2100,
           "deceased": 17,
-          "recovered": 1586
+          "recovered": 1586,
+          "tested": 52807
         }
       },
       "Bulandshahr": {
@@ -13299,20 +13305,6 @@
           "deceased": 203,
           "recovered": 8272,
           "tested": 143750
-        }
-      },
-      "badaun": {
-        "delta": {
-          "tested": 600
-        },
-        "meta": {
-          "tested": {
-            "last_updated": "2020-09-12",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/2342"
-          }
-        },
-        "total": {
-          "tested": 52807
         }
       }
     },
