@@ -7163,7 +7163,9 @@
   "NL": {
     "delta": {
       "confirmed": 79,
-      "recovered": 98,
+      "deceased": 3,
+      "other": 6,
+      "recovered": 97,
       "tested": 567
     },
     "districts": {
@@ -7316,6 +7318,18 @@
           "tested": 2864
         }
       },
+      "Unknown": {
+        "delta": {
+          "deceased": 3,
+          "other": 6,
+          "recovered": -1
+        },
+        "total": {
+          "deceased": 3,
+          "other": 6,
+          "recovered": -1
+        }
+      },
       "Wokha": {
         "meta": {
           "population": 166239,
@@ -7348,7 +7362,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-10-25T01:57:57+05:30",
+      "last_updated": "2020-10-25T02:25:49+05:30",
       "population": 2150000,
       "tested": {
         "last_updated": "2020-10-24",
@@ -7357,9 +7371,9 @@
     },
     "total": {
       "confirmed": 8515,
-      "deceased": 21,
-      "other": 72,
-      "recovered": 6599,
+      "deceased": 24,
+      "other": 78,
+      "recovered": 6598,
       "tested": 94496
     }
   },
@@ -10102,11 +10116,12 @@
   "TT": {
     "delta": {
       "confirmed": 49865,
-      "deceased": 567,
-      "recovered": 61704
+      "deceased": 570,
+      "other": 6,
+      "recovered": 61703
     },
     "meta": {
-      "last_updated": "2020-10-25T01:58:32+05:30",
+      "last_updated": "2020-10-25T02:25:43+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-10-23",
@@ -10115,9 +10130,9 @@
     },
     "total": {
       "confirmed": 7863533,
-      "deceased": 118559,
-      "other": 1306,
-      "recovered": 7075273,
+      "deceased": 118562,
+      "other": 1312,
+      "recovered": 7075272,
       "tested": 101382564
     }
   },
