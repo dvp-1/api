@@ -2303,6 +2303,9 @@
   },
   "GA": {
     "delta": {
+      "confirmed": 221,
+      "deceased": 7,
+      "recovered": 196,
       "tested": 1801
     },
     "districts": {
@@ -2339,15 +2342,20 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "confirmed": 221,
+          "deceased": 7,
+          "recovered": 196
+        },
         "total": {
-          "confirmed": 36368,
-          "deceased": 393,
-          "recovered": 37217
+          "confirmed": 36589,
+          "deceased": 400,
+          "recovered": 37413
         }
       }
     },
     "meta": {
-      "last_updated": "2020-10-27T19:40:15+05:30",
+      "last_updated": "2020-10-28T19:42:10+05:30",
       "population": 1540000,
       "tested": {
         "last_updated": "2020-10-28",
@@ -2355,9 +2363,9 @@
       }
     },
     "total": {
-      "confirmed": 42747,
-      "deceased": 585,
-      "recovered": 39778,
+      "confirmed": 42968,
+      "deceased": 592,
+      "recovered": 39974,
       "tested": 295392
     }
   },
@@ -4719,7 +4727,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-10-28T19:23:12+05:30",
+      "last_updated": "2020-10-28T19:29:08+05:30",
       "notes": "Mahe native who expired in Kannur included in Kerala's deceased tally.\nSome non-covid deaths have also been reported in the bulletin.\nThese have been reduced from active count",
       "population": 35125000,
       "tested": {
@@ -5632,6 +5640,9 @@
     }
   },
   "MP": {
+    "delta": {
+      "tested": 25987
+    },
     "districts": {
       "Agar Malwa": {
         "total": {
@@ -6390,18 +6401,21 @@
       "notes": "[Oct 14]: 4469 confirmed cases and 4469 recoveries added in MP bulletin as reconciliation with private labs and hospitals",
       "population": 82232000,
       "tested": {
-        "last_updated": "2020-10-27",
-        "source": "https://twitter.com/ANI/status/1321085798876389380?s=20"
+        "last_updated": "2020-10-28",
+        "source": "https://twitter.com/healthminmp/status/1321451650620497926?s=20"
       }
     },
     "total": {
       "confirmed": 168483,
       "deceased": 2898,
       "recovered": 155232,
-      "tested": 2827043
+      "tested": 2853030
     }
   },
   "MZ": {
+    "delta": {
+      "tested": 1507
+    },
     "districts": {
       "Aizawl": {
         "meta": {
@@ -6498,17 +6512,20 @@
       "last_updated": "2020-10-28T09:31:12+05:30",
       "population": 1192000,
       "tested": {
-        "last_updated": "2020-10-27",
-        "source": "https://dipr.mizoram.gov.in/post/status-of-state-surveillance-of-covid-19-27102020-last-24hours-500pm"
+        "last_updated": "2020-10-28",
+        "source": "https://dipr.mizoram.gov.in/post/status-of-state-surveillance-of-covid-19-28102020-last-24hours-500pm"
       }
     },
     "total": {
       "confirmed": 2527,
       "recovered": 2224,
-      "tested": 106304
+      "tested": 107811
     }
   },
   "NL": {
+    "delta": {
+      "tested": 746
+    },
     "districts": {
       "Dimapur": {
         "meta": {
@@ -6692,8 +6709,8 @@
       "notes": "46 cases are marked as other state patients",
       "population": 2150000,
       "tested": {
-        "last_updated": "2020-10-27",
-        "source": "https://twitter.com/MyGovNagaland/status/1321076452788371456?s=20"
+        "last_updated": "2020-10-28",
+        "source": "https://twitter.com/MyGovNagaland/status/1321452019492683776?s=20"
       }
     },
     "total": {
@@ -6701,7 +6718,7 @@
       "deceased": 33,
       "migrated": 73,
       "recovered": 6755,
-      "tested": 95968
+      "tested": 96714
     }
   },
   "OR": {
@@ -7613,8 +7630,17 @@
     }
   },
   "PY": {
+    "delta": {
+      "confirmed": 101,
+      "deceased": 2,
+      "recovered": 154
+    },
     "districts": {
       "Karaikal": {
+        "delta": {
+          "confirmed": 8,
+          "recovered": 21
+        },
         "meta": {
           "notes": "2 case of TN has been transferred,so has been reduced from the total count.",
           "population": 200222,
@@ -7624,13 +7650,17 @@
           }
         },
         "total": {
-          "confirmed": 3384,
+          "confirmed": 3392,
           "deceased": 55,
-          "recovered": 3095,
+          "recovered": 3116,
           "tested": 36177
         }
       },
       "Mahe": {
+        "delta": {
+          "confirmed": 11,
+          "recovered": 17
+        },
         "meta": {
           "notes": "1 case of KL have been transferred,so have been reduced from the total count",
           "population": 41816,
@@ -7640,13 +7670,18 @@
           }
         },
         "total": {
-          "confirmed": 874,
+          "confirmed": 885,
           "deceased": 6,
-          "recovered": 725,
+          "recovered": 742,
           "tested": 12894
         }
       },
       "Puducherry": {
+        "delta": {
+          "confirmed": 74,
+          "deceased": 2,
+          "recovered": 103
+        },
         "meta": {
           "notes": "209 cases(204 of TN, 1 of AP and 4 other) have been transferred,so have been reduced from the total count.[July 18]4 cases have transferred to TN and have been reduced from recovered cases.",
           "population": 950289,
@@ -7656,13 +7691,17 @@
           }
         },
         "total": {
-          "confirmed": 28284,
-          "deceased": 485,
-          "recovered": 24550,
+          "confirmed": 28358,
+          "deceased": 487,
+          "recovered": 24653,
           "tested": 233077
         }
       },
       "Yanam": {
+        "delta": {
+          "confirmed": 8,
+          "recovered": 13
+        },
         "meta": {
           "notes": "2 cases of AP have been transferred,so have been reduced from the total count",
           "population": 55626,
@@ -7672,9 +7711,9 @@
           }
         },
         "total": {
-          "confirmed": 1940,
+          "confirmed": 1948,
           "deceased": 42,
-          "recovered": 1783,
+          "recovered": 1796,
           "tested": 15047
         }
       }
@@ -7688,9 +7727,9 @@
       }
     },
     "total": {
-      "confirmed": 34482,
-      "deceased": 588,
-      "recovered": 30153,
+      "confirmed": 34583,
+      "deceased": 590,
+      "recovered": 30307,
       "tested": 297195
     }
   },
@@ -8235,6 +8274,9 @@
     }
   },
   "SK": {
+    "delta": {
+      "tested": 124
+    },
     "districts": {
       "East Sikkim": {
         "meta": {
@@ -8286,8 +8328,8 @@
       "last_updated": "2020-10-27T23:48:11+05:30",
       "population": 664000,
       "tested": {
-        "last_updated": "2020-10-26",
-        "source": "https://t.me/Covid19india_Auxiliary_Test_Data/3231"
+        "last_updated": "2020-10-28",
+        "source": "https://t.me/Covid19india_Auxiliary_Test_Data/3280"
       }
     },
     "total": {
@@ -8295,7 +8337,7 @@
       "deceased": 67,
       "migrated": 82,
       "recovered": 3452,
-      "tested": 55817
+      "tested": 56022
     }
   },
   "TG": {
@@ -9448,12 +9490,12 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 10330,
-      "deceased": 39,
-      "recovered": 7660
+      "confirmed": 10652,
+      "deceased": 48,
+      "recovered": 8010
     },
     "meta": {
-      "last_updated": "2020-10-28T19:23:10+05:30",
+      "last_updated": "2020-10-28T19:43:06+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-10-27",
@@ -9461,10 +9503,10 @@
       }
     },
     "total": {
-      "confirmed": 7999433,
-      "deceased": 120094,
+      "confirmed": 7999755,
+      "deceased": 120103,
       "migrated": 1363,
-      "recovered": 7265104,
+      "recovered": 7265454,
       "tested": 105487680
     }
   },
@@ -9480,36 +9522,36 @@
     },
     "districts": {
       "Agra": {
+        "delta": {
+          "tested": 2126
+        },
         "meta": {
           "population": 4380793,
-          "tested": {
-            "last_updated": "2020-10-27",
-            "source": "https://twitter.com/PrabhuNs_/status/1321051882756816897?s=20"
-          }
-        },
-        "total": {
-          "confirmed": 7058,
-          "deceased": 144,
-          "recovered": 6579,
-          "tested": 256024
-        }
-      },
-      "Aligarh": {
-        "delta": {
-          "tested": -16319
-        },
-        "meta": {
-          "population": 3673849,
           "tested": {
             "last_updated": "2020-10-28",
             "source": "https://twitter.com/PrabhuNs_/status/1321426476286107649?s=20"
           }
         },
         "total": {
+          "confirmed": 7058,
+          "deceased": 144,
+          "recovered": 6579,
+          "tested": 258150
+        }
+      },
+      "Aligarh": {
+        "meta": {
+          "population": 3673849,
+          "tested": {
+            "last_updated": "2020-10-27",
+            "source": "https://t.me/c/1183521857/5201"
+          }
+        },
+        "total": {
           "confirmed": 9378,
           "deceased": 46,
           "recovered": 9073,
-          "tested": 258150
+          "tested": 274469
         }
       },
       "Ambedkar Nagar": {
@@ -10341,15 +10383,15 @@
         "meta": {
           "population": 4138605,
           "tested": {
-            "last_updated": "2020-10-26",
-            "source": "https://t.me/c/1183521857/5164"
+            "last_updated": "2020-10-27",
+            "source": "https://t.me/c/1238093174/13663"
           }
         },
         "total": {
           "confirmed": 5946,
           "deceased": 79,
           "recovered": 5463,
-          "tested": 90817
+          "tested": 92138
         }
       },
       "Pilibhit": {
@@ -10371,30 +10413,30 @@
         "meta": {
           "population": 3173752,
           "tested": {
-            "last_updated": "2020-10-26",
-            "source": "https://t.me/c/1238093174/13622"
+            "last_updated": "2020-10-27",
+            "source": "https://t.me/c/1238093174/13663"
           }
         },
         "total": {
           "confirmed": 4362,
           "deceased": 54,
           "recovered": 4016,
-          "tested": 52300
+          "tested": 52700
         }
       },
       "Prayagraj": {
         "meta": {
           "population": 5959798,
           "tested": {
-            "last_updated": "2020-10-26",
-            "source": "https://t.me/c/1238093174/13622"
+            "last_updated": "2020-10-27",
+            "source": "https://t.me/c/1238093174/13663"
           }
         },
         "total": {
           "confirmed": 23510,
           "deceased": 322,
           "recovered": 21830,
-          "tested": 362100
+          "tested": 366100
         }
       },
       "Rae Bareli": {
@@ -10431,15 +10473,15 @@
         "meta": {
           "population": 3464228,
           "tested": {
-            "last_updated": "2020-10-26",
-            "source": "https://t.me/c/1183521857/5164"
+            "last_updated": "2020-10-27",
+            "source": "https://t.me/c/1238093174/13663"
           }
         },
         "total": {
           "confirmed": 7740,
           "deceased": 118,
           "recovered": 7391,
-          "tested": 194453
+          "tested": 194778
         }
       },
       "Sambhal": {
@@ -10491,15 +10533,15 @@
         "meta": {
           "population": 1274815,
           "tested": {
-            "last_updated": "2020-10-26",
-            "source": "https://t.me/c/1183521857/5164"
+            "last_updated": "2020-10-27",
+            "source": "https://t.me/c/1238093174/13663"
           }
         },
         "total": {
           "confirmed": 2813,
           "deceased": 26,
           "recovered": 2656,
-          "tested": 111478
+          "tested": 112928
         }
       },
       "Shrawasti": {
@@ -10840,7 +10882,8 @@
       "notes": "[Oct 17]: 89 back-dated deaths included",
       "population": 11141000,
       "tested": {
-        "last_updated": "2020-10-28"
+        "last_updated": "2020-10-28",
+        "source": "https://twitter.com/DDnews_dehradun/status/1321453281521131520?s=20"
       }
     },
     "total": {
