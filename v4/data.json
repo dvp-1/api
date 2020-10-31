@@ -5134,6 +5134,7 @@
   "LA": {
     "delta": {
       "confirmed": 76,
+      "deceased": 1,
       "recovered": 46
     },
     "districts": {
@@ -5172,10 +5173,18 @@
           "recovered": 3836,
           "tested": 47661
         }
+      },
+      "Unknown": {
+        "delta": {
+          "deceased": 1
+        },
+        "total": {
+          "deceased": 2
+        }
       }
     },
     "meta": {
-      "last_updated": "2020-11-01T00:58:24+05:30",
+      "last_updated": "2020-11-01T01:37:26+05:30",
       "notes": "[Sep 08] : Testing details are not available in Ladakh bulletin from Sep 06 onwards",
       "population": 293000,
       "tested": {
@@ -5185,7 +5194,7 @@
     },
     "total": {
       "confirmed": 6270,
-      "deceased": 73,
+      "deceased": 75,
       "recovered": 5539,
       "tested": 72336
     }
@@ -5865,7 +5874,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-11-01T01:23:13+05:30",
+      "last_updated": "2020-11-01T01:37:22+05:30",
       "population": 3224000,
       "tested": {
         "last_updated": "2020-10-31",
@@ -8959,8 +8968,18 @@
     }
   },
   "SK": {
+    "delta": {
+      "confirmed": 27,
+      "deceased": 1,
+      "recovered": 26
+    },
     "districts": {
       "Unknown": {
+        "delta": {
+          "confirmed": 27,
+          "deceased": 1,
+          "recovered": 26
+        },
         "meta": {
           "tested": {
             "last_updated": "2020-10-30",
@@ -8968,10 +8987,10 @@
           }
         },
         "total": {
-          "confirmed": 3913,
-          "deceased": 67,
+          "confirmed": 3940,
+          "deceased": 68,
           "other": 82,
-          "recovered": 3509,
+          "recovered": 3535,
           "tested": 56319
         }
       }
@@ -8985,10 +9004,10 @@
       }
     },
     "total": {
-      "confirmed": 3913,
-      "deceased": 67,
+      "confirmed": 3940,
+      "deceased": 68,
       "other": 82,
-      "recovered": 3509,
+      "recovered": 3535,
       "tested": 56319
     }
   },
@@ -9941,12 +9960,12 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 46688,
-      "deceased": 465,
-      "recovered": 58266
+      "confirmed": 46715,
+      "deceased": 467,
+      "recovered": 58292
     },
     "meta": {
-      "last_updated": "2020-11-01T01:23:11+05:30",
+      "last_updated": "2020-11-01T01:37:14+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-10-30",
@@ -9954,10 +9973,10 @@
       }
     },
     "total": {
-      "confirmed": 8182854,
-      "deceased": 122146,
+      "confirmed": 8182881,
+      "deceased": 122149,
       "other": 1423,
-      "recovered": 7489177,
+      "recovered": 7489203,
       "tested": 108796064
     }
   },
