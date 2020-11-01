@@ -1634,12 +1634,16 @@
   },
   "CH": {
     "delta": {
-      "confirmed": 61,
+      "confirmed": 58,
       "recovered": 81,
       "tested": 836
     },
     "districts": {
       "Chandigarh": {
+        "delta": {
+          "confirmed": 58,
+          "recovered": 81
+        },
         "meta": {
           "population": 1055450,
           "tested": {
@@ -1648,25 +1652,15 @@
           }
         },
         "total": {
-          "confirmed": 14418,
+          "confirmed": 14476,
           "deceased": 226,
-          "recovered": 13551,
+          "recovered": 13632,
           "tested": 32134
-        }
-      },
-      "Unknown": {
-        "delta": {
-          "confirmed": 61,
-          "recovered": 81
-        },
-        "total": {
-          "confirmed": 61,
-          "recovered": 81
         }
       }
     },
     "meta": {
-      "last_updated": "2020-10-31T19:52:20+05:30",
+      "last_updated": "2020-11-01T19:53:17+05:30",
       "population": 1179000,
       "tested": {
         "last_updated": "2020-11-01",
@@ -1674,7 +1668,7 @@
       }
     },
     "total": {
-      "confirmed": 14479,
+      "confirmed": 14476,
       "deceased": 226,
       "recovered": 13632,
       "tested": 107851
@@ -3014,7 +3008,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-11-01T19:46:21+05:30",
+      "last_updated": "2020-11-01T19:53:15+05:30",
       "population": 67936000,
       "tested": {
         "last_updated": "2020-10-31",
@@ -4933,6 +4927,12 @@
     }
   },
   "MH": {
+    "delta": {
+      "confirmed": 5369,
+      "deceased": 113,
+      "recovered": 3726,
+      "tested": 57468
+    },
     "districts": {
       "Ahmednagar": {
         "meta": {
@@ -5400,6 +5400,18 @@
           "tested": 1194637
         }
       },
+      "Unknown": {
+        "delta": {
+          "confirmed": 5369,
+          "deceased": 113,
+          "recovered": 3726
+        },
+        "total": {
+          "confirmed": 5369,
+          "deceased": 113,
+          "recovered": 3726
+        }
+      },
       "Wardha": {
         "meta": {
           "population": 1296157,
@@ -5444,20 +5456,20 @@
       }
     },
     "meta": {
-      "last_updated": "2020-11-01T07:40:14+05:30",
+      "last_updated": "2020-11-01T19:53:12+05:30",
       "notes": "[Sep 9] :239 cases have been removed from the hospitalized figures owing to the removal of duplicates and change of addresses as per the original residence,\n[Aug 15] : MH bulletin has reduced 819 confirmed cases in Mumbai and 72 confirmed cases from 'Other States' from the tally\n[Jun 16] : 1328 deceased cases have been retroactively added to MH bulletin.\n[Jun 20] : 69 deceased cases have been reduced based on state bulletin.",
       "population": 122153000,
       "tested": {
-        "last_updated": "2020-10-31",
-        "source": "https://twitter.com/ANI/status/1322534451595763712/photo/1"
+        "last_updated": "2020-11-01",
+        "source": "https://twitter.com/ANI/status/1322902189572911105?s=20"
       }
     },
     "total": {
-      "confirmed": 1678406,
-      "deceased": 43911,
+      "confirmed": 1683775,
+      "deceased": 44024,
       "migrated": 557,
-      "recovered": 1510353,
-      "tested": 8967403
+      "recovered": 1514079,
+      "tested": 9024871
     }
   },
   "ML": {
@@ -5766,7 +5778,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-11-01T19:46:27+05:30",
+      "last_updated": "2020-11-01T19:51:29+05:30",
       "population": 3103000,
       "tested": {
         "last_updated": "2020-10-31",
@@ -6542,7 +6554,8 @@
       "notes": "[Oct 14]: 4469 confirmed cases and 4469 recoveries added in MP bulletin as reconciliation with private labs and hospitals",
       "population": 82232000,
       "tested": {
-        "last_updated": "2020-11-01"
+        "last_updated": "2020-11-01",
+        "source": "https://twitter.com/healthminmp/status/1322903255765061633?s=20"
       }
     },
     "total": {
@@ -9724,12 +9737,12 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 18344,
-      "deceased": 136,
-      "recovered": 16932
+      "confirmed": 23710,
+      "deceased": 249,
+      "recovered": 20658
     },
     "meta": {
-      "last_updated": "2020-11-01T19:46:17+05:30",
+      "last_updated": "2020-11-01T19:53:11+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-10-31",
@@ -9737,10 +9750,10 @@
       }
     },
     "total": {
-      "confirmed": 8201240,
-      "deceased": 122285,
+      "confirmed": 8206606,
+      "deceased": 122398,
       "migrated": 1431,
-      "recovered": 7506159,
+      "recovered": 7509885,
       "tested": 109887303
     }
   },
@@ -9754,7 +9767,8 @@
     "delta": {
       "confirmed": 1969,
       "deceased": 26,
-      "recovered": 2388
+      "recovered": 2388,
+      "tested": 150000
     },
     "districts": {
       "Agra": {
@@ -9785,15 +9799,15 @@
         "meta": {
           "population": 3673849,
           "tested": {
-            "last_updated": "2020-10-27",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/3263"
+            "last_updated": "2020-10-31",
+            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/3389"
           }
         },
         "total": {
           "confirmed": 9528,
           "deceased": 48,
           "recovered": 9193,
-          "tested": 274469
+          "tested": 263279
         }
       },
       "Ambedkar Nagar": {
@@ -11206,15 +11220,15 @@
       "last_updated": "2020-11-01T17:55:18+05:30",
       "population": 224979000,
       "tested": {
-        "last_updated": "2020-10-31",
-        "source": "https://twitter.com/ShishirGoUP/status/1322485990158528512?s=20"
+        "last_updated": "2020-11-01",
+        "source": "https://twitter.com/ShishirGoUP/status/1322837888334135297?s=20"
       }
     },
     "total": {
       "confirmed": 483832,
       "deceased": 7051,
       "recovered": 453458,
-      "tested": 14863388
+      "tested": 15013388
     }
   },
   "UT": {
@@ -11447,7 +11461,8 @@
     "delta": {
       "confirmed": 3987,
       "deceased": 59,
-      "recovered": 4053
+      "recovered": 4053,
+      "tested": 44457
     },
     "districts": {
       "Alipurduar": {
@@ -11795,18 +11810,18 @@
       }
     },
     "meta": {
-      "last_updated": "2020-11-01T19:46:19+05:30",
+      "last_updated": "2020-11-01T19:53:14+05:30",
       "population": 96906000,
       "tested": {
-        "last_updated": "2020-10-31",
-        "source": "https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_31st_OCTOBER_REPORT_FINAL.pdf"
+        "last_updated": "2020-11-01",
+        "source": "https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_1st_NOVEMBER_REPORT_FINAL.pdf"
       }
     },
     "total": {
       "confirmed": 377651,
       "deceased": 6900,
       "recovered": 333990,
-      "tested": 4556425
+      "tested": 4600882
     }
   }
 }
