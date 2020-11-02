@@ -1888,7 +1888,8 @@
         "meta": {
           "population": 19814000,
           "tested": {
-            "last_updated": "2020-11-02"
+            "last_updated": "2020-11-02",
+            "source": "https://twitter.com/ANI/status/1323276190002470912?s=20"
           }
         },
         "total": {
@@ -1904,7 +1905,8 @@
       "notes": "[July 14]: Value for the total tests conducted has been reduced by 97008 in the state bulletin. Reason given : \"Reconciled with ICMR figures\". We have made the same change.\n[June 16]: 344 deceased cases have been retroactively added to DL bulletin.",
       "population": 19814000,
       "tested": {
-        "last_updated": "2020-11-02"
+        "last_updated": "2020-11-02",
+        "source": "https://twitter.com/ANI/status/1323276190002470912?s=20"
       }
     },
     "total": {
@@ -1988,26 +1990,28 @@
     "delta": {
       "confirmed": 186,
       "deceased": 7,
-      "recovered": 208
+      "recovered": 208,
+      "tested": 1392
     },
     "districts": {
       "Unknown": {
         "delta": {
           "confirmed": 186,
           "deceased": 7,
-          "recovered": 208
+          "recovered": 208,
+          "tested": 1392
         },
         "meta": {
           "tested": {
-            "last_updated": "2020-11-01",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/3412"
+            "last_updated": "2020-11-02",
+            "source": "https://www.goa.gov.in/wp-content/uploads/2020/11/Media-Bulletin-02nd-November-2020.pdf"
           }
         },
         "total": {
           "confirmed": 43954,
           "deceased": 616,
           "recovered": 41123,
-          "tested": 301440
+          "tested": 302832
         }
       }
     },
@@ -2015,15 +2019,15 @@
       "last_updated": "2020-11-02T19:59:23+05:30",
       "population": 1540000,
       "tested": {
-        "last_updated": "2020-11-01",
-        "source": "https://t.me/Covid19india_Auxiliary_Test_Data/3412"
+        "last_updated": "2020-11-02",
+        "source": "https://www.goa.gov.in/wp-content/uploads/2020/11/Media-Bulletin-02nd-November-2020.pdf"
       }
     },
     "total": {
       "confirmed": 43954,
       "deceased": 616,
       "recovered": 41123,
-      "tested": 301440
+      "tested": 302832
     }
   },
   "GJ": {
@@ -5168,64 +5172,89 @@
     }
   },
   "ML": {
+    "delta": {
+      "confirmed": 71,
+      "recovered": 117
+    },
     "districts": {
       "East Garo Hills": {
+        "delta": {
+          "confirmed": 1
+        },
         "meta": {
           "population": 317618
         },
         "total": {
-          "confirmed": 203,
+          "confirmed": 204,
           "deceased": 1,
           "recovered": 145
         }
       },
       "East Jaintia Hills": {
+        "delta": {
+          "recovered": 1
+        },
         "meta": {
           "population": 122436
         },
         "total": {
           "confirmed": 422,
           "other": 3,
-          "recovered": 400
+          "recovered": 401
         }
       },
       "East Khasi Hills": {
+        "delta": {
+          "confirmed": 29,
+          "recovered": 83
+        },
         "meta": {
           "population": 824059
         },
         "total": {
-          "confirmed": 6054,
+          "confirmed": 6083,
           "deceased": 80,
-          "recovered": 5576
+          "recovered": 5659
         }
       },
       "North Garo Hills": {
+        "delta": {
+          "confirmed": 1,
+          "recovered": 1
+        },
         "meta": {
           "population": 118325
         },
         "total": {
-          "confirmed": 95,
+          "confirmed": 96,
           "deceased": 1,
-          "recovered": 78
+          "recovered": 79
         }
       },
       "Ribhoi": {
+        "delta": {
+          "confirmed": 2,
+          "recovered": 14
+        },
         "meta": {
           "population": 258380
         },
         "total": {
-          "confirmed": 1024,
+          "confirmed": 1026,
           "deceased": 1,
-          "recovered": 754
+          "recovered": 768
         }
       },
       "South Garo Hills": {
+        "delta": {
+          "recovered": 8
+        },
         "meta": {
           "population": 142574
         },
         "total": {
           "confirmed": 103,
-          "recovered": 86
+          "recovered": 94
         }
       },
       "South West Garo Hills": {
@@ -5248,23 +5277,31 @@
         }
       },
       "West Garo Hills": {
+        "delta": {
+          "confirmed": 2,
+          "recovered": 5
+        },
         "meta": {
           "population": 642923
         },
         "total": {
-          "confirmed": 1214,
+          "confirmed": 1216,
           "deceased": 3,
-          "recovered": 1065
+          "recovered": 1070
         }
       },
       "West Jaintia Hills": {
+        "delta": {
+          "confirmed": 36,
+          "recovered": 5
+        },
         "meta": {
           "population": 270352
         },
         "total": {
-          "confirmed": 214,
+          "confirmed": 250,
           "deceased": 1,
-          "recovered": 143
+          "recovered": 148
         }
       },
       "West Khasi Hills": {
@@ -5279,7 +5316,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-11-01T21:09:17+05:30",
+      "last_updated": "2020-11-02T20:58:26+05:30",
       "population": 3224000,
       "tested": {
         "last_updated": "2020-10-31",
@@ -5287,10 +5324,10 @@
       }
     },
     "total": {
-      "confirmed": 9607,
+      "confirmed": 9678,
       "deceased": 90,
       "other": 3,
-      "recovered": 8462,
+      "recovered": 8579,
       "tested": 202056
     }
   },
@@ -9181,12 +9218,12 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 21629,
+      "confirmed": 21700,
       "deceased": 206,
-      "recovered": 27139
+      "recovered": 27256
     },
     "meta": {
-      "last_updated": "2020-11-02T20:39:17+05:30",
+      "last_updated": "2020-11-02T20:58:16+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-11-01",
@@ -9194,10 +9231,10 @@
       }
     },
     "total": {
-      "confirmed": 8250951,
+      "confirmed": 8251022,
       "deceased": 122848,
       "other": 1447,
-      "recovered": 7570044,
+      "recovered": 7570161,
       "tested": 110743103
     }
   },
