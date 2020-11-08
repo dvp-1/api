@@ -5737,8 +5737,16 @@
     }
   },
   "LA": {
+    "delta": {
+      "confirmed": 19,
+      "deceased": 4,
+      "recovered": 66
+    },
     "districts": {
       "Kargil": {
+        "delta": {
+          "deceased": 1
+        },
         "meta": {
           "population": 143000,
           "tested": {
@@ -5748,12 +5756,15 @@
         },
         "total": {
           "confirmed": 1914,
-          "deceased": 38,
+          "deceased": 39,
           "recovered": 1767,
           "tested": 28188
         }
       },
       "Leh": {
+        "delta": {
+          "deceased": 3
+        },
         "meta": {
           "population": 147000,
           "tested": {
@@ -5763,14 +5774,24 @@
         },
         "total": {
           "confirmed": 4876,
-          "deceased": 42,
+          "deceased": 45,
           "recovered": 4127,
           "tested": 52103
+        }
+      },
+      "Unknown": {
+        "delta": {
+          "confirmed": 19,
+          "recovered": 66
+        },
+        "total": {
+          "confirmed": 19,
+          "recovered": 66
         }
       }
     },
     "meta": {
-      "last_updated": "2020-11-08T04:08:21+05:30",
+      "last_updated": "2020-11-09T00:46:29+05:30",
       "notes": "[Sep 08] : Testing details are not available in Ladakh bulletin from Sep 06 onwards",
       "population": 293000,
       "tested": {
@@ -5779,9 +5800,9 @@
       }
     },
     "total": {
-      "confirmed": 6790,
-      "deceased": 80,
-      "recovered": 5894,
+      "confirmed": 6809,
+      "deceased": 84,
+      "recovered": 5960,
       "tested": 80291
     }
   },
@@ -6494,15 +6515,23 @@
     }
   },
   "ML": {
+    "delta": {
+      "confirmed": 155,
+      "recovered": 116
+    },
     "districts": {
       "East Garo Hills": {
+        "delta": {
+          "confirmed": 7,
+          "recovered": 13
+        },
         "meta": {
           "population": 317618
         },
         "total": {
-          "confirmed": 256,
+          "confirmed": 263,
           "deceased": 1,
-          "recovered": 167
+          "recovered": 180
         }
       },
       "East Jaintia Hills": {
@@ -6515,13 +6544,17 @@
         }
       },
       "East Khasi Hills": {
+        "delta": {
+          "confirmed": 69,
+          "recovered": 27
+        },
         "meta": {
           "population": 824059
         },
         "total": {
-          "confirmed": 6177,
+          "confirmed": 6246,
           "deceased": 83,
-          "recovered": 5834
+          "recovered": 5861
         }
       },
       "North Garo Hills": {
@@ -6535,61 +6568,83 @@
         }
       },
       "Ribhoi": {
+        "delta": {
+          "confirmed": 61,
+          "recovered": 29
+        },
         "meta": {
           "population": 258380
         },
         "total": {
-          "confirmed": 1067,
+          "confirmed": 1128,
           "deceased": 1,
-          "recovered": 785
+          "recovered": 814
         }
       },
       "South Garo Hills": {
+        "delta": {
+          "confirmed": 5,
+          "recovered": 8
+        },
         "meta": {
           "population": 142574
         },
         "total": {
-          "confirmed": 112,
-          "recovered": 94
+          "confirmed": 117,
+          "recovered": 102
         }
       },
       "South West Garo Hills": {
+        "delta": {
+          "recovered": 1
+        },
         "meta": {
           "population": 172495
         },
         "total": {
           "confirmed": 114,
           "deceased": 2,
-          "recovered": 94
+          "recovered": 95
         }
       },
       "South West Khasi Hills": {
+        "delta": {
+          "recovered": 1
+        },
         "meta": {
           "population": 110152
         },
         "total": {
           "confirmed": 50,
-          "recovered": 48
+          "recovered": 49
         }
       },
       "West Garo Hills": {
+        "delta": {
+          "confirmed": 11,
+          "recovered": 30
+        },
         "meta": {
           "population": 642923
         },
         "total": {
-          "confirmed": 1271,
+          "confirmed": 1282,
           "deceased": 3,
-          "recovered": 1126
+          "recovered": 1156
         }
       },
       "West Jaintia Hills": {
+        "delta": {
+          "confirmed": 2,
+          "recovered": 7
+        },
         "meta": {
           "population": 270352
         },
         "total": {
-          "confirmed": 303,
+          "confirmed": 305,
           "deceased": 1,
-          "recovered": 194
+          "recovered": 201
         }
       },
       "West Khasi Hills": {
@@ -6604,7 +6659,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-11-09T00:36:42+05:30",
+      "last_updated": "2020-11-09T00:44:32+05:30",
       "population": 3224000,
       "tested": {
         "last_updated": "2020-11-07",
@@ -6612,9 +6667,9 @@
       }
     },
     "total": {
-      "confirmed": 10047,
+      "confirmed": 10202,
       "deceased": 93,
-      "recovered": 8959,
+      "recovered": 9075,
       "tested": 210079
     }
   },
@@ -8141,7 +8196,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-11-09T00:36:44+05:30",
+      "last_updated": "2020-11-09T00:44:34+05:30",
       "notes": "46 cases are marked as other state patients",
       "population": 2150000,
       "tested": {
@@ -9981,6 +10036,9 @@
   },
   "SK": {
     "delta": {
+      "confirmed": 50,
+      "deceased": 2,
+      "recovered": 89,
       "tested": 210
     },
     "districts": {
@@ -10013,11 +10071,16 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "confirmed": 50,
+          "deceased": 2,
+          "recovered": 89
+        },
         "total": {
-          "confirmed": 2186,
-          "deceased": 73,
+          "confirmed": 2236,
+          "deceased": 75,
           "migrated": 83,
-          "recovered": 2526
+          "recovered": 2615
         }
       },
       "West Sikkim": {
@@ -10031,7 +10094,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-11-08T01:33:34+05:30",
+      "last_updated": "2020-11-09T00:46:33+05:30",
       "population": 664000,
       "tested": {
         "last_updated": "2020-11-08",
@@ -10039,10 +10102,10 @@
       }
     },
     "total": {
-      "confirmed": 4195,
-      "deceased": 76,
+      "confirmed": 4245,
+      "deceased": 78,
       "migrated": 83,
-      "recovered": 3721,
+      "recovered": 3810,
       "tested": 58173
     }
   },
@@ -11482,13 +11545,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 46436,
-      "deceased": 484,
+      "confirmed": 46660,
+      "deceased": 490,
       "migrated": 4,
-      "recovered": 48098
+      "recovered": 48369
     },
     "meta": {
-      "last_updated": "2020-11-09T00:36:37+05:30",
+      "last_updated": "2020-11-09T00:47:24+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-11-07",
@@ -11496,10 +11559,10 @@
       }
     },
     "total": {
-      "confirmed": 8553640,
-      "deceased": 126647,
+      "confirmed": 8553864,
+      "deceased": 126653,
       "migrated": 1832,
-      "recovered": 7915389,
+      "recovered": 7915660,
       "tested": 117736791
     }
   },
