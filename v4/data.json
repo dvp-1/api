@@ -25,7 +25,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-11-09T22:21:32+05:30",
+      "last_updated": "2020-11-09T22:27:31+05:30",
       "population": 397000,
       "tested": {
         "last_updated": "2020-11-08",
@@ -318,13 +318,14 @@
   "AR": {
     "delta": {
       "confirmed": 48,
-      "recovered": 77,
+      "recovered": 85,
       "tested": 1715
     },
     "districts": {
       "Anjaw": {
         "delta": {
-          "confirmed": 2
+          "confirmed": 2,
+          "recovered": 1
         },
         "meta": {
           "population": 21089,
@@ -334,7 +335,7 @@
         },
         "total": {
           "confirmed": 180,
-          "recovered": 168,
+          "recovered": 169,
           "tested": 2306
         }
       },
@@ -410,6 +411,9 @@
         }
       },
       "Kra Daadi": {
+        "delta": {
+          "recovered": 1
+        },
         "meta": {
           "tested": {
             "last_updated": "2020-11-07"
@@ -417,7 +421,7 @@
         },
         "total": {
           "confirmed": 36,
-          "recovered": 32,
+          "recovered": 33,
           "tested": 3196
         }
       },
@@ -489,7 +493,8 @@
       },
       "Lower Dibang Valley": {
         "delta": {
-          "confirmed": 3
+          "confirmed": 3,
+          "recovered": 4
         },
         "meta": {
           "population": 53986,
@@ -499,7 +504,7 @@
         },
         "total": {
           "confirmed": 417,
-          "recovered": 359,
+          "recovered": 363,
           "tested": 10916
         }
       },
@@ -520,6 +525,9 @@
         }
       },
       "Lower Subansiri": {
+        "delta": {
+          "recovered": 1
+        },
         "meta": {
           "population": 82839,
           "tested": {
@@ -529,7 +537,7 @@
         "total": {
           "confirmed": 361,
           "deceased": 1,
-          "recovered": 328,
+          "recovered": 329,
           "tested": 8610
         }
       },
@@ -628,7 +636,8 @@
       },
       "Tirap": {
         "delta": {
-          "confirmed": 4
+          "confirmed": 4,
+          "recovered": 1
         },
         "meta": {
           "population": 111997,
@@ -639,7 +648,7 @@
         "total": {
           "confirmed": 555,
           "deceased": 1,
-          "recovered": 522,
+          "recovered": 523,
           "tested": 12582
         }
       },
@@ -728,7 +737,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-11-09T22:21:30+05:30",
+      "last_updated": "2020-11-09T22:30:27+05:30",
       "notes": "[July 25]: All numbers corresponding to Papum Pare and Captial Complex are tracked under Papum Pare district.",
       "population": 1504000,
       "tested": {
@@ -739,7 +748,7 @@
     "total": {
       "confirmed": 15484,
       "deceased": 46,
-      "recovered": 13958,
+      "recovered": 13966,
       "tested": 334117
     }
   },
@@ -1965,44 +1974,46 @@
     "delta": {
       "confirmed": 5023,
       "deceased": 71,
-      "recovered": 7014
+      "recovered": 7014,
+      "tested": 39115
     },
     "districts": {
       "Delhi": {
         "delta": {
           "confirmed": 5023,
           "deceased": 71,
-          "recovered": 7014
+          "recovered": 7014,
+          "tested": 39115
         },
         "meta": {
           "population": 19814000,
           "tested": {
-            "last_updated": "2020-11-08",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/3584"
+            "last_updated": "2020-11-09",
+            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/3610"
           }
         },
         "total": {
           "confirmed": 443552,
           "deceased": 7060,
           "recovered": 396697,
-          "tested": 5099774
+          "tested": 5138889
         }
       }
     },
     "meta": {
-      "last_updated": "2020-11-09T22:21:22+05:30",
+      "last_updated": "2020-11-09T22:27:22+05:30",
       "notes": "[July 14]: Value for the total tests conducted has been reduced by 97008 in the state bulletin. Reason given : \"Reconciled with ICMR figures\". We have made the same change.\n[June 16]: 344 deceased cases have been retroactively added to DL bulletin.",
       "population": 19814000,
       "tested": {
-        "last_updated": "2020-11-08",
-        "source": "https://t.me/Covid19india_Auxiliary_Test_Data/3584"
+        "last_updated": "2020-11-09",
+        "source": "https://t.me/Covid19india_Auxiliary_Test_Data/3610"
       }
     },
     "total": {
       "confirmed": 443552,
       "deceased": 7060,
       "recovered": 396697,
-      "tested": 5099774
+      "tested": 5138889
     }
   },
   "DN": {
@@ -3741,7 +3752,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-11-09T22:21:26+05:30",
+      "last_updated": "2020-11-09T22:27:25+05:30",
       "population": 37403000,
       "tested": {
         "last_updated": "2020-11-09",
@@ -9492,10 +9503,10 @@
       "confirmed": 28862,
       "deceased": 300,
       "other": 6,
-      "recovered": 35176
+      "recovered": 35184
     },
     "meta": {
-      "last_updated": "2020-11-09T22:21:20+05:30",
+      "last_updated": "2020-11-09T22:30:24+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-11-08",
@@ -9506,7 +9517,7 @@
       "confirmed": 8582773,
       "deceased": 126954,
       "other": 1845,
-      "recovered": 7950932,
+      "recovered": 7950940,
       "tested": 118572192
     }
   },
@@ -11154,7 +11165,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-11-09T22:21:27+05:30",
+      "last_updated": "2020-11-09T22:27:27+05:30",
       "notes": "[Oct 17]: 89 back-dated deaths included",
       "population": 11141000,
       "tested": {
