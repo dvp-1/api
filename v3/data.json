@@ -732,6 +732,9 @@
   },
   "AS": {
     "delta": {
+      "confirmed": 271,
+      "deceased": 5,
+      "recovered": 629,
       "tested": 25339
     },
     "districts": {
@@ -840,6 +843,7 @@
       },
       "Dibrugarh": {
         "delta": {
+          "deceased": 2,
           "tested": 1346
         },
         "meta": {
@@ -851,7 +855,7 @@
         },
         "total": {
           "confirmed": 9486,
-          "deceased": 90,
+          "deceased": 92,
           "recovered": 2409,
           "tested": 215013
         }
@@ -927,12 +931,16 @@
         }
       },
       "Kamrup Metropolitan": {
+        "delta": {
+          "confirmed": 56,
+          "deceased": 2
+        },
         "meta": {
           "population": 1260419
         },
         "total": {
-          "confirmed": 48127,
-          "deceased": 132,
+          "confirmed": 48183,
+          "deceased": 134,
           "recovered": 14599
         }
       },
@@ -1053,12 +1061,15 @@
         }
       },
       "Tinsukia": {
+        "delta": {
+          "deceased": 1
+        },
         "meta": {
           "population": 1316948
         },
         "total": {
           "confirmed": 3366,
-          "deceased": 34,
+          "deceased": 35,
           "recovered": 1798
         }
       },
@@ -1078,11 +1089,15 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "confirmed": 215,
+          "recovered": 629
+        },
         "total": {
-          "confirmed": 96708,
+          "confirmed": 96923,
           "deceased": 249,
           "migrated": 3,
-          "recovered": 156687
+          "recovered": 157316
         }
       },
       "West Karbi Anglong": {
@@ -1097,7 +1112,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-11-09T21:05:18+05:30",
+      "last_updated": "2020-11-10T23:03:29+05:30",
       "population": 34293000,
       "tested": {
         "last_updated": "2020-11-10",
@@ -1105,10 +1120,10 @@
       }
     },
     "total": {
-      "confirmed": 209117,
-      "deceased": 948,
+      "confirmed": 209388,
+      "deceased": 953,
       "migrated": 3,
-      "recovered": 201839,
+      "recovered": 202468,
       "tested": 4899583
     }
   },
@@ -2466,7 +2481,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-11-10T22:54:42+05:30",
+      "last_updated": "2020-11-10T23:02:25+05:30",
       "notes": "[July 14]: Value for the total tests conducted has been reduced by 97008 in the state bulletin. Reason given : \"Reconciled with ICMR figures\". We have made the same change.\n[June 16]: 344 deceased cases have been retroactively added to DL bulletin.",
       "population": 19814000,
       "tested": {
@@ -5470,8 +5485,16 @@
     }
   },
   "LA": {
+    "delta": {
+      "confirmed": 129,
+      "recovered": 55
+    },
     "districts": {
       "Kargil": {
+        "delta": {
+          "confirmed": 9,
+          "recovered": 11
+        },
         "meta": {
           "population": 143000,
           "tested": {
@@ -5480,13 +5503,17 @@
           }
         },
         "total": {
-          "confirmed": 1916,
+          "confirmed": 1925,
           "deceased": 39,
-          "recovered": 1773,
+          "recovered": 1784,
           "tested": 28549
         }
       },
       "Leh": {
+        "delta": {
+          "confirmed": 120,
+          "recovered": 44
+        },
         "meta": {
           "population": 147000,
           "tested": {
@@ -5495,15 +5522,15 @@
           }
         },
         "total": {
-          "confirmed": 5018,
+          "confirmed": 5138,
           "deceased": 46,
-          "recovered": 4230,
+          "recovered": 4274,
           "tested": 52884
         }
       }
     },
     "meta": {
-      "last_updated": "2020-11-10T22:54:45+05:30",
+      "last_updated": "2020-11-10T23:03:33+05:30",
       "notes": "[Sep 08] : Testing details are not available in Ladakh bulletin from Sep 06 onwards",
       "population": 293000,
       "tested": {
@@ -5512,9 +5539,9 @@
       }
     },
     "total": {
-      "confirmed": 6934,
+      "confirmed": 7063,
       "deceased": 85,
-      "recovered": 6003,
+      "recovered": 6058,
       "tested": 81433
     }
   },
@@ -6222,7 +6249,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-11-10T22:54:39+05:30",
+      "last_updated": "2020-11-10T22:59:32+05:30",
       "notes": "[Sep 9] :239 cases have been removed from the hospitalized figures owing to the removal of duplicates and change of addresses as per the original residence,\n[Aug 15] : MH bulletin has reduced 819 confirmed cases in Mumbai and 72 confirmed cases from 'Other States' from the tally\n[Jun 16] : 1328 deceased cases have been retroactively added to MH bulletin.\n[Jun 20] : 69 deceased cases have been reduced based on state bulletin.",
       "population": 122153000,
       "tested": {
@@ -11128,13 +11155,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 38671,
-      "deceased": 410,
+      "confirmed": 39071,
+      "deceased": 415,
       "migrated": 27,
-      "recovered": 47818
+      "recovered": 48502
     },
     "meta": {
-      "last_updated": "2020-11-10T22:54:35+05:30",
+      "last_updated": "2020-11-10T23:03:26+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-11-09",
@@ -11142,10 +11169,10 @@
       }
     },
     "total": {
-      "confirmed": 8629701,
-      "deceased": 127514,
+      "confirmed": 8630101,
+      "deceased": 127519,
       "migrated": 1876,
-      "recovered": 8005023,
+      "recovered": 8005707,
       "tested": 119615857
     }
   },
