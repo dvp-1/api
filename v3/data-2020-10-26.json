@@ -5580,7 +5580,6 @@
     "delta": {
       "confirmed": 4287,
       "deceased": 20,
-      "migrated": 1,
       "recovered": 7107,
       "tested": 35141
     },
@@ -5695,7 +5694,6 @@
         "delta": {
           "confirmed": 194,
           "deceased": 1,
-          "migrated": 1,
           "recovered": 191
         },
         "meta": {
@@ -5704,7 +5702,6 @@
         "total": {
           "confirmed": 21304,
           "deceased": 44,
-          "migrated": 1,
           "recovered": 13920
         }
       },
@@ -5867,7 +5864,7 @@
     "total": {
       "confirmed": 397218,
       "deceased": 1353,
-      "migrated": 104,
+      "migrated": 103,
       "recovered": 302017,
       "tested": 4363557
     }
@@ -6624,10 +6621,6 @@
     }
   },
   "ML": {
-    "delta": {
-      "confirmed": 48,
-      "recovered": 139
-    },
     "districts": {
       "East Garo Hills": {
         "meta": {
@@ -6645,48 +6638,37 @@
         },
         "total": {
           "confirmed": 411,
+          "migrated": 3,
           "recovered": 397
         }
       },
       "East Khasi Hills": {
-        "delta": {
-          "confirmed": 23,
-          "recovered": 117
-        },
         "meta": {
           "population": 824059
         },
         "total": {
-          "confirmed": 5814,
+          "confirmed": 5791,
           "deceased": 73,
-          "recovered": 4879
+          "recovered": 4762
         }
       },
       "North Garo Hills": {
-        "delta": {
-          "confirmed": 3,
-          "recovered": 2
-        },
         "meta": {
           "population": 118325
         },
         "total": {
-          "confirmed": 89,
-          "recovered": 69
+          "confirmed": 86,
+          "recovered": 67
         }
       },
       "Ribhoi": {
-        "delta": {
-          "confirmed": 1,
-          "recovered": 11
-        },
         "meta": {
           "population": 258380
         },
         "total": {
-          "confirmed": 894,
+          "confirmed": 893,
           "deceased": 1,
-          "recovered": 669
+          "recovered": 658
         }
       },
       "South Garo Hills": {
@@ -6699,57 +6681,42 @@
         }
       },
       "South West Garo Hills": {
-        "delta": {
-          "confirmed": 1
-        },
         "meta": {
           "population": 172495
         },
         "total": {
-          "confirmed": 95,
+          "confirmed": 94,
           "deceased": 2,
           "recovered": 88
         }
       },
       "South West Khasi Hills": {
-        "delta": {
-          "confirmed": 1,
-          "recovered": 2
-        },
         "meta": {
           "population": 110152
         },
         "total": {
-          "confirmed": 48,
-          "recovered": 46
+          "confirmed": 47,
+          "recovered": 44
         }
       },
       "West Garo Hills": {
-        "delta": {
-          "confirmed": 5,
-          "recovered": 6
-        },
         "meta": {
           "population": 642923
         },
         "total": {
-          "confirmed": 1118,
+          "confirmed": 1113,
           "deceased": 2,
-          "recovered": 952
+          "recovered": 946
         }
       },
       "West Jaintia Hills": {
-        "delta": {
-          "confirmed": 14,
-          "recovered": 1
-        },
         "meta": {
           "population": 270352
         },
         "total": {
-          "confirmed": 191,
+          "confirmed": 177,
           "deceased": 1,
-          "recovered": 93
+          "recovered": 92
         }
       },
       "West Khasi Hills": {
@@ -6771,9 +6738,10 @@
       }
     },
     "total": {
-      "confirmed": 9068,
+      "confirmed": 9020,
       "deceased": 81,
-      "recovered": 7471,
+      "migrated": 3,
+      "recovered": 7332,
       "tested": 198343
     }
   },
@@ -8133,16 +8101,16 @@
   },
   "NL": {
     "delta": {
-      "confirmed": 74,
-      "deceased": 8,
+      "confirmed": 37,
+      "deceased": 2,
       "recovered": 67,
       "tested": 356
     },
     "districts": {
       "Dimapur": {
         "delta": {
-          "confirmed": 16,
-          "deceased": 5,
+          "confirmed": 8,
+          "deceased": 2,
           "recovered": 29
         },
         "meta": {
@@ -8153,8 +8121,8 @@
           }
         },
         "total": {
-          "confirmed": 4684,
-          "deceased": 24,
+          "confirmed": 4676,
+          "deceased": 21,
           "migrated": 50,
           "recovered": 3257,
           "tested": 38571
@@ -8176,8 +8144,7 @@
       },
       "Kohima": {
         "delta": {
-          "confirmed": 56,
-          "deceased": 3,
+          "confirmed": 28,
           "recovered": 20
         },
         "meta": {
@@ -8188,8 +8155,8 @@
           }
         },
         "total": {
-          "confirmed": 2564,
-          "deceased": 5,
+          "confirmed": 2536,
+          "deceased": 2,
           "migrated": 14,
           "recovered": 2215,
           "tested": 26586
@@ -8231,7 +8198,7 @@
       },
       "Mon": {
         "delta": {
-          "confirmed": 2,
+          "confirmed": 1,
           "recovered": 4
         },
         "meta": {
@@ -8242,7 +8209,7 @@
           }
         },
         "total": {
-          "confirmed": 504,
+          "confirmed": 503,
           "deceased": 2,
           "migrated": 8,
           "recovered": 425,
@@ -8336,8 +8303,8 @@
       }
     },
     "total": {
-      "confirmed": 8700,
-      "deceased": 33,
+      "confirmed": 8663,
+      "deceased": 27,
       "migrated": 83,
       "recovered": 6720,
       "tested": 95524
@@ -11646,10 +11613,10 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 36104,
-      "deceased": 491,
-      "migrated": 11,
-      "recovered": 63873,
+      "confirmed": 36019,
+      "deceased": 485,
+      "migrated": 10,
+      "recovered": 63734,
       "tested": 958116
     },
     "meta": {
@@ -11660,10 +11627,10 @@
       }
     },
     "total": {
-      "confirmed": 7946060,
-      "deceased": 119544,
-      "migrated": 1366,
-      "recovered": 7199016,
+      "confirmed": 7945975,
+      "deceased": 119538,
+      "migrated": 1368,
+      "recovered": 7198877,
       "tested": 104420894
     }
   },
