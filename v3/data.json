@@ -350,6 +350,9 @@
     }
   },
   "AR": {
+    "delta": {
+      "tested": 1205
+    },
     "districts": {
       "Anjaw": {
         "meta": {
@@ -725,15 +728,15 @@
       "notes": "[July 25]: All numbers corresponding to Papum Pare and Captial Complex are tracked under Papum Pare district.",
       "population": 1504000,
       "tested": {
-        "last_updated": "2020-11-18",
-        "source": "https://twitter.com/DirectorateofHS/status/1329092820804661249"
+        "last_updated": "2020-11-19",
+        "source": "https://twitter.com/DirectorateofHS/status/1329476860871274497"
       }
     },
     "total": {
       "confirmed": 15945,
       "deceased": 48,
       "recovered": 14715,
-      "tested": 346532
+      "tested": 347737
     }
   },
   "AS": {
@@ -5626,6 +5629,11 @@
     }
   },
   "LA": {
+    "delta": {
+      "confirmed": 91,
+      "deceased": 1,
+      "recovered": 14
+    },
     "districts": {
       "Kargil": {
         "meta": {
@@ -5643,6 +5651,11 @@
         }
       },
       "Leh": {
+        "delta": {
+          "confirmed": 91,
+          "deceased": 1,
+          "recovered": 14
+        },
         "meta": {
           "population": 147000,
           "tested": {
@@ -5651,15 +5664,15 @@
           }
         },
         "total": {
-          "confirmed": 5672,
-          "deceased": 54,
-          "recovered": 4807,
+          "confirmed": 5763,
+          "deceased": 55,
+          "recovered": 4821,
           "tested": 56470
         }
       }
     },
     "meta": {
-      "last_updated": "2020-11-19T01:19:33+05:30",
+      "last_updated": "2020-11-19T23:13:43+05:30",
       "population": 293000,
       "tested": {
         "last_updated": "2020-11-18",
@@ -5667,9 +5680,9 @@
       }
     },
     "total": {
-      "confirmed": 7623,
-      "deceased": 94,
-      "recovered": 6605,
+      "confirmed": 7714,
+      "deceased": 95,
+      "recovered": 6619,
       "tested": 86897
     }
   },
@@ -5680,8 +5693,9 @@
   },
   "MH": {
     "delta": {
-      "confirmed": 4611,
+      "confirmed": 5535,
       "deceased": 154,
+      "migrated": 4,
       "recovered": 5860,
       "tested": 64241
     },
@@ -5743,6 +5757,7 @@
         "delta": {
           "confirmed": 81,
           "deceased": 3,
+          "migrated": 1,
           "recovered": 293
         },
         "meta": {
@@ -5755,7 +5770,7 @@
         "total": {
           "confirmed": 43744,
           "deceased": 1040,
-          "migrated": 13,
+          "migrated": 14,
           "recovered": 41858,
           "tested": 11800
         }
@@ -5994,7 +6009,9 @@
       },
       "Mumbai": {
         "delta": {
+          "confirmed": 924,
           "deceased": 12,
+          "migrated": 3,
           "recovered": 709
         },
         "meta": {
@@ -6006,9 +6023,9 @@
           }
         },
         "total": {
-          "confirmed": 271531,
+          "confirmed": 272455,
           "deceased": 10627,
-          "migrated": 774,
+          "migrated": 777,
           "recovered": 249357,
           "tested": 1567999
         }
@@ -6384,7 +6401,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-11-19T22:52:33+05:30",
+      "last_updated": "2020-11-19T23:13:40+05:30",
       "notes": "[Sep 9] :239 cases have been removed from the hospitalized figures owing to the removal of duplicates and change of addresses as per the original residence,\n[Aug 15] : MH bulletin has reduced 819 confirmed cases in Mumbai and 72 confirmed cases from 'Other States' from the tally\n[Jun 16] : 1328 deceased cases have been retroactively added to MH bulletin.\n[Jun 20] : 69 deceased cases have been reduced based on state bulletin.",
       "population": 122153000,
       "tested": {
@@ -6393,9 +6410,9 @@
       }
     },
     "total": {
-      "confirmed": 1762131,
+      "confirmed": 1763055,
       "deceased": 46356,
-      "migrated": 986,
+      "migrated": 990,
       "recovered": 1635971,
       "tested": 9965119
     }
@@ -11315,13 +11332,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 39894,
-      "deceased": 513,
-      "migrated": 7,
-      "recovered": 41378
+      "confirmed": 40909,
+      "deceased": 514,
+      "migrated": 11,
+      "recovered": 41392
     },
     "meta": {
-      "last_updated": "2020-11-19T22:52:29+05:30",
+      "last_updated": "2020-11-19T23:13:38+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-11-18",
@@ -11329,10 +11346,10 @@
       }
     },
     "total": {
-      "confirmed": 8998034,
-      "deceased": 132132,
-      "migrated": 2023,
-      "recovered": 8423148,
+      "confirmed": 8999049,
+      "deceased": 132133,
+      "migrated": 2027,
+      "recovered": 8423162,
       "tested": 128508389
     }
   },
