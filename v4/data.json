@@ -711,7 +711,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-11-30T23:24:10+05:30",
+      "last_updated": "2020-11-30T23:29:38+05:30",
       "notes": "[July 25]: All numbers corresponding to Papum Pare and Captial Complex are tracked under Papum Pare district.",
       "population": 1504000,
       "tested": {
@@ -2171,7 +2171,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-11-30T23:24:12+05:30",
+      "last_updated": "2020-11-30T23:29:40+05:30",
       "population": 959000,
       "tested": {
         "last_updated": "2020-10-20",
@@ -5047,8 +5047,16 @@
     }
   },
   "LA": {
+    "delta": {
+      "confirmed": 12,
+      "deceased": 1,
+      "recovered": 80
+    },
     "districts": {
       "Kargil": {
+        "delta": {
+          "confirmed": 1
+        },
         "meta": {
           "population": 143000,
           "tested": {
@@ -5056,13 +5064,17 @@
           }
         },
         "total": {
-          "confirmed": 2013,
+          "confirmed": 2014,
           "deceased": 41,
           "recovered": 1860,
           "tested": 32580
         }
       },
       "Leh": {
+        "delta": {
+          "confirmed": 11,
+          "recovered": 80
+        },
         "meta": {
           "population": 147000,
           "tested": {
@@ -5070,15 +5082,23 @@
           }
         },
         "total": {
-          "confirmed": 6390,
+          "confirmed": 6401,
           "deceased": 75,
-          "recovered": 5549,
+          "recovered": 5629,
           "tested": 59962
+        }
+      },
+      "Unknown": {
+        "delta": {
+          "deceased": 1
+        },
+        "total": {
+          "deceased": 1
         }
       }
     },
     "meta": {
-      "last_updated": "2020-11-30T03:21:59+05:30",
+      "last_updated": "2020-11-30T23:37:35+05:30",
       "population": 293000,
       "tested": {
         "last_updated": "2020-11-29",
@@ -5086,9 +5106,9 @@
       }
     },
     "total": {
-      "confirmed": 8403,
-      "deceased": 116,
-      "recovered": 7409,
+      "confirmed": 8415,
+      "deceased": 117,
+      "recovered": 7489,
       "tested": 93077
     }
   },
@@ -7277,14 +7297,14 @@
         "meta": {
           "population": 1271703,
           "tested": {
-            "last_updated": "2020-11-28"
+            "last_updated": "2020-11-29"
           }
         },
         "total": {
           "confirmed": 9848,
           "deceased": 36,
           "recovered": 9461,
-          "tested": 140542
+          "tested": 141067
         }
       },
       "Balangir": {
@@ -7345,14 +7365,14 @@
         "meta": {
           "population": 1506522,
           "tested": {
-            "last_updated": "2020-11-28"
+            "last_updated": "2020-11-29"
           }
         },
         "total": {
           "confirmed": 7200,
           "deceased": 28,
           "recovered": 7118,
-          "tested": 173838
+          "tested": 175297
         }
       },
       "Boudh": {
@@ -10011,13 +10031,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 30652,
-      "deceased": 471,
+      "confirmed": 30664,
+      "deceased": 472,
       "other": 6,
-      "recovered": 41347
+      "recovered": 41427
     },
     "meta": {
-      "last_updated": "2020-11-30T23:24:07+05:30",
+      "last_updated": "2020-11-30T23:37:32+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-11-29",
@@ -10025,10 +10045,10 @@
       }
     },
     "total": {
-      "confirmed": 9462727,
-      "deceased": 137648,
+      "confirmed": 9462739,
+      "deceased": 137649,
       "other": 2174,
-      "recovered": 8887660,
+      "recovered": 8887740,
       "tested": 140379976
     }
   },
