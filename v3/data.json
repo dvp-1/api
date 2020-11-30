@@ -3268,6 +3268,9 @@
     }
   },
   "HP": {
+    "delta": {
+      "tested": 3414
+    },
     "districts": {
       "Bilaspur": {
         "meta": {
@@ -3462,8 +3465,8 @@
       "last_updated": "2020-11-30T02:58:35+05:30",
       "population": 7300000,
       "tested": {
-        "last_updated": "2020-11-29",
-        "source": "https://twitter.com/nhm_hp/status/1333081658522681346"
+        "last_updated": "2020-11-30",
+        "source": "https://twitter.com/nhm_hp/status/1333439932833009664?s=20"
       }
     },
     "total": {
@@ -3471,7 +3474,7 @@
       "deceased": 625,
       "migrated": 41,
       "recovered": 30693,
-      "tested": 525941
+      "tested": 529355
     }
   },
   "HR": {
@@ -5232,7 +5235,8 @@
       "last_updated": "2020-11-30T21:12:19+05:30",
       "population": 65798000,
       "tested": {
-        "last_updated": "2020-11-30"
+        "last_updated": "2020-11-30",
+        "source": "https://drive.google.com/file/d/1zy8wAonkqpHpMsU8IwFbzm3blXQI0QP8/view?usp=drivesdk"
       }
     },
     "total": {
@@ -7641,13 +7645,15 @@
   },
   "MZ": {
     "delta": {
-      "confirmed": 3,
+      "confirmed": 2,
+      "recovered": 59,
       "tested": 1058
     },
     "districts": {
       "Aizawl": {
         "delta": {
-          "confirmed": 3
+          "confirmed": 3,
+          "recovered": 13
         },
         "meta": {
           "population": 404054
@@ -7655,15 +7661,18 @@
         "total": {
           "confirmed": 2581,
           "deceased": 5,
-          "recovered": 2399
+          "recovered": 2412
         }
       },
       "Champhai": {
+        "delta": {
+          "confirmed": -1
+        },
         "meta": {
           "population": 125370
         },
         "total": {
-          "confirmed": 87,
+          "confirmed": 86,
           "recovered": 69
         }
       },
@@ -7674,45 +7683,60 @@
         }
       },
       "Khawzawl": {
+        "delta": {
+          "recovered": 4
+        },
         "total": {
           "confirmed": 21,
-          "recovered": 16
+          "recovered": 20
         }
       },
       "Kolasib": {
+        "delta": {
+          "recovered": 1
+        },
         "meta": {
           "population": 83054
         },
         "total": {
           "confirmed": 270,
-          "recovered": 263
+          "recovered": 264
         }
       },
       "Lawngtlai": {
+        "delta": {
+          "recovered": 12
+        },
         "meta": {
           "population": 117444
         },
         "total": {
           "confirmed": 240,
-          "recovered": 156
+          "recovered": 168
         }
       },
       "Lunglei": {
+        "delta": {
+          "recovered": 2
+        },
         "meta": {
           "population": 154094
         },
         "total": {
           "confirmed": 317,
-          "recovered": 296
+          "recovered": 298
         }
       },
       "Mamit": {
+        "delta": {
+          "recovered": 2
+        },
         "meta": {
           "population": 85757
         },
         "total": {
           "confirmed": 80,
-          "recovered": 74
+          "recovered": 76
         }
       },
       "Saiha": {
@@ -7731,12 +7755,15 @@
         }
       },
       "Serchhip": {
+        "delta": {
+          "recovered": 25
+        },
         "meta": {
           "population": 64875
         },
         "total": {
           "confirmed": 158,
-          "recovered": 99
+          "recovered": 124
         }
       }
     },
@@ -7749,9 +7776,9 @@
       }
     },
     "total": {
-      "confirmed": 3826,
+      "confirmed": 3825,
       "deceased": 5,
-      "recovered": 3440,
+      "recovered": 3499,
       "tested": 150119
     }
   },
@@ -8992,6 +9019,9 @@
     }
   },
   "PY": {
+    "delta": {
+      "tested": 2076
+    },
     "districts": {
       "Karaikal": {
         "meta": {
@@ -9062,15 +9092,15 @@
       "last_updated": "2020-11-29T19:43:08+05:30",
       "population": 1504000,
       "tested": {
-        "last_updated": "2020-11-29",
-        "source": "https://covid19dashboard.py.gov.in/LabTestReport"
+        "last_updated": "2020-11-30",
+        "source": "https://health.py.gov.in/sites/default/files/bulletin30112020.pdf"
       }
     },
     "total": {
       "confirmed": 36935,
       "deceased": 609,
       "recovered": 35846,
-      "tested": 403249
+      "tested": 405325
     }
   },
   "RJ": {
@@ -11278,10 +11308,10 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 25477,
+      "confirmed": 25476,
       "deceased": 340,
       "migrated": 6,
-      "recovered": 32939
+      "recovered": 32998
     },
     "meta": {
       "last_updated": "2020-11-30T21:22:25+05:30",
@@ -11292,10 +11322,10 @@
       }
     },
     "total": {
-      "confirmed": 9457552,
+      "confirmed": 9457551,
       "deceased": 137517,
       "migrated": 2174,
-      "recovered": 8879252,
+      "recovered": 8879311,
       "tested": 140379976
     }
   },
