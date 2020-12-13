@@ -727,7 +727,10 @@
   },
   "AS": {
     "delta": {
-      "deceased": 2
+      "confirmed": 73,
+      "deceased": 2,
+      "recovered": 117,
+      "tested": 11528
     },
     "districts": {
       "Airport Quarantine": {
@@ -922,11 +925,14 @@
         }
       },
       "Kamrup Metropolitan": {
+        "delta": {
+          "confirmed": 28
+        },
         "meta": {
           "population": 1260419
         },
         "total": {
-          "confirmed": 49593,
+          "confirmed": 49621,
           "deceased": 142,
           "recovered": 15370
         }
@@ -1081,11 +1087,15 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "confirmed": 45,
+          "recovered": 117
+        },
         "total": {
-          "confirmed": 100709,
+          "confirmed": 100754,
           "deceased": 249,
           "migrated": 3,
-          "recovered": 164131
+          "recovered": 164248
         }
       },
       "West Karbi Anglong": {
@@ -1100,19 +1110,19 @@
       }
     },
     "meta": {
-      "last_updated": "2020-12-13T20:40:07+05:30",
+      "last_updated": "2020-12-13T21:02:10+05:30",
       "population": 34293000,
       "tested": {
-        "last_updated": "2020-12-12",
-        "source": "https://twitter.com/himantabiswa/status/1337796561158299648"
+        "last_updated": "2020-12-13",
+        "source": "https://twitter.com/himantabiswa/status/1338137302862721029?s=20"
       }
     },
     "total": {
-      "confirmed": 214584,
+      "confirmed": 214657,
       "deceased": 1002,
       "migrated": 3,
-      "recovered": 210054,
-      "tested": 5604468
+      "recovered": 210171,
+      "tested": 5615996
     }
   },
   "BR": {
@@ -4553,34 +4563,35 @@
         "meta": {
           "population": 2532383,
           "tested": {
-            "last_updated": "2020-12-06",
-            "source": "https://twitter.com/bellaryvartha/status/1335573860209414145?s=20"
+            "last_updated": "2020-12-12",
+            "source": "https://twitter.com/bellaryvartha/status/1337751875693764609?s=20"
           }
         },
         "total": {
           "confirmed": 38513,
           "deceased": 588,
           "recovered": 37689,
-          "tested": 348701
+          "tested": 361940
         }
       },
       "Belagavi": {
         "delta": {
           "confirmed": 9,
-          "recovered": 20
+          "recovered": 20,
+          "tested": 3175
         },
         "meta": {
           "population": 4778439,
           "tested": {
-            "last_updated": "2020-12-12",
-            "source": "https://twitter.com/deobelagavi/status/1337758839177809920/photo/3"
+            "last_updated": "2020-12-13",
+            "source": "https://twitter.com/deobelagavi/status/1338121941618593792/photo/2"
           }
         },
         "total": {
           "confirmed": 25944,
           "deceased": 342,
           "recovered": 25343,
-          "tested": 319848
+          "tested": 323023
         }
       },
       "Bengaluru Rural": {
@@ -4591,15 +4602,15 @@
         "meta": {
           "population": 987257,
           "tested": {
-            "last_updated": "2020-12-11",
-            "source": "https://twitter.com/B_Rural_DIPR/status/1337433883092996101/photo/1"
+            "last_updated": "2020-12-12",
+            "source": "https://twitter.com/B_Rural_DIPR/status/1337810510557794304/photo/1"
           }
         },
         "total": {
           "confirmed": 17947,
           "deceased": 147,
           "recovered": 17451,
-          "tested": 170648
+          "tested": 171893
         }
       },
       "Bengaluru Urban": {
@@ -4844,34 +4855,35 @@
         "meta": {
           "population": 2564892,
           "tested": {
-            "last_updated": "2020-12-11",
-            "source": "https://twitter.com/Kalaburgivarthe/status/1337440480389255170/photo/1"
+            "last_updated": "2020-12-12",
+            "source": "https://twitter.com/Kalaburgivarthe/status/1337791589050011648/photo/1"
           }
         },
         "total": {
           "confirmed": 20714,
           "deceased": 321,
           "recovered": 20199,
-          "tested": 324073
+          "tested": 325551
         }
       },
       "Kodagu": {
         "delta": {
           "confirmed": 30,
-          "recovered": 6
+          "recovered": 6,
+          "tested": 597
         },
         "meta": {
           "population": 554762,
           "tested": {
-            "last_updated": "2020-12-12",
-            "source": "https://twitter.com/DCKodagu/status/1337774583764545542?s=20"
+            "last_updated": "2020-12-13",
+            "source": "https://twitter.com/DCKodagu/status/1338137906867654656?s=20"
           }
         },
         "total": {
           "confirmed": 5471,
           "deceased": 68,
           "recovered": 5298,
-          "tested": 98896
+          "tested": 99493
         }
       },
       "Kolar": {
@@ -6308,6 +6320,9 @@
     }
   },
   "MN": {
+    "delta": {
+      "tested": 2671
+    },
     "districts": {
       "Bishnupur": {
         "meta": {
@@ -6480,15 +6495,15 @@
       "last_updated": "2020-12-12T22:43:12+05:30",
       "population": 3103000,
       "tested": {
-        "last_updated": "2020-12-12",
-        "source": "https://twitter.com/DiprManipur/status/1337781496585748480?s=20"
+        "last_updated": "2020-12-13",
+        "source": "https://twitter.com/DiprManipur/status/1338133726153216000?s=20"
       }
     },
     "total": {
       "confirmed": 27036,
       "deceased": 322,
       "recovered": 23657,
-      "tested": 449857
+      "tested": 452528
     }
   },
   "MP": {
@@ -10866,13 +10881,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 23904,
+      "confirmed": 23977,
       "deceased": 297,
       "migrated": 8,
-      "recovered": 26739
+      "recovered": 26856
     },
     "meta": {
-      "last_updated": "2020-12-13T20:40:05+05:30",
+      "last_updated": "2020-12-13T21:02:07+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-12-12",
@@ -10880,10 +10895,10 @@
       }
     },
     "total": {
-      "confirmed": 9881284,
+      "confirmed": 9881357,
       "deceased": 143352,
       "migrated": 2550,
-      "recovered": 9383618,
+      "recovered": 9383735,
       "tested": 153711833
     }
   },
