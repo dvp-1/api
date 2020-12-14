@@ -3258,7 +3258,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-12-14T21:04:18+05:30",
+      "last_updated": "2020-12-14T21:13:23+05:30",
       "population": 67936000,
       "tested": {
         "last_updated": "2020-12-13",
@@ -3914,7 +3914,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-12-14T21:04:16+05:30",
+      "last_updated": "2020-12-14T21:13:21+05:30",
       "population": 28672000,
       "tested": {
         "last_updated": "2020-12-14",
@@ -6189,7 +6189,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-12-14T21:04:13+05:30",
+      "last_updated": "2020-12-14T21:13:15+05:30",
       "population": 122153000,
       "tested": {
         "last_updated": "2020-12-14",
@@ -7496,7 +7496,8 @@
   "MZ": {
     "delta": {
       "confirmed": 5,
-      "recovered": 25
+      "recovered": 25,
+      "tested": 299
     },
     "districts": {
       "Aizawl": {
@@ -7608,15 +7609,15 @@
       "last_updated": "2020-12-14T19:16:46+05:30",
       "population": 1192000,
       "tested": {
-        "last_updated": "2020-12-13",
-        "source": "https://dipr.mizoram.gov.in/post/status-of-state-surveillance-of-covid-19-13122020-last-24hours-500pm-as-per-data-received-from-integrated-diseases-surveillance-programme-idsp"
+        "last_updated": "2020-12-14",
+        "source": "https://dipr.mizoram.gov.in/post/status-of-state-surveillance-of-covid-19-14122020-last-24hours-500pm-as-per-data-received-from-integrated-diseases-surveillance-programme-idsp"
       }
     },
     "total": {
       "confirmed": 4040,
       "deceased": 7,
       "recovered": 3869,
-      "tested": 164318
+      "tested": 164617
     }
   },
   "NL": {
@@ -9625,7 +9626,7 @@
   },
   "SK": {
     "delta": {
-      "tested": 238
+      "tested": 55
     },
     "districts": {
       "East Sikkim": {
@@ -10178,7 +10179,7 @@
       "confirmed": 1141,
       "deceased": 14,
       "recovered": 1203,
-      "tested": 73989
+      "tested": 63989
     },
     "districts": {
       "Airport Quarantine": {
@@ -10921,14 +10922,15 @@
       "notes": "[July 22]: 444 backdated deceased entries added to Chennai in TN bulletin.\n2 deaths cross notified to other states from Chennai and Coimbatore.\n1 patient died after turning negative for infection in Chengalpattu.\nThese cases have been added to TN deceased tally",
       "population": 75695000,
       "tested": {
-        "last_updated": "2020-12-14"
+        "last_updated": "2020-12-14",
+        "source": "https://stopcorona.tn.gov.in/wp-content/uploads/2020/12/Media-Bulletin-14.12.2020-16-Pages-English-601-KB.pdf%22"
       }
     },
     "total": {
       "confirmed": 800029,
       "deceased": 11909,
       "recovered": 778081,
-      "tested": 13030594
+      "tested": 13020594
     }
   },
   "TR": {
@@ -11118,13 +11120,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 17546,
-      "deceased": 274,
+      "confirmed": 19380,
+      "deceased": 317,
       "migrated": 16,
-      "recovered": 27478
+      "recovered": 30458
     },
     "meta": {
-      "last_updated": "2020-12-14T21:04:11+05:30",
+      "last_updated": "2020-12-14T21:23:12+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-12-13",
@@ -11132,10 +11134,10 @@
       }
     },
     "total": {
-      "confirmed": 9902262,
-      "deceased": 143667,
+      "confirmed": 9904096,
+      "deceased": 143710,
       "migrated": 2566,
-      "recovered": 9415086,
+      "recovered": 9418066,
       "tested": 154566990
     }
   },
@@ -12891,165 +12893,242 @@
     }
   },
   "WB": {
+    "delta": {
+      "confirmed": 1834,
+      "deceased": 43,
+      "recovered": 2980,
+      "tested": 31671
+    },
     "districts": {
       "Alipurduar": {
+        "delta": {
+          "confirmed": 10,
+          "recovered": 11
+        },
         "meta": {
           "population": 1700000
         },
         "total": {
-          "confirmed": 7463,
+          "confirmed": 7473,
           "deceased": 85,
-          "recovered": 7286
+          "recovered": 7297
         }
       },
       "Bankura": {
+        "delta": {
+          "confirmed": 48,
+          "recovered": 33
+        },
         "meta": {
           "population": 3596292
         },
         "total": {
-          "confirmed": 10719,
+          "confirmed": 10767,
           "deceased": 87,
-          "recovered": 10090
+          "recovered": 10123
         }
       },
       "Birbhum": {
+        "delta": {
+          "confirmed": 97,
+          "recovered": 33
+        },
         "meta": {
           "population": 3502387
         },
         "total": {
-          "confirmed": 8876,
+          "confirmed": 8973,
           "deceased": 79,
-          "recovered": 8367
+          "recovered": 8400
         }
       },
       "Cooch Behar": {
+        "delta": {
+          "confirmed": 14,
+          "recovered": 64
+        },
         "meta": {
           "population": 2822780
         },
         "total": {
-          "confirmed": 11259,
+          "confirmed": 11273,
           "deceased": 67,
-          "recovered": 10689
+          "recovered": 10753
         }
       },
       "Dakshin Dinajpur": {
+        "delta": {
+          "confirmed": 6,
+          "recovered": 13
+        },
         "meta": {
           "population": 1670931
         },
         "total": {
-          "confirmed": 7954,
+          "confirmed": 7960,
           "deceased": 65,
-          "recovered": 7735
+          "recovered": 7748
         }
       },
       "Darjeeling": {
+        "delta": {
+          "confirmed": 48,
+          "recovered": 125
+        },
         "meta": {
           "population": 1842034
         },
         "total": {
-          "confirmed": 16770,
+          "confirmed": 16818,
           "deceased": 194,
-          "recovered": 15744
+          "recovered": 15869
         }
       },
       "Hooghly": {
+        "delta": {
+          "confirmed": 99,
+          "deceased": 5,
+          "recovered": 198
+        },
         "meta": {
           "population": 5520389
         },
         "total": {
-          "confirmed": 26906,
-          "deceased": 430,
-          "recovered": 25242
+          "confirmed": 27005,
+          "deceased": 435,
+          "recovered": 25440
         }
       },
       "Howrah": {
+        "delta": {
+          "confirmed": 76,
+          "deceased": 4,
+          "recovered": 78
+        },
         "meta": {
           "population": 4841638
         },
         "total": {
-          "confirmed": 33115,
-          "deceased": 937,
-          "recovered": 31076
+          "confirmed": 33191,
+          "deceased": 941,
+          "recovered": 31154
         }
       },
       "Jalpaiguri": {
+        "delta": {
+          "confirmed": 47,
+          "deceased": 4,
+          "recovered": 102
+        },
         "meta": {
           "population": 3869675
         },
         "total": {
-          "confirmed": 13591,
-          "deceased": 144,
-          "recovered": 12731
+          "confirmed": 13638,
+          "deceased": 148,
+          "recovered": 12833
         }
       },
       "Jhargram": {
+        "delta": {
+          "confirmed": 12,
+          "recovered": 19
+        },
         "meta": {
           "population": 1136548
         },
         "total": {
-          "confirmed": 2816,
+          "confirmed": 2828,
           "deceased": 17,
-          "recovered": 2718
+          "recovered": 2737
         }
       },
       "Kalimpong": {
+        "delta": {
+          "confirmed": 8,
+          "recovered": 14
+        },
         "meta": {
           "population": 251642
         },
         "total": {
-          "confirmed": 1999,
+          "confirmed": 2007,
           "deceased": 22,
-          "recovered": 1920
+          "recovered": 1934
         }
       },
       "Kolkata": {
+        "delta": {
+          "confirmed": 403,
+          "deceased": 16,
+          "recovered": 713
+        },
         "meta": {
           "population": 4486679
         },
         "total": {
-          "confirmed": 116242,
-          "deceased": 2782,
-          "recovered": 107977
+          "confirmed": 116645,
+          "deceased": 2798,
+          "recovered": 108690
         }
       },
       "Malda": {
+        "delta": {
+          "confirmed": 41,
+          "deceased": 1,
+          "recovered": 35
+        },
         "meta": {
           "population": 3997970
         },
         "total": {
-          "confirmed": 12019,
-          "deceased": 108,
-          "recovered": 11530
+          "confirmed": 12060,
+          "deceased": 109,
+          "recovered": 11565
         }
       },
       "Murshidabad": {
+        "delta": {
+          "confirmed": 32,
+          "recovered": 51
+        },
         "meta": {
           "population": 7102430
         },
         "total": {
-          "confirmed": 11404,
+          "confirmed": 11436,
           "deceased": 137,
-          "recovered": 10847
+          "recovered": 10898
         }
       },
       "Nadia": {
+        "delta": {
+          "confirmed": 112,
+          "deceased": 1,
+          "recovered": 171
+        },
         "meta": {
           "population": 5168488
         },
         "total": {
-          "confirmed": 20130,
-          "deceased": 257,
-          "recovered": 18902
+          "confirmed": 20242,
+          "deceased": 258,
+          "recovered": 19073
         }
       },
       "North 24 Parganas": {
+        "delta": {
+          "confirmed": 406,
+          "deceased": 5,
+          "recovered": 688
+        },
         "meta": {
           "population": 10082852
         },
         "total": {
-          "confirmed": 109722,
-          "deceased": 2154,
-          "recovered": 103012
+          "confirmed": 110128,
+          "deceased": 2159,
+          "recovered": 103700
         }
       },
       "Other State": {
@@ -13060,89 +13139,120 @@
         }
       },
       "Paschim Bardhaman": {
+        "delta": {
+          "confirmed": 46,
+          "deceased": 1,
+          "recovered": 99
+        },
         "meta": {
           "population": 2882031
         },
         "total": {
-          "confirmed": 14264,
-          "deceased": 134,
-          "recovered": 13398
+          "confirmed": 14310,
+          "deceased": 135,
+          "recovered": 13497
         }
       },
       "Paschim Medinipur": {
+        "delta": {
+          "confirmed": 55,
+          "deceased": 3,
+          "recovered": 98
+        },
         "meta": {
           "population": 5094238
         },
         "total": {
-          "confirmed": 18986,
-          "deceased": 275,
-          "recovered": 17877
+          "confirmed": 19041,
+          "deceased": 278,
+          "recovered": 17975
         }
       },
       "Purba Bardhaman": {
+        "delta": {
+          "confirmed": 55,
+          "recovered": 79
+        },
         "meta": {
           "population": 4835532
         },
         "total": {
-          "confirmed": 11458,
+          "confirmed": 11513,
           "deceased": 91,
-          "recovered": 10768
+          "recovered": 10847
         }
       },
       "Purba Medinipur": {
+        "delta": {
+          "confirmed": 42,
+          "recovered": 75
+        },
         "meta": {
           "population": 4417377
         },
         "total": {
-          "confirmed": 19131,
+          "confirmed": 19173,
           "deceased": 254,
-          "recovered": 17952
+          "recovered": 18027
         }
       },
       "Purulia": {
+        "delta": {
+          "confirmed": 25,
+          "recovered": 32
+        },
         "meta": {
           "population": 2927965
         },
         "total": {
-          "confirmed": 6493,
+          "confirmed": 6518,
           "deceased": 43,
-          "recovered": 6197
+          "recovered": 6229
         }
       },
       "South 24 Parganas": {
+        "delta": {
+          "confirmed": 142,
+          "deceased": 3,
+          "recovered": 214
+        },
         "meta": {
           "population": 8153176
         },
         "total": {
-          "confirmed": 34262,
-          "deceased": 624,
-          "recovered": 32186
+          "confirmed": 34404,
+          "deceased": 627,
+          "recovered": 32400
         }
       },
       "Uttar Dinajpur": {
+        "delta": {
+          "confirmed": 10,
+          "recovered": 35
+        },
         "meta": {
           "population": 3000849
         },
         "total": {
-          "confirmed": 6150,
+          "confirmed": 6160,
           "deceased": 68,
-          "recovered": 5858
+          "recovered": 5893
         }
       }
     },
     "meta": {
-      "last_updated": "2020-12-13T20:37:12+05:30",
+      "last_updated": "2020-12-14T21:23:15+05:30",
       "population": 96906000,
       "tested": {
-        "last_updated": "2020-12-13",
-        "source": "https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_13th_DECEMBER_REPORT_FINAL.pdf"
+        "last_updated": "2020-12-14",
+        "source": "https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_14th_DECEMBER_REPORT_FINAL.pdf"
       }
     },
     "total": {
-      "confirmed": 521795,
-      "deceased": 9057,
-      "recovered": 490165,
-      "tested": 6423496
+      "confirmed": 523629,
+      "deceased": 9100,
+      "recovered": 493145,
+      "tested": 6455167
     }
   }
 }
