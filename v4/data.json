@@ -699,7 +699,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-12-21T22:26:41+05:30",
+      "last_updated": "2020-12-21T22:43:41+05:30",
       "notes": "[July 25]: All numbers corresponding to Papum Pare and Captial Complex are tracked under Papum Pare district.",
       "population": 1504000,
       "tested": {
@@ -745,7 +745,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-12-21T22:26:34+05:30",
+      "last_updated": "2020-12-21T22:43:33+05:30",
       "population": 34293000,
       "tested": {
         "last_updated": "2020-12-21",
@@ -3075,7 +3075,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-12-21T22:26:39+05:30",
+      "last_updated": "2020-12-21T22:43:37+05:30",
       "population": 7300000,
       "tested": {
         "last_updated": "2020-12-21",
@@ -3886,7 +3886,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-12-21T22:26:38+05:30",
+      "last_updated": "2020-12-21T22:43:35+05:30",
       "population": 37403000,
       "tested": {
         "last_updated": "2020-12-21",
@@ -5055,7 +5055,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-12-21T22:26:26+05:30",
+      "last_updated": "2020-12-21T22:43:27+05:30",
       "notes": "Mahe native who expired in Kannur included in Kerala's deceased tally.\nSome non-covid deaths have also been reported in the bulletin.\nThese have been reduced from active count",
       "population": 35125000,
       "tested": {
@@ -5784,7 +5784,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-12-21T22:26:23+05:30",
+      "last_updated": "2020-12-21T22:43:24+05:30",
       "notes": "[Dec 16]:10,218 duplicate cases & other state cases removed from total cases.791 recovered cases also removed from total recovered cases while reconciling \n[Sep 9] :239 cases have been removed from the hospitalized figures owing to the removal of duplicates and change of addresses as per the original residence\n[Aug 15] : MH bulletin has reduced 819 confirmed cases in Mumbai and 72 confirmed cases from 'Other States' from the tally\n[Jun 16] : 1328 deceased cases have been retroactively added to MH bulletin.\n[Jun 20] : 69 deceased cases have been reduced based on state bulletin.",
       "population": 122153000,
       "tested": {
@@ -5801,6 +5801,8 @@
   },
   "ML": {
     "delta": {
+      "confirmed": 5,
+      "recovered": 72,
       "tested": 2453
     },
     "districts": {
@@ -5824,53 +5826,70 @@
         }
       },
       "East Khasi Hills": {
+        "delta": {
+          "confirmed": 3,
+          "recovered": 57
+        },
         "meta": {
           "population": 824059
         },
         "total": {
-          "confirmed": 8140,
+          "confirmed": 8143,
           "deceased": 108,
-          "recovered": 7715
+          "recovered": 7772
         }
       },
       "North Garo Hills": {
+        "delta": {
+          "recovered": 1
+        },
         "meta": {
           "population": 118325
         },
         "total": {
           "confirmed": 116,
           "deceased": 2,
-          "recovered": 109
+          "recovered": 110
         }
       },
       "Ribhoi": {
+        "delta": {
+          "confirmed": 1,
+          "recovered": 2
+        },
         "meta": {
           "population": 258380
         },
         "total": {
-          "confirmed": 1337,
+          "confirmed": 1338,
           "deceased": 2,
-          "recovered": 1302
+          "recovered": 1304
         }
       },
       "South Garo Hills": {
+        "delta": {
+          "recovered": 3
+        },
         "meta": {
           "population": 142574
         },
         "total": {
           "confirmed": 198,
           "deceased": 1,
-          "recovered": 190
+          "recovered": 193
         }
       },
       "South West Garo Hills": {
+        "delta": {
+          "recovered": 1
+        },
         "meta": {
           "population": 172495
         },
         "total": {
           "confirmed": 195,
           "deceased": 2,
-          "recovered": 187
+          "recovered": 188
         }
       },
       "South West Khasi Hills": {
@@ -5883,23 +5902,29 @@
         }
       },
       "West Garo Hills": {
+        "delta": {
+          "confirmed": 1
+        },
         "meta": {
           "population": 642923
         },
         "total": {
-          "confirmed": 1698,
+          "confirmed": 1699,
           "deceased": 16,
           "recovered": 1655
         }
       },
       "West Jaintia Hills": {
+        "delta": {
+          "recovered": 8
+        },
         "meta": {
           "population": 270352
         },
         "total": {
           "confirmed": 477,
           "deceased": 1,
-          "recovered": 390
+          "recovered": 398
         }
       },
       "West Khasi Hills": {
@@ -5914,7 +5939,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-12-20T22:53:29+05:30",
+      "last_updated": "2020-12-21T23:04:27+05:30",
       "population": 3224000,
       "tested": {
         "last_updated": "2020-12-21",
@@ -5922,15 +5947,23 @@
       }
     },
     "total": {
-      "confirmed": 13253,
+      "confirmed": 13258,
       "deceased": 134,
-      "recovered": 12620,
+      "recovered": 12692,
       "tested": 280244
     }
   },
   "MN": {
+    "delta": {
+      "confirmed": 38,
+      "recovered": 133
+    },
     "districts": {
       "Unknown": {
+        "delta": {
+          "confirmed": 38,
+          "recovered": 133
+        },
         "meta": {
           "tested": {
             "last_updated": "2020-12-15",
@@ -5938,15 +5971,15 @@
           }
         },
         "total": {
-          "confirmed": 27646,
+          "confirmed": 27684,
           "deceased": 337,
-          "recovered": 25646,
+          "recovered": 25779,
           "tested": 456528
         }
       }
     },
     "meta": {
-      "last_updated": "2020-12-20T22:53:28+05:30",
+      "last_updated": "2020-12-21T23:04:26+05:30",
       "notes": "[Dec 14]:824 out of 980 recovered cases are backdated.",
       "population": 3103000,
       "tested": {
@@ -5955,9 +5988,9 @@
       }
     },
     "total": {
-      "confirmed": 27646,
+      "confirmed": 27684,
       "deceased": 337,
-      "recovered": 25646,
+      "recovered": 25779,
       "tested": 456528
     }
   },
@@ -6217,14 +6250,14 @@
         "meta": {
           "population": 1563107,
           "tested": {
-            "last_updated": "2020-12-19"
+            "last_updated": "2020-12-20"
           }
         },
         "total": {
           "confirmed": 2652,
           "deceased": 26,
           "recovered": 2537,
-          "tested": 76769
+          "tested": 77176
         }
       },
       "Dhar": {
@@ -6344,32 +6377,33 @@
         "meta": {
           "population": 3272335,
           "tested": {
-            "last_updated": "2020-12-19"
+            "last_updated": "2020-12-20"
           }
         },
         "total": {
           "confirmed": 51949,
           "deceased": 840,
           "recovered": 47031,
-          "tested": 608913
+          "tested": 613862
         }
       },
       "Jabalpur": {
         "delta": {
           "confirmed": 36,
-          "recovered": 54
+          "recovered": 54,
+          "tested": 1512
         },
         "meta": {
           "population": 2460714,
           "tested": {
-            "last_updated": "2020-12-19"
+            "last_updated": "2020-12-21"
           }
         },
         "total": {
           "confirmed": 15102,
           "deceased": 236,
           "recovered": 14449,
-          "tested": 236030
+          "tested": 239043
         }
       },
       "Jhabua": {
@@ -6498,19 +6532,20 @@
       "Narsinghpur": {
         "delta": {
           "confirmed": 11,
-          "recovered": 4
+          "recovered": 4,
+          "tested": 649
         },
         "meta": {
           "population": 1092141,
           "tested": {
-            "last_updated": "2020-12-19"
+            "last_updated": "2020-12-21"
           }
         },
         "total": {
           "confirmed": 3328,
           "deceased": 27,
           "recovered": 3268,
-          "tested": 72139
+          "tested": 73307
         }
       },
       "Neemuch": {
@@ -6726,19 +6761,20 @@
       "Shajapur": {
         "delta": {
           "confirmed": 3,
-          "recovered": 3
+          "recovered": 3,
+          "tested": 324
         },
         "meta": {
           "population": 1512353,
           "tested": {
-            "last_updated": "2020-12-19"
+            "last_updated": "2020-12-21"
           }
         },
         "total": {
           "confirmed": 1629,
           "deceased": 22,
           "recovered": 1543,
-          "tested": 44454
+          "tested": 45047
         }
       },
       "Sheopur": {
@@ -7233,14 +7269,14 @@
         "meta": {
           "population": 1271703,
           "tested": {
-            "last_updated": "2020-12-19"
+            "last_updated": "2020-12-20"
           }
         },
         "total": {
           "confirmed": 10600,
           "deceased": 37,
           "recovered": 10317,
-          "tested": 153394
+          "tested": 153702
         }
       },
       "Balangir": {
@@ -7301,14 +7337,14 @@
         "meta": {
           "population": 1506522,
           "tested": {
-            "last_updated": "2020-12-18"
+            "last_updated": "2020-12-20"
           }
         },
         "total": {
           "confirmed": 7350,
           "deceased": 28,
           "recovered": 7310,
-          "tested": 196024
+          "tested": 198566
         }
       },
       "Boudh": {
@@ -7368,14 +7404,14 @@
         "meta": {
           "population": 1192948,
           "tested": {
-            "last_updated": "2020-12-19"
+            "last_updated": "2020-12-20"
           }
         },
         "total": {
           "confirmed": 5685,
           "deceased": 28,
           "recovered": 5641,
-          "tested": 147291
+          "tested": 147714
         }
       },
       "Gajapati": {
@@ -7404,14 +7440,14 @@
         "meta": {
           "population": 3520151,
           "tested": {
-            "last_updated": "2020-12-19"
+            "last_updated": "2020-12-20"
           }
         },
         "total": {
           "confirmed": 21767,
           "deceased": 254,
           "recovered": 21492,
-          "tested": 701212
+          "tested": 702693
         }
       },
       "Jagatsinghpur": {
@@ -7751,7 +7787,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-12-21T22:26:31+05:30",
+      "last_updated": "2020-12-21T22:43:30+05:30",
       "notes": "[July 12th] :20 non-covid deaths reported in state dashboard are included in the deceased count",
       "population": 43671000,
       "tested": {
@@ -8904,7 +8940,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-12-21T22:26:49+05:30",
+      "last_updated": "2020-12-21T22:43:45+05:30",
       "population": 664000,
       "tested": {
         "last_updated": "2020-12-17",
@@ -9865,13 +9901,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 18755,
+      "confirmed": 18798,
       "deceased": 289,
       "other": 14,
-      "recovered": 29451
+      "recovered": 29656
     },
     "meta": {
-      "last_updated": "2020-12-21T22:26:21+05:30",
+      "last_updated": "2020-12-21T23:04:23+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-12-20",
@@ -9879,10 +9915,10 @@
       }
     },
     "total": {
-      "confirmed": 10075036,
+      "confirmed": 10075079,
       "deceased": 146134,
       "other": 2686,
-      "recovered": 9634866,
+      "recovered": 9635071,
       "tested": 162098629
     }
   },
@@ -11250,7 +11286,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-12-21T22:26:29+05:30",
+      "last_updated": "2020-12-21T22:43:28+05:30",
       "population": 224979000,
       "tested": {
         "last_updated": "2020-12-21",
