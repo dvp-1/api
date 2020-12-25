@@ -1,5 +1,9 @@
 {
   "AN": {
+    "delta": {
+      "confirmed": 11,
+      "recovered": 6
+    },
     "districts": {
       "Nicobars": {
         "meta": {
@@ -27,15 +31,19 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "confirmed": 11,
+          "recovered": 6
+        },
         "total": {
-          "confirmed": 4849,
+          "confirmed": 4860,
           "deceased": 62,
-          "recovered": 4742
+          "recovered": 4748
         }
       }
     },
     "meta": {
-      "last_updated": "2020-12-24T23:38:34+05:30",
+      "last_updated": "2020-12-25T23:20:35+05:30",
       "population": 397000,
       "tested": {
         "last_updated": "2020-12-23",
@@ -43,9 +51,9 @@
       }
     },
     "total": {
-      "confirmed": 4901,
+      "confirmed": 4912,
       "deceased": 62,
-      "recovered": 4775,
+      "recovered": 4781,
       "tested": 170666
     }
   },
@@ -2469,7 +2477,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-12-25T22:29:40+05:30",
+      "last_updated": "2020-12-25T22:43:46+05:30",
       "population": 28724000,
       "tested": {
         "last_updated": "2020-12-25",
@@ -2677,7 +2685,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-12-25T22:28:46+05:30",
+      "last_updated": "2020-12-25T22:44:01+05:30",
       "population": 959000,
       "tested": {
         "last_updated": "2020-10-20",
@@ -4493,7 +4501,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-12-25T22:29:43+05:30",
+      "last_updated": "2020-12-25T22:43:48+05:30",
       "population": 37403000,
       "tested": {
         "last_updated": "2020-12-25",
@@ -6451,7 +6459,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-12-25T22:29:32+05:30",
+      "last_updated": "2020-12-25T22:43:42+05:30",
       "notes": "[Dec 16]:10,218 duplicate cases & other state cases removed from total cases.791 recovered cases also removed from total recovered cases while reconciling \n[Sep 9] :239 cases have been removed from the hospitalized figures owing to the removal of duplicates and change of addresses as per the original residence\n[Aug 15] : MH bulletin has reduced 819 confirmed cases in Mumbai and 72 confirmed cases from 'Other States' from the tally\n[Jun 16] : 1328 deceased cases have been retroactively added to MH bulletin.\n[Jun 20] : 69 deceased cases have been reduced based on state bulletin.",
       "population": 122153000,
       "tested": {
@@ -6468,6 +6476,10 @@
     }
   },
   "ML": {
+    "delta": {
+      "confirmed": 29,
+      "recovered": 18
+    },
     "districts": {
       "East Garo Hills": {
         "meta": {
@@ -6547,6 +6559,16 @@
           "recovered": 57
         }
       },
+      "Unknown": {
+        "delta": {
+          "confirmed": 29,
+          "recovered": 18
+        },
+        "total": {
+          "confirmed": 29,
+          "recovered": 18
+        }
+      },
       "West Garo Hills": {
         "meta": {
           "population": 642923
@@ -6579,7 +6601,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-12-24T23:38:31+05:30",
+      "last_updated": "2020-12-25T23:20:32+05:30",
       "population": 3224000,
       "tested": {
         "last_updated": "2020-12-24",
@@ -6587,9 +6609,9 @@
       }
     },
     "total": {
-      "confirmed": 13340,
+      "confirmed": 13369,
       "deceased": 135,
-      "recovered": 12922,
+      "recovered": 12940,
       "tested": 285139
     }
   },
@@ -6797,7 +6819,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-12-25T22:28:44+05:30",
+      "last_updated": "2020-12-25T22:43:53+05:30",
       "notes": "[Dec 14]:824 out of 980 recovered cases are backdated.",
       "population": 3103000,
       "tested": {
@@ -8700,7 +8722,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-12-25T22:29:37+05:30",
+      "last_updated": "2020-12-25T22:43:44+05:30",
       "notes": "[July 12th] :20 non-covid deaths reported in state dashboard are included in the deceased count",
       "population": 43671000,
       "tested": {
@@ -9245,7 +9267,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-12-25T22:29:46+05:30",
+      "last_updated": "2020-12-25T22:43:50+05:30",
       "population": 1504000,
       "tested": {
         "last_updated": "2020-12-24",
@@ -9973,13 +9995,20 @@
     }
   },
   "SK": {
+    "delta": {
+      "confirmed": 21,
+      "recovered": 23
+    },
     "districts": {
       "East Sikkim": {
+        "delta": {
+          "confirmed": 17
+        },
         "meta": {
           "population": 281293
         },
         "total": {
-          "confirmed": 1477,
+          "confirmed": 1494,
           "deceased": 3,
           "recovered": 1106
         }
@@ -9994,34 +10023,43 @@
         }
       },
       "South Sikkim": {
+        "delta": {
+          "confirmed": 3
+        },
         "meta": {
           "population": 146742
         },
         "total": {
-          "confirmed": 484,
+          "confirmed": 487,
           "recovered": 73
         }
       },
       "Unknown": {
+        "delta": {
+          "recovered": 23
+        },
         "total": {
           "confirmed": 3608,
           "deceased": 122,
           "migrated": 94,
-          "recovered": 3830
+          "recovered": 3853
         }
       },
       "West Sikkim": {
+        "delta": {
+          "confirmed": 1
+        },
         "meta": {
           "population": 136299
         },
         "total": {
-          "confirmed": 90,
+          "confirmed": 91,
           "recovered": 15
         }
       }
     },
     "meta": {
-      "last_updated": "2020-12-24T22:49:38+05:30",
+      "last_updated": "2020-12-25T23:20:34+05:30",
       "population": 664000,
       "tested": {
         "last_updated": "2020-12-24",
@@ -10029,10 +10067,10 @@
       }
     },
     "total": {
-      "confirmed": 5664,
+      "confirmed": 5685,
       "deceased": 125,
       "migrated": 94,
-      "recovered": 5025,
+      "recovered": 5048,
       "tested": 67575
     }
   },
@@ -11453,13 +11491,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 22275,
+      "confirmed": 22336,
       "deceased": 251,
       "migrated": 14,
-      "recovered": 22087
+      "recovered": 22134
     },
     "meta": {
-      "last_updated": "2020-12-25T22:29:28+05:30",
+      "last_updated": "2020-12-25T23:20:30+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-12-24",
@@ -11467,10 +11505,10 @@
       }
     },
     "total": {
-      "confirmed": 10169743,
+      "confirmed": 10169804,
       "deceased": 147379,
       "migrated": 2783,
-      "recovered": 9739285,
+      "recovered": 9739332,
       "tested": 166306062
     }
   },
