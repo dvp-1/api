@@ -53,7 +53,8 @@
     "delta": {
       "confirmed": 349,
       "deceased": 2,
-      "recovered": 422
+      "recovered": 422,
+      "tested": 46386
     },
     "districts": {
       "Anantapur": {
@@ -321,18 +322,21 @@
       "last_updated": "2020-12-27T19:08:30+05:30",
       "population": 52221000,
       "tested": {
-        "last_updated": "2020-12-26",
-        "source": "https://twitter.com/ArogyaAndhra/status/1342788034761117696?s=20"
+        "last_updated": "2020-12-27",
+        "source": "https://twitter.com/ArogyaAndhra/status/1343172276229849088?s=20"
       }
     },
     "total": {
       "confirmed": 881061,
       "deceased": 7094,
       "recovered": 870342,
-      "tested": 11574117
+      "tested": 11620503
     }
   },
   "AR": {
+    "delta": {
+      "tested": 402
+    },
     "districts": {
       "Anjaw": {
         "meta": {
@@ -709,20 +713,23 @@
       "notes": "[July 25]: All numbers corresponding to Papum Pare and Captial Complex are tracked under Papum Pare district.",
       "population": 1504000,
       "tested": {
-        "last_updated": "2020-12-26",
-        "source": "https://twitter.com/DirectorateofHS/status/1342860527308050432"
+        "last_updated": "2020-12-27",
+        "source": "https://twitter.com/DirectorateofHS/status/1343217759786680321"
       }
     },
     "total": {
       "confirmed": 16687,
       "deceased": 56,
       "recovered": 16477,
-      "tested": 375766
+      "tested": 376168
     }
   },
   "AS": {
     "delta": {
-      "deceased": 2
+      "confirmed": 29,
+      "deceased": 2,
+      "recovered": 60,
+      "tested": 10305
     },
     "districts": {
       "Airport Quarantine": {
@@ -915,13 +922,14 @@
       },
       "Kamrup Metropolitan": {
         "delta": {
+          "confirmed": 7,
           "deceased": 1
         },
         "meta": {
           "population": 1260419
         },
         "total": {
-          "confirmed": 50065,
+          "confirmed": 50072,
           "deceased": 150,
           "recovered": 15370
         }
@@ -1076,11 +1084,15 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "confirmed": 22,
+          "recovered": 60
+        },
         "total": {
-          "confirmed": 101563,
+          "confirmed": 101585,
           "deceased": 249,
           "migrated": 3,
-          "recovered": 165560
+          "recovered": 165620
         }
       },
       "West Karbi Anglong": {
@@ -1095,19 +1107,19 @@
       }
     },
     "meta": {
-      "last_updated": "2020-12-27T20:44:35+05:30",
+      "last_updated": "2020-12-27T21:13:32+05:30",
       "population": 34293000,
       "tested": {
-        "last_updated": "2020-12-26",
-        "source": "https://twitter.com/himantabiswa/status/1342847217866997760"
+        "last_updated": "2020-12-27",
+        "source": "https://twitter.com/himantabiswa/status/1343209887027744768"
       }
     },
     "total": {
-      "confirmed": 215910,
+      "confirmed": 215939,
       "deceased": 1037,
       "migrated": 3,
-      "recovered": 211483,
-      "tested": 5891165
+      "recovered": 211543,
+      "tested": 5901470
     }
   },
   "BR": {
@@ -1860,8 +1872,17 @@
     }
   },
   "CH": {
+    "delta": {
+      "confirmed": 63,
+      "recovered": 56,
+      "tested": 726
+    },
     "districts": {
       "Chandigarh": {
+        "delta": {
+          "confirmed": 63,
+          "recovered": 56
+        },
         "meta": {
           "population": 1055450,
           "tested": {
@@ -1870,26 +1891,26 @@
           }
         },
         "total": {
-          "confirmed": 19423,
+          "confirmed": 19486,
           "deceased": 315,
-          "recovered": 18754,
+          "recovered": 18810,
           "tested": 32134
         }
       }
     },
     "meta": {
-      "last_updated": "2020-12-26T19:46:37+05:30",
+      "last_updated": "2020-12-27T21:13:36+05:30",
       "population": 1179000,
       "tested": {
-        "last_updated": "2020-12-26",
-        "source": "https://t.me/Covid19india_Auxiliary_Test_Data/4574"
+        "last_updated": "2020-12-27",
+        "source": "https://t.me/Covid19india_Auxiliary_Test_Data/4589"
       }
     },
     "total": {
-      "confirmed": 19423,
+      "confirmed": 19486,
       "deceased": 315,
-      "recovered": 18754,
-      "tested": 175611
+      "recovered": 18810,
+      "tested": 176337
     }
   },
   "CT": {
@@ -2473,7 +2494,8 @@
   },
   "DN": {
     "delta": {
-      "confirmed": 1
+      "confirmed": 1,
+      "recovered": 1
     },
     "districts": {
       "Dadra and Nagar Haveli": {
@@ -2496,6 +2518,9 @@
         }
       },
       "Daman": {
+        "delta": {
+          "recovered": 1
+        },
         "meta": {
           "population": 191173,
           "tested": {
@@ -2507,7 +2532,7 @@
           "confirmed": 1403,
           "deceased": 1,
           "migrated": 24,
-          "recovered": 1375,
+          "recovered": 1376,
           "tested": 19338
         }
       },
@@ -2527,7 +2552,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-12-27T19:08:43+05:30",
+      "last_updated": "2020-12-27T21:12:41+05:30",
       "population": 959000,
       "tested": {
         "last_updated": "2020-10-20",
@@ -2538,12 +2563,14 @@
       "confirmed": 3360,
       "deceased": 2,
       "migrated": 29,
-      "recovered": 3317,
+      "recovered": 3318,
       "tested": 72410
     }
   },
   "GA": {
     "delta": {
+      "confirmed": 72,
+      "recovered": 79,
       "tested": 1329
     },
     "districts": {
@@ -2580,15 +2607,19 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "confirmed": 72,
+          "recovered": 79
+        },
         "total": {
-          "confirmed": 44216,
+          "confirmed": 44288,
           "deceased": 539,
-          "recovered": 46352
+          "recovered": 46431
         }
       }
     },
     "meta": {
-      "last_updated": "2020-12-26T19:46:36+05:30",
+      "last_updated": "2020-12-27T21:13:34+05:30",
       "population": 1540000,
       "tested": {
         "last_updated": "2020-12-27",
@@ -2596,9 +2627,9 @@
       }
     },
     "total": {
-      "confirmed": 50595,
+      "confirmed": 50667,
       "deceased": 731,
-      "recovered": 48913,
+      "recovered": 48992,
       "tested": 392413
     }
   },
@@ -4533,7 +4564,8 @@
     "delta": {
       "confirmed": 911,
       "deceased": 11,
-      "recovered": 1214
+      "recovered": 1214,
+      "tested": 94795
     },
     "districts": {
       "Bagalkote": {
@@ -5126,8 +5158,8 @@
       "last_updated": "2020-12-27T20:28:33+05:30",
       "population": 65798000,
       "tested": {
-        "last_updated": "2020-12-26",
-        "source": "https://t.co/43OueY6Ue2?amp=1"
+        "last_updated": "2020-12-27",
+        "source": "https://t.co/7HZSPjVUjp?amp=1"
       }
     },
     "total": {
@@ -5135,7 +5167,7 @@
       "deceased": 12062,
       "migrated": 19,
       "recovered": 891095,
-      "tested": 13609914
+      "tested": 13704709
     }
   },
   "KL": {
@@ -6163,7 +6195,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-12-27T20:45:31+05:30",
+      "last_updated": "2020-12-27T21:01:31+05:30",
       "notes": "[Dec 16]:10,218 duplicate cases & other state cases removed from total cases.791 recovered cases also removed from total recovered cases while reconciling \n[Sep 9] :239 cases have been removed from the hospitalized figures owing to the removal of duplicates and change of addresses as per the original residence\n[Aug 15] : MH bulletin has reduced 819 confirmed cases in Mumbai and 72 confirmed cases from 'Other States' from the tally\n[Jun 16] : 1328 deceased cases have been retroactively added to MH bulletin.\n[Jun 20] : 69 deceased cases have been reduced based on state bulletin.",
       "population": 122153000,
       "tested": {
@@ -8866,7 +8898,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-12-27T20:45:34+05:30",
+      "last_updated": "2020-12-27T21:01:36+05:30",
       "population": 29859000,
       "tested": {
         "last_updated": "2020-12-27",
@@ -11163,13 +11195,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 18509,
+      "confirmed": 18673,
       "deceased": 248,
       "migrated": 1,
-      "recovered": 18652
+      "recovered": 18848
     },
     "meta": {
-      "last_updated": "2020-12-27T20:45:30+05:30",
+      "last_updated": "2020-12-27T21:13:29+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-12-26",
@@ -11177,10 +11209,10 @@
       }
     },
     "total": {
-      "confirmed": 10206901,
+      "confirmed": 10207065,
       "deceased": 147907,
       "migrated": 2802,
-      "recovered": 9779500,
+      "recovered": 9779696,
       "tested": 168102957
     }
   },
