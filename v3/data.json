@@ -721,6 +721,9 @@
     }
   },
   "AS": {
+    "delta": {
+      "deceased": 2
+    },
     "districts": {
       "Airport Quarantine": {
         "total": {
@@ -911,12 +914,15 @@
         }
       },
       "Kamrup Metropolitan": {
+        "delta": {
+          "deceased": 1
+        },
         "meta": {
           "population": 1260419
         },
         "total": {
           "confirmed": 50065,
-          "deceased": 149,
+          "deceased": 150,
           "recovered": 15370
         }
       },
@@ -1042,12 +1048,15 @@
         }
       },
       "Tinsukia": {
+        "delta": {
+          "deceased": 1
+        },
         "meta": {
           "population": 1316948
         },
         "total": {
           "confirmed": 3366,
-          "deceased": 42,
+          "deceased": 43,
           "recovered": 1798
         }
       },
@@ -1086,7 +1095,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-12-26T20:52:43+05:30",
+      "last_updated": "2020-12-27T20:27:31+05:30",
       "population": 34293000,
       "tested": {
         "last_updated": "2020-12-26",
@@ -1095,7 +1104,7 @@
     },
     "total": {
       "confirmed": 215910,
-      "deceased": 1035,
+      "deceased": 1037,
       "migrated": 3,
       "recovered": 211483,
       "tested": 5891165
@@ -3241,7 +3250,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-12-27T20:14:37+05:30",
+      "last_updated": "2020-12-27T20:26:37+05:30",
       "population": 67936000,
       "tested": {
         "last_updated": "2020-12-26",
@@ -5114,7 +5123,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-12-27T20:14:32+05:30",
+      "last_updated": "2020-12-27T20:26:33+05:30",
       "population": 65798000,
       "tested": {
         "last_updated": "2020-12-26",
@@ -5474,6 +5483,7 @@
   },
   "MH": {
     "delta": {
+      "migrated": 1,
       "tested": 50635
     },
     "districts": {
@@ -5712,6 +5722,9 @@
         }
       },
       "Mumbai": {
+        "delta": {
+          "migrated": 1
+        },
         "meta": {
           "notes": "[Sep 9]After reconciling COVID-19 cases in Mumbai, owing to the removal of duplicates and change of addresses as per the original residence, 239 cases have been removed from the progressive figures.",
           "population": 12442373,
@@ -5723,7 +5736,7 @@
         "total": {
           "confirmed": 290336,
           "deceased": 11068,
-          "migrated": 854,
+          "migrated": 855,
           "recovered": 270152,
           "tested": 2292359
         }
@@ -6007,7 +6020,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-12-26T22:28:29+05:30",
+      "last_updated": "2020-12-27T20:27:29+05:30",
       "notes": "[Dec 16]:10,218 duplicate cases & other state cases removed from total cases.791 recovered cases also removed from total recovered cases while reconciling \n[Sep 9] :239 cases have been removed from the hospitalized figures owing to the removal of duplicates and change of addresses as per the original residence\n[Aug 15] : MH bulletin has reduced 819 confirmed cases in Mumbai and 72 confirmed cases from 'Other States' from the tally\n[Jun 16] : 1328 deceased cases have been retroactively added to MH bulletin.\n[Jun 20] : 69 deceased cases have been reduced based on state bulletin.",
       "population": 122153000,
       "tested": {
@@ -6018,7 +6031,7 @@
     "total": {
       "confirmed": 1916236,
       "deceased": 49189,
-      "migrated": 1132,
+      "migrated": 1133,
       "recovered": 1807824,
       "tested": 12502554
     }
@@ -8260,7 +8273,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-12-27T20:14:35+05:30",
+      "last_updated": "2020-12-27T20:26:35+05:30",
       "notes": "[July 12th] :20 non-covid deaths reported in state dashboard are included in the deceased count",
       "population": 43671000,
       "tested": {
@@ -10910,11 +10923,12 @@
   "TT": {
     "delta": {
       "confirmed": 14916,
-      "deceased": 162,
+      "deceased": 164,
+      "migrated": 1,
       "recovered": 16045
     },
     "meta": {
-      "last_updated": "2020-12-27T20:14:30+05:30",
+      "last_updated": "2020-12-27T20:27:27+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-12-26",
@@ -10923,8 +10937,8 @@
     },
     "total": {
       "confirmed": 10203308,
-      "deceased": 147821,
-      "migrated": 2801,
+      "deceased": 147823,
+      "migrated": 2802,
       "recovered": 9776893,
       "tested": 168102957
     }
