@@ -291,7 +291,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-12-31T21:23:37+05:30",
+      "last_updated": "2020-12-31T21:33:29+05:30",
       "population": 52221000,
       "tested": {
         "last_updated": "2020-12-31",
@@ -1978,7 +1978,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-12-31T21:23:41+05:30",
+      "last_updated": "2020-12-31T21:33:31+05:30",
       "population": 28724000,
       "tested": {
         "last_updated": "2020-12-31",
@@ -2769,7 +2769,9 @@
   "HP": {
     "delta": {
       "confirmed": 163,
-      "recovered": 341
+      "deceased": 3,
+      "recovered": 341,
+      "tested": 10268
     },
     "districts": {
       "Bilaspur": {
@@ -2833,6 +2835,7 @@
       "Kangra": {
         "delta": {
           "confirmed": 39,
+          "deceased": 1,
           "recovered": 25
         },
         "meta": {
@@ -2844,7 +2847,7 @@
         },
         "total": {
           "confirmed": 7739,
-          "deceased": 185,
+          "deceased": 186,
           "other": 2,
           "recovered": 7014,
           "tested": 94910
@@ -2922,6 +2925,7 @@
       "Shimla": {
         "delta": {
           "confirmed": 34,
+          "deceased": 1,
           "recovered": 82
         },
         "meta": {
@@ -2933,7 +2937,7 @@
         },
         "total": {
           "confirmed": 10081,
-          "deceased": 254,
+          "deceased": 255,
           "other": 36,
           "recovered": 9509,
           "tested": 32922
@@ -2978,6 +2982,7 @@
       "Una": {
         "delta": {
           "confirmed": 17,
+          "deceased": 1,
           "recovered": 3
         },
         "meta": {
@@ -2988,26 +2993,26 @@
         },
         "total": {
           "confirmed": 2744,
-          "deceased": 36,
+          "deceased": 37,
           "recovered": 2549,
           "tested": 52905
         }
       }
     },
     "meta": {
-      "last_updated": "2020-12-31T21:23:44+05:30",
+      "last_updated": "2020-12-31T22:00:32+05:30",
       "population": 7300000,
       "tested": {
-        "last_updated": "2020-12-30",
-        "source": "https://twitter.com/nhm_hp/status/1344310816317665280"
+        "last_updated": "2020-12-31",
+        "source": "https://twitter.com/nhm_hp/status/1344671495440666626"
       }
     },
     "total": {
       "confirmed": 55277,
-      "deceased": 919,
+      "deceased": 922,
       "other": 48,
       "recovered": 51692,
-      "tested": 761753
+      "tested": 772021
     }
   },
   "HR": {
@@ -3434,6 +3439,9 @@
     }
   },
   "JH": {
+    "delta": {
+      "tested": 15587
+    },
     "districts": {
       "Bokaro": {
         "meta": {
@@ -3724,15 +3732,15 @@
       "last_updated": "2020-12-30T22:38:42+05:30",
       "population": 37403000,
       "tested": {
-        "last_updated": "2020-12-30",
-        "source": "https://twitter.com/rnuddkranchi/status/1344322154221850624"
+        "last_updated": "2020-12-31",
+        "source": "https://twitter.com/rnuddkranchi/status/1344677775928487938"
       }
     },
     "total": {
       "confirmed": 114873,
       "deceased": 1027,
       "recovered": 112206,
-      "tested": 4783653
+      "tested": 4799240
     }
   },
   "JK": {
@@ -4660,12 +4668,13 @@
         "delta": {
           "confirmed": 190,
           "deceased": 2,
-          "recovered": 205
+          "recovered": 205,
+          "tested": 1818
         },
         "meta": {
           "population": 1107453,
           "tested": {
-            "last_updated": "2020-12-30"
+            "last_updated": "2020-12-31"
           }
         },
         "total": {
@@ -4673,19 +4682,20 @@
           "deceased": 19,
           "other": 3,
           "recovered": 13519,
-          "tested": 234383
+          "tested": 236201
         }
       },
       "Kannur": {
         "delta": {
           "confirmed": 302,
           "deceased": 2,
-          "recovered": 222
+          "recovered": 222,
+          "tested": 3274
         },
         "meta": {
           "population": 2525637,
           "tested": {
-            "last_updated": "2020-12-30"
+            "last_updated": "2020-12-31"
           }
         },
         "total": {
@@ -4693,7 +4703,7 @@
           "deceased": 201,
           "other": 8,
           "recovered": 35999,
-          "tested": 385904
+          "tested": 389178
         }
       },
       "Kasaragod": {
@@ -4746,12 +4756,13 @@
         "delta": {
           "confirmed": 520,
           "deceased": 1,
-          "recovered": 714
+          "recovered": 714,
+          "tested": 5401
         },
         "meta": {
           "population": 3089543,
           "tested": {
-            "last_updated": "2020-12-30"
+            "last_updated": "2020-12-31"
           }
         },
         "total": {
@@ -4759,7 +4770,7 @@
           "deceased": 293,
           "other": 14,
           "recovered": 80698,
-          "tested": 944014
+          "tested": 949415
         }
       },
       "Malappuram": {
@@ -4771,7 +4782,7 @@
         "meta": {
           "population": 4110956,
           "tested": {
-            "last_updated": "2020-12-29"
+            "last_updated": "2020-12-30"
           }
         },
         "total": {
@@ -4779,7 +4790,7 @@
           "deceased": 342,
           "other": 10,
           "recovered": 85650,
-          "tested": 466873
+          "tested": 469850
         }
       },
       "Palakkad": {
@@ -4806,12 +4817,13 @@
         "delta": {
           "confirmed": 512,
           "deceased": 4,
-          "recovered": 421
+          "recovered": 421,
+          "tested": 3332
         },
         "meta": {
           "population": 1195537,
           "tested": {
-            "last_updated": "2020-12-30"
+            "last_updated": "2020-12-31"
           }
         },
         "total": {
@@ -4819,7 +4831,7 @@
           "deceased": 56,
           "other": 2,
           "recovered": 24447,
-          "tested": 299902
+          "tested": 303234
         }
       },
       "Thiruvananthapuram": {
@@ -4846,12 +4858,13 @@
         "delta": {
           "confirmed": 515,
           "deceased": 5,
-          "recovered": 590
+          "recovered": 590,
+          "tested": 5700
         },
         "meta": {
           "population": 3110327,
           "tested": {
-            "last_updated": "2020-12-30"
+            "last_updated": "2020-12-31"
           }
         },
         "total": {
@@ -4859,19 +4872,20 @@
           "deceased": 327,
           "other": 8,
           "recovered": 68298,
-          "tested": 628855
+          "tested": 634555
         }
       },
       "Wayanad": {
         "delta": {
           "confirmed": 165,
           "deceased": 1,
-          "recovered": 298
+          "recovered": 298,
+          "tested": 997
         },
         "meta": {
           "population": 816558,
           "tested": {
-            "last_updated": "2020-12-30"
+            "last_updated": "2020-12-31"
           }
         },
         "total": {
@@ -4879,7 +4893,7 @@
           "deceased": 50,
           "other": 1,
           "recovered": 14264,
-          "tested": 209404
+          "tested": 210401
         }
       }
     },
@@ -5258,7 +5272,7 @@
           "notes": "[Sep 9]After reconciling COVID-19 cases in Mumbai, owing to the removal of duplicates and change of addresses as per the original residence, 239 cases have been removed from the progressive figures.",
           "population": 12442373,
           "tested": {
-            "last_updated": "2020-12-29"
+            "last_updated": "2020-12-30"
           }
         },
         "total": {
@@ -5266,7 +5280,7 @@
           "deceased": 11116,
           "other": 861,
           "recovered": 272134,
-          "tested": 2341022
+          "tested": 2356465
         }
       },
       "Nagpur": {
@@ -5622,7 +5636,8 @@
       "notes": "[Dec 16]:10,218 duplicate cases & other state cases removed from total cases.791 recovered cases also removed from total recovered cases while reconciling \n[Sep 9] :239 cases have been removed from the hospitalized figures owing to the removal of duplicates and change of addresses as per the original residence\n[Aug 15] : MH bulletin has reduced 819 confirmed cases in Mumbai and 72 confirmed cases from 'Other States' from the tally\n[Jun 16] : 1328 deceased cases have been retroactively added to MH bulletin.\n[Jun 20] : 69 deceased cases have been reduced based on state bulletin.",
       "population": 122153000,
       "tested": {
-        "last_updated": "2020-12-31"
+        "last_updated": "2020-12-31",
+        "source": "https://twitter.com/ANI/status/1344662781753114626"
       }
     },
     "total": {
@@ -7673,6 +7688,9 @@
     }
   },
   "PY": {
+    "delta": {
+      "tested": 3119
+    },
     "districts": {
       "Karaikal": {
         "meta": {
@@ -7739,22 +7757,22 @@
       "last_updated": "2020-12-29T20:30:34+05:30",
       "population": 1504000,
       "tested": {
-        "last_updated": "2020-12-30",
-        "source": "https://t.me/Covid19india_Auxiliary_Test_Data/4644"
+        "last_updated": "2020-12-31"
       }
     },
     "total": {
       "confirmed": 38096,
       "deceased": 633,
       "recovered": 37100,
-      "tested": 485332
+      "tested": 488451
     }
   },
   "RJ": {
     "delta": {
       "confirmed": 689,
       "deceased": 7,
-      "recovered": 957
+      "recovered": 957,
+      "tested": 25392
     },
     "districts": {
       "Ajmer": {
@@ -8386,15 +8404,15 @@
       "last_updated": "2020-12-31T20:27:35+05:30",
       "population": 77264000,
       "tested": {
-        "last_updated": "2020-12-30",
-        "source": "https://twitter.com/airnews_jaipur/status/1344278907290177539?s=20"
+        "last_updated": "2020-12-31",
+        "source": "https://twitter.com/airnews_jaipur/status/1344644750201159680/photo/1"
       }
     },
     "total": {
       "confirmed": 308243,
       "deceased": 2696,
       "recovered": 295987,
-      "tested": 5239812
+      "tested": 5265204
     }
   },
   "SK": {
@@ -8480,7 +8498,8 @@
     "delta": {
       "confirmed": 937,
       "deceased": 13,
-      "recovered": 1038
+      "recovered": 1038,
+      "tested": 68761
     },
     "districts": {
       "Airport Quarantine": {
@@ -9182,15 +9201,15 @@
       "notes": "[July 22]: 444 backdated deceased entries added to Chennai in TN bulletin.\n2 deaths cross notified to other states from Chennai and Coimbatore.\n1 patient died after turning negative for infection in Chengalpattu.\nThese cases have been added to TN deceased tally",
       "population": 75695000,
       "tested": {
-        "last_updated": "2020-12-30",
-        "source": "https://stopcorona.tn.gov.in/wp-content/uploads/2020/12/Media-Bulletin-30.12.2020-16-Pages-English-601-KB.pdf"
+        "last_updated": "2020-12-31",
+        "source": "https://stopcorona.tn.gov.in/wp-content/uploads/2020/03/Media-Bulletin-31-12-20-COVID-19-6-PM.pdf%22"
       }
     },
     "total": {
       "confirmed": 818014,
       "deceased": 12122,
       "recovered": 797391,
-      "tested": 14122733
+      "tested": 14191494
     }
   },
   "TR": {
@@ -9371,12 +9390,12 @@
   "TT": {
     "delta": {
       "confirmed": 16877,
-      "deceased": 201,
+      "deceased": 204,
       "other": 7,
       "recovered": 18982
     },
     "meta": {
-      "last_updated": "2020-12-31T21:23:31+05:30",
+      "last_updated": "2020-12-31T22:00:30+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-12-30",
@@ -9385,7 +9404,7 @@
     },
     "total": {
       "confirmed": 10284160,
-      "deceased": 148975,
+      "deceased": 148978,
       "other": 2856,
       "recovered": 9878744,
       "tested": 172049574
@@ -10742,7 +10761,8 @@
     "delta": {
       "confirmed": 1170,
       "deceased": 29,
-      "recovered": 1537
+      "recovered": 1537,
+      "tested": 40254
     },
     "districts": {
       "Alipurduar": {
@@ -11091,15 +11111,15 @@
       "last_updated": "2020-12-31T20:27:34+05:30",
       "population": 96906000,
       "tested": {
-        "last_updated": "2020-12-30",
-        "source": "https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_30th_DECEMBER_REPORT_FINAL.pdf"
+        "last_updated": "2020-12-31",
+        "source": "https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_31st_DECEMBER_REPORT_FINAL.pdf"
       }
     },
     "total": {
       "confirmed": 552063,
       "deceased": 9712,
       "recovered": 530366,
-      "tested": 7070176
+      "tested": 7110430
     }
   }
 }
