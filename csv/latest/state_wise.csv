@@ -1,13 +1,13 @@
 State,Confirmed,Recovered,Deaths,Active,Last_Updated_Time,Migrated_Other,State_code,Delta_Confirmed,Delta_Recovered,Delta_Deaths,State_Notes
-Total,10328017,9928759,149509,246870,3/1/2021 19:24:31,2879,TT,3405,2286,38,
-Maharashtra,1941673,1836647,49663,54212,03/01/2021 19:24:33,1151,MH,2819,1712,32,"[Dec 16]:10,218 duplicate cases & other state cases removed from total cases.791 recovered cases also removed from total recovered cases while reconciling 
+Total,10329971,9931087,149538,246464,3/1/2021 19:45:31,2882,TT,5359,4614,67,
+Maharashtra,1942136,1836999,49666,54317,03/01/2021 19:45:40,1154,MH,3282,2064,35,"[Dec 16]:10,218 duplicate cases & other state cases removed from total cases.791 recovered cases also removed from total recovered cases while reconciling 
 [Sep 9] :239 cases have been removed from the hospitalized figures owing to the removal of duplicates and change of addresses as per the original residence
 [Aug 15] : MH bulletin has reduced 819 confirmed cases in Mumbai and 72 confirmed cases from 'Other States' from the tally
 [Jun 16] : 1328 deceased cases have been retroactively added to MH bulletin.
 [Jun 20] : 69 deceased cases have been reduced based on state bulletin."
 Karnataka,921128,898176,12099,10834,02/01/2021 19:38:34,19,KA,0,0,0,
 Andhra Pradesh,882850,872545,7111,3194,02/01/2021 19:38:35,0,AP,0,0,0,
-Tamil Nadu,819845,799427,12146,8272,02/01/2021 19:38:37,0,TN,0,0,0,"[July 22]: 444 backdated deceased entries added to Chennai in TN bulletin.
+Tamil Nadu,820712,800429,12156,8127,03/01/2021 19:45:42,0,TN,867,1002,10,"[July 22]: 444 backdated deceased entries added to Chennai in TN bulletin.
 2 deaths cross notified to other states from Chennai and Coimbatore.
 1 patient died after turning negative for infection in Chengalpattu.
 These cases have been added to TN deceased tally"
@@ -23,13 +23,13 @@ Telangana,287502,280565,1549,5388,03/01/2021 11:27:33,0,TG,394,574,3,"[July 27] 
 --
 District-wise numbers are not reported because cumulative counts for each district are not provided in Telangana bulletin"
 Chhattisgarh,281654,267751,3386,10517,02/01/2021 22:23:33,0,CT,0,0,0,
-Haryana,262850,256811,2915,3124,02/01/2021 20:01:35,0,HR,0,0,0,
+Haryana,263068,257261,2917,2890,03/01/2021 19:45:44,0,HR,218,450,2,
 Bihar,253652,247579,1403,4669,02/01/2021 20:01:36,1,BR,0,0,0,
 Gujarat,246513,232822,4314,9377,02/01/2021 20:40:41,0,GJ,0,0,0,
 Madhya Pradesh,243302,230586,3627,9089,02/01/2021 21:46:48,0,MP,0,0,0,[Oct 14]: 4469 confirmed cases and 4469 recoveries added in MP bulletin as reconciliation with private labs and hospitals
 Assam,216289,212069,1051,3166,02/01/2021 22:23:35,3,AS,0,0,0,
-Punjab,167012,158219,5364,3429,02/01/2021 21:16:43,0,PB,0,0,0,
-Jammu and Kashmir,121471,116587,1885,2999,02/01/2021 19:38:45,0,JK,0,0,0,
+Punjab,167219,158482,5376,3361,03/01/2021 19:45:46,0,PB,207,263,12,
+Jammu and Kashmir,121653,116792,1886,2975,03/01/2021 19:45:47,0,JK,182,205,1,
 Jharkhand,115392,112734,1034,1624,02/01/2021 23:20:35,0,JH,0,0,0,
 Uttarakhand,91544,84461,1522,4364,02/01/2021 23:20:37,1197,UT,0,0,0,"[Oct 30]: Metric of capturing the testing data has switched to ""Samples Tested"" from ""Samples Collected"""
 Himachal Pradesh,55619,52443,926,2202,02/01/2021 22:23:37,48,HP,0,0,0,
@@ -37,7 +37,7 @@ Goa,51230,49570,739,921,02/01/2021 20:40:46,0,GA,0,0,0,
 Puducherry,38174,37195,633,346,02/01/2021 20:40:47,0,PY,0,0,0,
 Tripura,33273,32772,382,96,02/01/2021 20:40:49,23,TR,0,0,0,"[Aug 4]: Tripura bulletin for the previous day is released on the next day. We will add the cases for Tripura against the date of release, as that is the convention that we are following for other states."
 Manipur,28243,26782,357,1104,03/01/2021 02:22:31,0,MN,0,0,0,[Dec 14]:824 out of 980 recovered cases are backdated.
-Chandigarh,19865,19226,319,320,02/01/2021 21:16:45,0,CH,0,0,0,
+Chandigarh,19881,19280,320,281,03/01/2021 19:45:49,0,CH,16,54,1,
 Arunachal Pradesh,16727,16576,56,95,02/01/2021 21:46:52,0,AR,0,0,0,[July 25]: All numbers corresponding to Papum Pare and Captial Complex are tracked under Papum Pare district.
 Meghalaya,13448,13173,139,136,03/01/2021 11:27:35,0,ML,0,0,0,
 Nagaland,11929,11533,79,186,02/01/2021 23:20:39,131,NL,0,0,0,
@@ -45,6 +45,6 @@ Ladakh,9550,9162,127,261,03/01/2021 00:05:31,0,LA,0,0,0,
 Sikkim,5910,5157,129,530,02/01/2021 23:20:42,94,SK,0,0,0,
 Andaman and Nicobar Islands,4947,4837,62,48,02/01/2021 23:20:44,0,AN,0,0,0,
 Mizoram,4219,4103,8,108,02/01/2021 21:16:52,0,MZ,0,0,0,
-Dadra and Nagar Haveli and Daman and Diu,3364,3320,2,13,31/12/2020 19:32:38,29,DN,0,0,0,
+Dadra and Nagar Haveli and Daman and Diu,3365,3322,2,12,03/01/2021 19:45:51,29,DN,1,2,0,
 State Unassigned,0,0,0,0,19/07/2020 09:40:01,0,UN,0,0,0,MoHFW website reports that these are the 'cases that are being reassigned to states'. 
 Lakshadweep,0,0,0,0,26/03/2020 07:19:29,0,LD,0,0,0,
